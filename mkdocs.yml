@@ -1,0 +1,43 @@
+site_name: Diagho Documentation
+site_author: DiaghoProject
+copyright: 2020 - 2021 © DiaghoProject
+repo_name: DiaghoProject/docs
+repo_url: https://github.com/DiaghoProject/docs
+edit_uri: 'edit/main/src/'
+docs_dir: 'src'
+site_dir: 'docs'
+theme:
+  language: fr
+  name: material
+  custom_dir: overrides/material
+  palette:
+    scheme: default
+  font:
+    text: Ubuntu
+    code: Ubuntu Mono
+  favicon: images/favicon.png
+  icon:
+    logo: fontawesome/solid/dna
+    repo: fontawesome/brands/git-alt
+plugins:
+  - search:
+      lang:
+        - fr
+        - en
+  - awesome-pages
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite
+  - meta
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DiaghoProject
+      name: DiaghoProject on GitHub
