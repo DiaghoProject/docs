@@ -29,9 +29,11 @@ plugins:
       type: date
       fallback_to_build_date: true
 markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
   - admonition
   - attr_list
-  - codehilite
   - meta
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
