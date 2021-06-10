@@ -1,0 +1,9 @@
+title: Guide du développeur
+nav:
+  - workflow.md
+  - coding_style.md
+  - documentation.md
+  - tests.md
+  - versioning.md
+  - best_practices
+  - licensing.md

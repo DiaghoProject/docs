@@ -1,2 +1,4 @@
 nav:
   - index.md
+  - architecture
+  - development_guide
