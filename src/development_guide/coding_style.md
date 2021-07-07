@@ -1,4 +1,8 @@
-# Coding style
+# Coding style (fr)
+
+!!! warning
+    This page will be translated into English during the next updates.
+
 Le projet __Diagho__ est structuré en de nombreux microservices écrit dans différents langages. Pour faciliter la lecture et le maintient du code, nous nous appuyons sur des bonnes pratiques d'écriture de code, ou _coding style_, qui peuvent différer en fonction du langage utilisé.
 
 ## Python

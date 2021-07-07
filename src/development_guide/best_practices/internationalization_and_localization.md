@@ -1,7 +1,9 @@
-# i18n
-Internationalisation et régionalisation
+# i18n (fr)
 
-!!! info
+!!! warning
+    This page will be translated into English during the next updates.
+
+!!! abstract "Internationalisation et régionalisation"
     **Règles générales**
 
     Pour faciliter la collaboration, l'ensemble de l'application est écrite en anglais : le code, les _docstrings_, les variables, les tests, etc.

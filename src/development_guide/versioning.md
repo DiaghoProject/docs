@@ -1,4 +1,7 @@
-# La gestion de versions
+# Versioning (fr)
+
+!!! warning
+    This page will be translated into English during the next updates.
 
 ## Gestion sémantique de version
 Pour numéroter les versions des différents modules de __Diagho__, nous nous appuyons sur la spécification [SemVer](https://semver.org/), ou _Semantic Versioning Specification_.

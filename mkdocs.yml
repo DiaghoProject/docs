@@ -1,23 +1,25 @@
 site_name: Diagho Documentation
 site_author: DiaghoProject
 copyright: 2020 - 2021 © DiaghoProject
+site_url: https://docs.diagho.fr/
 repo_name: DiaghoProject/docs
 repo_url: https://github.com/DiaghoProject/docs
 edit_uri: 'edit/main/src/'
 docs_dir: 'src'
 site_dir: 'docs'
 theme:
-  language: fr
+  language: en
   name: material
   custom_dir: overrides/material
   palette:
-    scheme: default
+    primary: deep purple
+    accent: orange
   font:
-    text: Ubuntu
-    code: Ubuntu Mono
+    text: Roboto
+    code: Roboto Mono
   favicon: images/favicon.png
+  logo: images/favicon.png
   icon:
-    logo: fontawesome/solid/dna
     repo: fontawesome/brands/git-alt
 plugins:
   - search:
@@ -43,3 +45,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/DiaghoProject
       name: DiaghoProject on GitHub
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js
