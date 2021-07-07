@@ -1,6 +1,7 @@
 site_name: Diagho Documentation
 site_author: DiaghoProject
 copyright: 2020 - 2021 © DiaghoProject
+site_url: https://docs.diagho.fr/
 repo_name: DiaghoProject/docs
 repo_url: https://github.com/DiaghoProject/docs
 edit_uri: 'edit/main/src/'
