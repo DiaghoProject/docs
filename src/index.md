@@ -1,4 +1,4 @@
-# Accueil
+![Logo Diagho](images/Diagho_logo.svg)
 
 !!! info
-    Cette documentation est en cours de rédaction. Des compléments et des modifications seront apportés au fur et à mesure de l'avancée du projet _Diagho_.
+    This documentation is currently being written. Complements and modifications will be made as the _Diagho_ project progresses.

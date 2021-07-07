@@ -7,17 +7,18 @@ edit_uri: 'edit/main/src/'
 docs_dir: 'src'
 site_dir: 'docs'
 theme:
-  language: fr
+  language: en
   name: material
   custom_dir: overrides/material
   palette:
-    scheme: default
+    primary: deep purple
+    accent: orange
   font:
-    text: Ubuntu
-    code: Ubuntu Mono
+    text: Roboto
+    code: Roboto Mono
   favicon: images/favicon.png
+  logo: images/favicon.png
   icon:
-    logo: fontawesome/solid/dna
     repo: fontawesome/brands/git-alt
 plugins:
   - search:
