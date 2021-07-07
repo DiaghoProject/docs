@@ -1,1 +1,4 @@
-# Licences
+# Licensing
+
+!!! info
+    In progress...

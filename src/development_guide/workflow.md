@@ -1,4 +1,7 @@
-# Workflow
+# Workflow (fr)
+
+!!! warning
+    This page will be translated into English during the next updates.
 
 ## Qu'est-ce que le flux de travail ou _workflow_ ?
 Le _codebase_ du projet __Diagho__ est hébergé sur la plateforme [GitHub](https://github.com/DiaghoProject). Pour conserver un _codebase_ cohérent et faciliter la collaboration entre contributeurs, nous nous appuyons sur le [GitHub flow](https://guides.github.com/introduction/flow/) pour définir les règles de développement.
