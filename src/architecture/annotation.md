@@ -7,3 +7,6 @@
     **[DiaghoProject/annotation](https://github.com/DiaghoProject/annotation)**
 
      Variant Annotation Service.
+
+## Architecture
+![Architecture](/architecture/annotation/images/Diagho_Annotation.png)

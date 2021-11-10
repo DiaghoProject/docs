@@ -8,6 +8,8 @@
 
     Variant Interpretation Service.
 
+## Architecture
+![Architecture](/architecture/interpretation/images/Diagho_Interpretation.png)
 
 ## Core
 
