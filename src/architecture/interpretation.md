@@ -1,5 +1,8 @@
 # Interpretation service
 
+!!! attention
+    Page obsolète!
+
 !!! link ""
     ![Variant Interpretation Service. Contribute to DiaghoProject/diagho development by creating an account on GitHub.](https://avatars.githubusercontent.com/u/77725721?s=400&v=4){: style="width: 20%;" align=left }
 
