@@ -1,8 +1,5 @@
 # Front
 
-!!! warning
-    This page will be translated into English during the next updates.
-
 ## Add front library or framework with webpack
 
 1. Connection to container `diagho_frontend`
