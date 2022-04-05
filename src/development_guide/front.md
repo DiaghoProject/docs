@@ -32,4 +32,4 @@ Build Webpack to create a bundle and call it in your back's template
 
 In the container `diagho_core` we need to collect the static files into STATIC_ROOT
 
-        make collectstatic
+    make collectstatic
