@@ -27,3 +27,9 @@ Import your library / framework in a js file for the template `frontend/src/comm
 Build Webpack to create a bundle and call it in your back's template
             
     npm run build
+
+7. Collectstatic
+
+In the container `diagho_core` we need to collect the static files into STATIC_ROOT
+
+        make collectstatic
