@@ -14,7 +14,7 @@ It means checking if different modules are working fine when combined together a
 
 It means testing a slice of functionality in the system (may interact with dependencies) to confirm that the code is doing the right things.
 
-### Acceptance testing (QA)
+### Acceptance testing (User or Biologist)
 
 The final level, Acceptance testing (or User Acceptance Testing), is conducted to determine whether the system is ready for release
 
