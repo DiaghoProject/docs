@@ -28,14 +28,14 @@ The final level, Acceptance testing (or User Acceptance Testing), is conducted t
 
 2- Write documentation 
 
-3- Create unit and integration tests in parallel to the development
+3- Create units and integrations tests in parallel to the development
 
 4- When the development is over, launch tox to :
 
 - Check format and linters
 - Run tests
 
-5- Create automated functional tests with selenium
+5- Create automated functionals tests with selenium
 
 6- Code review
 
