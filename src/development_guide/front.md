@@ -33,3 +33,36 @@ Build Webpack to create a bundle and call it in your back's template
 In the container `diagho_core` we need to collect the static files into STATIC_ROOT
 
     make collectstatic
+
+## Manage flexbox containers with Bootstrap
+
+- Documentation 
+
+https://getbootstrap.com/docs/4.0/utilities/flex/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+- Create row 
+
+        <div class="d-flex flex-row">
+            <div class="p-2">Flex item 1</div>
+            <div class="p-2">Flex item 2</div>
+            <div class="p-2">Flex item 3</div>
+        </div>   
+
+- Create column 
+
+        <div class="d-flex flex-column">
+            <div class="p-2">Flex item 1</div>
+            <div class="p-2">Flex item 2</div>
+            <div class="p-2">Flex item 3</div>
+        </div>
+
+- Wrap rows in column
+
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row">
+                Flex item 1
+            <div class="p-2">Flex item 2</div>
+            <div class="p-2">Flex item 3</div>
+        </div>
+
