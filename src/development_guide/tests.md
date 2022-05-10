@@ -43,7 +43,7 @@ The final level, Acceptance testing (or User Acceptance Testing), is conducted t
 
 6- Run functional test based on the test plan
 
--> If functional tests are passed we merge into main
+-> If functionals tests are passed we merge into main
 
 7- Create automated functionals tests with selenium (Non regression tests)
 
