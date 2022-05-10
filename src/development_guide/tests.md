@@ -10,7 +10,7 @@ It means testing individual modules of an application in isolation (without any 
 
 It means checking if different modules are working fine when combined together as a group.
 
-### Functional testing (Dev)
+### Functional testing (Dev for automated test or user)
 
 It means testing a slice of functionality in the system (may interact with dependencies) to confirm that the code is doing the right things.
 
@@ -24,6 +24,7 @@ The final level, Acceptance testing (or User Acceptance Testing), is conducted t
 1- Create pull request with :
 
 - Definition of done (Same for each pull request)
+- Test plan
 - List of tasks
 
 2- Write documentation 
@@ -33,11 +34,16 @@ The final level, Acceptance testing (or User Acceptance Testing), is conducted t
 4- When the development is over, launch tox to :
 
 - Check format and linters
-- Run tests
+- Run units and integrations tests with pytest-django
+- Run functionals tests with selenium
 
-5- Create automated functionals tests with selenium
+5- Code review
 
-6- Code review
+-> If code review is passed we merge into staging
 
-7- When all is passed, merge pull request into main
+6- Run functional test based on the test plan
+
+-> If functional tests are passed we merge into main
+
+7- Create automated functionals tests with selenium (Non regression tests)
 
