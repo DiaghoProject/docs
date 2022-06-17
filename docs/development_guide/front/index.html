@@ -395,6 +395,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../best_practices/insert_icons/" class="md-nav__link">
+        Icons
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../best_practices/internationalization_and_localization/" class="md-nav__link">
         i18n (fr)
       </a>
@@ -466,13 +480,6 @@
         <li class="md-nav__item">
   <a href="#add-front-library-or-framework-with-webpack" class="md-nav__link">
     Add front library or framework with webpack
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manage-flexbox-containers-with-bootstrap" class="md-nav__link">
-    Manage flexbox containers with Bootstrap
   </a>
   
 </li>
@@ -587,13 +594,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#manage-flexbox-containers-with-bootstrap" class="md-nav__link">
-    Manage flexbox containers with Bootstrap
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -653,62 +653,13 @@ npm update  # Check if a new version is available
 <p>In the container <code>diagho_core</code> we need to collect the static files into STATIC_ROOT</p>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>make collectstatic
 </code></pre></div></td></tr></table></div>
-<h2 id="manage-flexbox-containers-with-bootstrap">Manage flexbox containers with Bootstrap</h2>
-<ul>
-<li>Documentation </li>
-</ul>
-<p>https://getbootstrap.com/docs/4.0/utilities/flex/
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/</p>
-<ul>
-<li>
-<p>Create row </p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code>&lt;div class=&quot;d-flex flex-row&quot;&gt;
-    &lt;div class=&quot;p-2&quot;&gt;Flex item 1&lt;/div&gt;
-    &lt;div class=&quot;p-2&quot;&gt;Flex item 2&lt;/div&gt;
-    &lt;div class=&quot;p-2&quot;&gt;Flex item 3&lt;/div&gt;
-&lt;/div&gt;
-</code></pre></div></td></tr></table></div>
-</li>
-<li>
-<p>Create column </p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code>&lt;div class=&quot;d-flex flex-column&quot;&gt;
-    &lt;div class=&quot;p-2&quot;&gt;Flex item 1&lt;/div&gt;
-    &lt;div class=&quot;p-2&quot;&gt;Flex item 2&lt;/div&gt;
-    &lt;div class=&quot;p-2&quot;&gt;Flex item 3&lt;/div&gt;
-&lt;/div&gt;
-</code></pre></div></td></tr></table></div>
-</li>
-<li>
-<p>Wrap rows in column</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span>
-<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code>&lt;div class=&quot;d-flex flex-column&quot;&gt;
-    &lt;div class=&quot;d-flex flex-row&quot;&gt;
-        Flex item 1
-    &lt;div class=&quot;p-2&quot;&gt;Flex item 2&lt;/div&gt;
-    &lt;div class=&quot;p-2&quot;&gt;Flex item 3&lt;/div&gt;
-&lt;/div&gt;
-</code></pre></div></td></tr></table></div>
-</li>
-</ul>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 5, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 17, 2022</span>
       
     
   </small>

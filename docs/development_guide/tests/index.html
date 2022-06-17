@@ -397,15 +397,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#functional-testing-dev" class="md-nav__link">
-    Functional testing (Dev)
+  <a href="#functional-testing-dev-for-automated-test-or-user" class="md-nav__link">
+    Functional testing (Dev for automated test or user)
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#acceptance-testing-qa" class="md-nav__link">
-    Acceptance testing (QA)
+  <a href="#acceptance-testing-user-or-biologist" class="md-nav__link">
+    Acceptance testing (User or Biologist)
   </a>
   
 </li>
@@ -470,6 +470,20 @@
           Best Practices
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../best_practices/insert_icons/" class="md-nav__link">
+        Icons
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -637,15 +651,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#functional-testing-dev" class="md-nav__link">
-    Functional testing (Dev)
+  <a href="#functional-testing-dev-for-automated-test-or-user" class="md-nav__link">
+    Functional testing (Dev for automated test or user)
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#acceptance-testing-qa" class="md-nav__link">
-    Acceptance testing (QA)
+  <a href="#acceptance-testing-user-or-biologist" class="md-nav__link">
+    Acceptance testing (User or Biologist)
   </a>
   
 </li>
@@ -686,29 +700,35 @@
 <p>It means testing individual modules of an application in isolation (without any interaction with dependencies) to confirm that the code is doing things right.</p>
 <h3 id="integration-testing-dev">Integration testing (Dev)</h3>
 <p>It means checking if different modules are working fine when combined together as a group.</p>
-<h3 id="functional-testing-dev">Functional testing (Dev)</h3>
+<h3 id="functional-testing-dev-for-automated-test-or-user">Functional testing (Dev for automated test or user)</h3>
 <p>It means testing a slice of functionality in the system (may interact with dependencies) to confirm that the code is doing the right things.</p>
-<h3 id="acceptance-testing-qa">Acceptance testing (QA)</h3>
+<h3 id="acceptance-testing-user-or-biologist">Acceptance testing (User or Biologist)</h3>
 <p>The final level, Acceptance testing (or User Acceptance Testing), is conducted to determine whether the system is ready for release</p>
 <h2 id="our-strategy-based-on-tdd">Our Strategy based on TDD</h2>
-<p>1- Create pull request with :
-- Definition of done (Same for each pull request)
-- List of tasks</p>
+<p>1- Create pull request with :</p>
+<ul>
+<li>Definition of done (Same for each pull request)</li>
+<li>Test plan</li>
+<li>List of tasks</li>
+</ul>
 <p>2- Write documentation </p>
-<p>3- Create unit and integration tests in parallel to the development</p>
-<p>4- When the development is over, launch tox to :
-- Check format and linters
-- Run tests</p>
-<p>5- Create automated functional tests with selenium</p>
-<p>6- Code review</p>
-<p>7- When all is passed, merge pull request into main</p>
+<p>3- Create units and integrations tests in parallel to the development</p>
+<p>4- When the development is over, launch tox to :</p>
+<ul>
+<li>Check format and linters</li>
+<li>Run units and integrations tests with pytest-django</li>
+</ul>
+<p>5- Code review</p>
+<p>-&gt; If code review is passed we merge into staging</p>
+<p>6- Run functional test based on the test plan</p>
+<p>-&gt; If functionals tests are passed we merge into main</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 7, 2021</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 17, 2022</span>
       
     
   </small>
