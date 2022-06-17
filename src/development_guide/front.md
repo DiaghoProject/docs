@@ -1,6 +1,6 @@
 # Front
 
-## Add front library or framework with webpack
+## Add module into webpack
 
 1. Connection to container `diagho_frontend`
 
