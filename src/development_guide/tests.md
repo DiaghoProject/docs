@@ -22,6 +22,7 @@ The final level, Acceptance testing (or User Acceptance Testing), is conducted t
 ## Our Strategy based on TDD
 
 1- Create pull request with :
+
 - Definition of done (Same for each pull request)
 - List of tasks
 
@@ -30,6 +31,7 @@ The final level, Acceptance testing (or User Acceptance Testing), is conducted t
 3- Create unit and integration tests in parallel to the development
 
 4- When the development is over, launch tox to :
+
 - Check format and linters
 - Run tests
 
