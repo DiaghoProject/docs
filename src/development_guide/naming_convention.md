@@ -11,15 +11,15 @@
 
 For a `Bar` model in a `foo` app, the URLs would be :
 
-| action                                      | URL                           |
-| ------------------------------------------- | ----------------------------- |
-| list                                        | `/foo/bar/`                   |
-| create                                      | `/api/v1/foo/bar/add/`        |
-| detail                                      | `/api/v1/foo/bar/1/`          |
-| update                                      | `/api/v1/foo/bar/1/change/`   |
-| delete                                      | `/api/v1/foo/bar/1/delete/`   |
-| any methods not dependent on an object      | `/api/v1/foo/bar/view-name`   |
-| any methods dependent on a particular objec | `/api/v1/foo/bar/1/view-name` |
+| action                                      | URL                    |
+| ------------------------------------------- | ---------------------- |
+| list                                        | `/foo/bar/`            |
+| create                                      | `/foo/bar/add/`        |
+| detail                                      | `/foo/bar/1/`          |
+| update                                      | `/foo/bar/1/change/`   |
+| delete                                      | `/foo/bar/1/delete/`   |
+| any methods not dependent on an object      | `/foo/bar/view-name`   |
+| any methods dependent on a particular objec | `/foo/bar/1/view-name` |
 
 #### API
 > The naming convention is based on [Django REST Framework](https://www.django-rest-framework.org/) naming convention.
