@@ -415,10 +415,37 @@
     Templates
   </a>
   
+    <nav class="md-nav" aria-label="Templates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    Example :
+  </a>
+  
 </li>
         
       </ul>
     </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generic-template-inheritance-example" class="md-nav__link">
+    Generic template inheritance example:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generic-template-inheritance-example-with-template-that-inherit-from-base-template" class="md-nav__link">
+    Generic template inheritance example with template that inherit from base template
+  </a>
   
 </li>
       
@@ -724,10 +751,37 @@
     Templates
   </a>
   
+    <nav class="md-nav" aria-label="Templates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    Example :
+  </a>
+  
 </li>
         
       </ul>
     </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generic-template-inheritance-example" class="md-nav__link">
+    Generic template inheritance example:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generic-template-inheritance-example-with-template-that-inherit-from-base-template" class="md-nav__link">
+    Generic template inheritance example with template that inherit from base template
+  </a>
   
 </li>
       
@@ -913,13 +967,188 @@
 </tr>
 </tbody>
 </table>
+<p>For <code>core/templates/core</code> the generics templates names would be :</p>
+<table>
+<thead>
+<tr>
+<th>bulma component</th>
+<th>function/specificity</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>card</td>
+<td>a generic card</td>
+<td><code>core/cards/generic.html</code></td>
+</tr>
+<tr>
+<td>card</td>
+<td>a toggleable card</td>
+<td><code>core/cards/toggleable.html</code></td>
+</tr>
+<tr>
+<td>table</td>
+<td>an annotation table</td>
+<td><code>core/tables/annotation.html</code></td>
+</tr>
+</tbody>
+</table>
+<p>For a <code>bar</code> model in a <code>foo</code> app, the non-main templates names would be :</p>
+<table>
+<thead>
+<tr>
+<th>main bulma component</th>
+<th>function/specificity</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>card</td>
+<td>a <code>bar</code> info card</td>
+<td><code>foo/cards/bar_details.html</code></td>
+</tr>
+<tr>
+<td>card</td>
+<td>a <code>bar</code> list card</td>
+<td><code>foo/cards/bar_list.html</code></td>
+</tr>
+<tr>
+<td>table</td>
+<td>a <code>bar</code> list table</td>
+<td><code>foo/tables/bar_list.html</code></td>
+</tr>
+<tr>
+<td>navbar*</td>
+<td>a table upper navbar</td>
+<td><code>foo/navbars/table.html</code></td>
+</tr>
+</tbody>
+</table>
+<p>*When it is not refer to specifics objects, consider name the templates with the type of elements wich it refer such as <code>table.html</code> in the navbars folder  in order to name a template that include a <code>navbar</code> that is link to a <code>table</code>.</p>
+<h4 id="example">Example :</h4>
+<p>in core/templates/core
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code>└── templates  
+    └── core  
+        └── cards  
+            ├── list_vertical.html  
+            ├── list_horizontal.html
+            └── object_infos.html  
+</code></pre></div></td></tr></table></div>
+in a <code>foo</code> app with <code>bar</code> and <code>baz</code> models
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span></pre></div></td><td class="code"><div><pre><span></span><code>└── templates  
+    └── foo 
+        |
+        ├── block
+        |   └── filters.html
+        |
+        ├── cards
+        |   ├── bar_detail.html
+        |   └── baz_list.html
+        |      
+        ├── tables
+        |   └── bar_list.html
+        |   
+        ├── navbars
+        |   └── table.html
+        |  
+        ├── bar_form.html
+        ├── bar_detail.html
+        ├── bar_list.html
+        └── base.html
+</code></pre></div></td></tr></table></div></p>
+<h3 id="generic-template-inheritance-example">Generic template inheritance example:</h3>
+<p>Generic card template in <code>core/templates/core/cards/object_infos.html</code>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;card&quot;</span><span class="p">&gt;</span>
+
+    <span class="p">&lt;</span><span class="nt">header</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;card-header&quot;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">h1</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;title is-5&quot;</span><span class="p">&gt;</span>
+            {% block card_header %}
+            {% endblock card_header %}
+        <span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;card-content&quot;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;content&quot;</span><span class="p">&gt;</span>
+            {% block card_body %}
+            {% endblock card_body %}
+        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</code></pre></div></td></tr></table></div></p>
+<p>Application specific specific card template for a <code>bar</code> model in a <code>foo</code> app, in <code>foo/templates/foo/cards/bar_details</code>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span>
+<span class="normal">9</span></pre></div></td><td class="code"><div><pre><span></span><code>{% extends &quot;core/cards/object_infos.html&quot; %}
+
+{% block card_header %}
+    TITLE
+{% endblock card_header %}
+
+{% block card_body %}
+    CONTENT
+{% endblock card_body %}
+</code></pre></div></td></tr></table></div></p>
+<h2 id="generic-template-inheritance-example-with-template-that-inherit-from-base-template">Generic template inheritance example with template that inherit from base template</h2>
+<p>As you can't include multiple <code>extends</code> statement in the same template, if  you need to use an <code>include</code> statement with an other template like this :</p>
+<p>Detail view main template for a <code>bar</code> model in a <code>foo</code> app, in `foo/templates/foo/bar_detail.html
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>{% extends &quot;foo/base.html&quot; %}
+
+{% include &quot;foo/cards/bar_detail.html&quot; %}
+</code></pre></div></td></tr></table></div></p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 30, 2022</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 5, 2022</span>
       
     
   </small>
