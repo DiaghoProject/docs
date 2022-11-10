@@ -825,50 +825,8 @@ from your branch to <code>staging</code>.</p>
 <p>Squash and merge yout branch into <code>staging</code>.</p>
 <h3 id="merge-staging-into-main">Merge staging into main</h3>
 <blockquote>
-<p><img alt="⚠" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/26a0.svg" title=":warning:" /> <strong>Always follow these instructions before merging staging into main</strong></p>
+<p><img alt="⚠" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/26a0.svg" title=":warning:" /> <strong>Define this process</strong></p>
 </blockquote>
-<ol>
-<li>
-<p>Commit <code>dist</code> and <code>webpack-stats</code> </p>
-<p>Build the code in the container <code>diagho_core_front</code></p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>$ npm run build
-</code></pre></div></td></tr></table></div>
-<p>This will update <code>dist</code> and <code>webpack-stats</code>. Force push them on github because they 
-are in <code>.gitignore</code></p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>$ git add -f dist/ webpack-stats.json
-$ git commit -m <span class="s1">&#39;commit front statics&#39;</span>
-$ git push
-</code></pre></div></td></tr></table></div>
-</li>
-<li>
-<p>Commit migrations </p>
-<p>Make migrations (if it's not done) in the container <code>diagho_core_dev</code></p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>$ make migrations
-</code></pre></div></td></tr></table></div>
-<p>Force push migrations on github because they are in <code>.gitignore</code> </p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>$ git add -f apps/*/migrations/ factories/*/migrations/
-$ git commit -m <span class="s1">&#39;commit migrations&#39;</span>
-$ git push
-</code></pre></div></td></tr></table></div>
-</li>
-<li>
-<p>Commit requirements</p>
-<p>Check if there are new requirements in the container <code>diagho_core_dev</code></p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>$ make requirements
-</code></pre></div></td></tr></table></div>
-<p>Force push requirements on github</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>$ git add -f dev-requirements.txt requirements.txt
-$ git commit -m <span class="s1">&#39;commit requirements&#39;</span>
-$ git push
-</code></pre></div></td></tr></table></div>
-</li>
-</ol>
 <h2 id="ressources">Ressources</h2>
 <ul>
 <li><a href="https://guides.github.com/introduction/flow/">Understanding the GitHub flow</a></li>
@@ -879,7 +837,7 @@ $ git push
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 7, 2021</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 9, 2022</span>
       
     
   </small>

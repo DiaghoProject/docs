@@ -58,57 +58,7 @@ Squash and merge yout branch into `staging`.
 
 ### Merge staging into main
 
-> :warning: **Always follow these instructions before merging staging into main**
-
-1. Commit `dist` and `webpack-stats` 
-
-    Build the code in the container `diagho_core_front`
-
-    ```bash
-    $ npm run build
-    ```
-
-    This will update `dist` and `webpack-stats`. Force push them on github because they 
-    are in `.gitignore`
-
-
-    ```bash
-    $ git add -f dist/ webpack-stats.json
-    $ git commit -m 'commit front statics'
-    $ git push
-    ```
-
-2. Commit migrations 
-
-    Make migrations (if it's not done) in the container `diagho_core_dev`
-
-    ```bash
-    $ make migrations
-    ```
-
-    Force push migrations on github because they are in `.gitignore` 
-
-    ```bash
-    $ git add -f apps/*/migrations/ factories/*/migrations/
-    $ git commit -m 'commit migrations'
-    $ git push
-    ```
-
-3. Commit requirements
-
-    Check if there are new requirements in the container `diagho_core_dev`
-
-    ```bash
-    $ make requirements
-    ```
-
-    Force push requirements on github
-
-    ```bash
-    $ git add -f dev-requirements.txt requirements.txt
-    $ git commit -m 'commit requirements'
-    $ git push
-    ```
+> :warning: **Define this process**
 
 ## Ressources
 - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
