@@ -1,5 +1,7 @@
 nav:
   - index.md
-  - architecture
-  - development_guide
+  - tutorial
+  - advanced
+  - devops
+  - development
   - appendices

@@ -3,7 +3,6 @@ nav:
   - workflow.md
   - coding_style.md
   - naming_convention.md
-  - documentation.md
   - tests.md
   - versioning.md
   - best_practices
