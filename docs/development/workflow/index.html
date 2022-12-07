@@ -10,14 +10,14 @@
         <meta name="author" content="DiaghoProject">
       
       
-        <link rel="canonical" href="https://docs.diagho.com/appendices/lexicon/">
+        <link rel="canonical" href="https://docs.diagho.com/development/workflow/">
       
       <link rel="icon" href="../../images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
     
     
       
-        <title>Lexicon - Diagho Documentation</title>
+        <title>Workflow - Diagho Documentation</title>
       
     
     
@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#lexicon" class="md-skip">
+        <a href="#workflow" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Lexicon
+              Workflow
             
           </span>
         </div>
@@ -410,12 +410,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
       
       
       
@@ -436,11 +438,128 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../development/workflow/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Workflow
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Workflow
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-workflow" class="md-nav__link">
+    What is workflow ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-practice" class="md-nav__link">
+    In practice
+  </a>
+  
+    <nav class="md-nav" aria-label="In practice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clone-or-fork-local-code" class="md-nav__link">
+    Clone or fork local code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-a-new-branch-and-switch-to-it" class="md-nav__link">
+    Create a new branch and switch to it
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upstream-branch" class="md-nav__link">
+    Upstream branch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-commits-and-push-your-branch-on-github" class="md-nav__link">
+    Add commits and push your branch on Github
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-a-pull-request" class="md-nav__link">
+    Open a Pull Request
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code-review" class="md-nav__link">
+    Code review
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deployment" class="md-nav__link">
+    Deployment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#merge-staging-into-main" class="md-nav__link">
+    Merge staging into main
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ressources" class="md-nav__link">
+    Ressources
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -452,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../development/coding_style/" class="md-nav__link">
+      <a href="../coding_style/" class="md-nav__link">
         Coding style (fr)
       </a>
     </li>
@@ -466,7 +585,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../development/naming_convention/" class="md-nav__link">
+      <a href="../naming_convention/" class="md-nav__link">
         Naming Convention
       </a>
     </li>
@@ -480,7 +599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../development/tests/" class="md-nav__link">
+      <a href="../tests/" class="md-nav__link">
         Testing Strategy
       </a>
     </li>
@@ -494,7 +613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../development/versioning/" class="md-nav__link">
+      <a href="../versioning/" class="md-nav__link">
         Versioning (fr)
       </a>
     </li>
@@ -534,7 +653,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../development/best_practices/insert_icons/" class="md-nav__link">
+      <a href="../best_practices/insert_icons/" class="md-nav__link">
         Icons
       </a>
     </li>
@@ -548,7 +667,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../development/best_practices/internationalization_and_localization/" class="md-nav__link">
+      <a href="../best_practices/internationalization_and_localization/" class="md-nav__link">
         i18n (fr)
       </a>
     </li>
@@ -569,7 +688,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../development/licensing/" class="md-nav__link">
+      <a href="../licensing/" class="md-nav__link">
         Licensing
       </a>
     </li>
@@ -583,7 +702,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../development/front/" class="md-nav__link">
+      <a href="../front/" class="md-nav__link">
         Front
       </a>
     </li>
@@ -603,14 +722,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
       
       
@@ -631,21 +748,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../appendices/lexicon/" class="md-nav__link">
         Lexicon
       </a>
-      
     </li>
   
 
@@ -657,7 +764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../abbreviations/" class="md-nav__link">
+      <a href="../../appendices/abbreviations/" class="md-nav__link">
         Abbreviations
       </a>
     </li>
@@ -691,6 +798,97 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-workflow" class="md-nav__link">
+    What is workflow ?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-practice" class="md-nav__link">
+    In practice
+  </a>
+  
+    <nav class="md-nav" aria-label="In practice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clone-or-fork-local-code" class="md-nav__link">
+    Clone or fork local code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-a-new-branch-and-switch-to-it" class="md-nav__link">
+    Create a new branch and switch to it
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upstream-branch" class="md-nav__link">
+    Upstream branch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-commits-and-push-your-branch-on-github" class="md-nav__link">
+    Add commits and push your branch on Github
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#open-a-pull-request" class="md-nav__link">
+    Open a Pull Request
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#code-review" class="md-nav__link">
+    Code review
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deployment" class="md-nav__link">
+    Deployment
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#merge-staging-into-main" class="md-nav__link">
+    Merge staging into main
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ressources" class="md-nav__link">
+    Ressources
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -703,76 +901,67 @@
                 
                   
 
-  <a href="https://github.com/DiaghoProject/docs/edit/main/src/appendices/lexicon.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/DiaghoProject/docs/edit/main/src/development/workflow.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-<h1 id="lexicon">Lexicon</h1>
-<table>
-<thead>
-<tr>
-<th>anglais</th>
-<th><em>français</em></th>
-<th>definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>project</td>
-<td><em>projet</em></td>
-<td></td>
-</tr>
-<tr>
-<td>patient</td>
-<td><em>patient</em></td>
-<td></td>
-</tr>
-<tr>
-<td>user</td>
-<td><em>utilisateur</em></td>
-<td>A registered user of the application.</td>
-</tr>
-<tr>
-<td>analysis</td>
-<td><em>analyse</em></td>
-<td></td>
-</tr>
-<tr>
-<td>sample</td>
-<td><em>échantillon</em></td>
-<td></td>
-</tr>
-<tr>
-<td>reader</td>
-<td><em>lecteur</em></td>
-<td></td>
-</tr>
-<tr>
-<td>reference genome<br>reference assembly</td>
-<td><em>génome référence</em></td>
-<td><a href="https://en.wikipedia.org/wiki/Reference_genome">Reference genome - Wikipedia</a></td>
-</tr>
-<tr>
-<td>variant</td>
-<td><em>variant</em><br><em>variation</em></td>
-<td></td>
-</tr>
-<tr>
-<td>record</td>
-<td><em>enregistrement</em></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<h1 id="workflow">Workflow</h1>
+<h2 id="what-is-workflow">What is workflow ?</h2>
+<p>Project <strong>Diagho's</strong> codebase is hosted on <a href="https://github.com/DiaghoProject">GitHub</a>. To maintain
+a consistent codebase and facilitate collaboration between contributors, we rely on 
+<a href="https://guides.github.com/introduction/flow/">GitHub flow</a> to define development rules.</p>
+<p><a href="https://guides.github.com/introduction/flow/">GitHub flow</a> is one of the workflows commonly 
+used for open sources project and can be summarized in a few main points:</p>
+<ul>
+<li><code>main</code> branch is always stable and deployable ;</li>
+<li>Tags on branch <code>main</code> as considered as <code>releases</code> ;</li>
+<li>Contributors must fork or create new branches (if they got rights on original repo) to add new features or 
+fix bugs and pull request to merge their branch into <code>main</code>.</li>
+</ul>
+<h2 id="in-practice">In practice</h2>
+<h3 id="clone-or-fork-local-code">Clone or fork local code</h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>$ git clone git@github.com:DiaghoProject/diagho.git
+</code></pre></div></td></tr></table></div>
+<h3 id="create-a-new-branch-and-switch-to-it">Create a new branch and switch to it</h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>$ git checkout -b name-of-your-bugfix-or-feature
+</code></pre></div></td></tr></table></div>
+<h3 id="upstream-branch">Upstream branch</h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>$ git push --set-upstream origin name-of-your-bugfix-or-feature
+</code></pre></div></td></tr></table></div>
+<p>or</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>$ git push -u origin name-of-your-bugfix-or-feature
+</code></pre></div></td></tr></table></div>
+<h3 id="add-commits-and-push-your-branch-on-github">Add commits and push your branch on Github</h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code>$ git add .
+$ git commit -m <span class="s2">&quot;Detailed description of your changes.&quot;</span>
+$ git push
+</code></pre></div></td></tr></table></div>
+<h3 id="open-a-pull-request">Open a Pull Request</h3>
+<p>Create a pull request on <a href="https://github.com/DiaghoProject/diagho-core/pulls">github</a>
+from your branch to <code>staging</code>.</p>
+<h3 id="code-review">Code review</h3>
+<p>When your code is ready, assign a reviewer. Update your code if it's needed.</p>
+<h3 id="deployment">Deployment</h3>
+<p>Squash and merge yout branch into <code>staging</code>.</p>
+<h3 id="merge-staging-into-main">Merge staging into main</h3>
+<blockquote>
+<p><img alt="⚠" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/26a0.svg" title=":warning:" /> <strong>Define this process</strong></p>
+</blockquote>
+<h2 id="ressources">Ressources</h2>
+<ul>
+<li><a href="https://guides.github.com/introduction/flow/">Understanding the GitHub flow</a></li>
+</ul>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 7, 2021</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 7, 2022</span>
       
     
   </small>
@@ -797,7 +986,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../../development/front/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Front" rel="prev">
+        <a href="../../devops/compose/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Deploy Diagho with Docker Compose" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -806,20 +995,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Front
+              Deploy Diagho with Docker Compose
             </div>
           </div>
         </a>
       
       
         
-        <a href="../abbreviations/" class="md-footer__link md-footer__link--next" aria-label="Next: Abbreviations" rel="next">
+        <a href="../coding_style/" class="md-footer__link md-footer__link--next" aria-label="Next: Coding style (fr)" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Abbreviations
+              Coding style (fr)
             </div>
           </div>
           <div class="md-footer__button md-icon">
