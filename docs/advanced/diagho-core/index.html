@@ -173,6 +173,8 @@
           
             
               
+                
+              
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -302,20 +304,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../admin/" class="md-nav__link">
-        The Diagho admin site
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../architecture/" class="md-nav__link">
         Diagho Architecture
       </a>
@@ -339,9 +327,40 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          diagho-core
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         diagho-core
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#microservices-architecture" class="md-nav__link">
+    Microservices architecture
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -679,7 +698,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -690,6 +711,21 @@
   
     
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#microservices-architecture" class="md-nav__link">
+    Microservices architecture
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -710,6 +746,11 @@
 
 
 <h1 id="diagho-core">diagho-core</h1>
+<p>The architecture of the <strong>Diagho application</strong> is based on microservices running with <em>Docker</em> and <em>Docker Compose</em>.</p>
+<p>A <a href="https://github.com/DiaghoProject/diagho-core/blob/main/docker-compose.dev.yml"><code>docker-compose.dev.yml</code></a> file is available in the project repository to provide a ready-to-use environment for developers.</p>
+<p>Please consult the <a href="https://github.com/DiaghoProject/diagho-core"><code>README</code></a> file to find out how to get started with your instance of Diagho.</p>
+<h2 id="microservices-architecture">Microservices architecture</h2>
+<p><img alt="diagho-core_architecture.png" src="../images/diagho-core_architecture.png" /></p>
 
   <hr>
 <div class="md-source-file">
@@ -724,6 +765,8 @@
 
 
 
+  
+
 
 
                 
@@ -737,6 +780,8 @@
       
         <footer class="md-footer">
   
+    
+      
     
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
