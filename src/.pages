@@ -1,7 +1,4 @@
 nav:
   - index.md
-  - tutorial
-  - advanced
-  - devops
-  - development
-  - appendices
+  - opensource_docs
+  - user_manual

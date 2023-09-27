@@ -1,4 +1,0 @@
-# Licensing
-
-!!! info
-    In progress...

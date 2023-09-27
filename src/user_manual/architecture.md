@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Deploy Diagho with Docker Compose
+# Diagho Architecture
 
 The architecture of the __Diagho application__ is based on microservices running with _Docker_ and _Docker Compose_.
 
@@ -11,4 +11,4 @@ A [`docker-compose.yml`](https://github.com/DiaghoProject/diagho-hugo-prod/blob/
 
 ## Microservices architecture
 
-![diagho-hugo-prod_architecture.png](../advanced/images/diagho-hugo-prod_architecture.png)
+![diagho-hugo-prod_architecture.png](images/diagho-hugo-prod_architecture.png)
