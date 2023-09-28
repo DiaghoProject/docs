@@ -21,6 +21,8 @@ theme:
   logo: images/favicon.png
   icon:
     repo: fontawesome/brands/git-alt
+  features:
+    - navigation.indexes
 plugins:
   - search:
       lang:
@@ -37,6 +39,7 @@ markdown_extensions:
   - admonition
   - attr_list
   - meta
+  - footnotes
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg

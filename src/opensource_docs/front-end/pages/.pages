@@ -1,0 +1,14 @@
+title: Pages
+nav:
+    - Connexion: signin.md
+    - Création de compte: signup.md
+    - Toutes pages: all-pages.md
+    - dashboard.md
+    - list-analyses.md
+    - list-families.md
+    - list-projects.md
+    - details-person.md
+    - details-family.md
+    - details-project.md
+    - details-analysis.md
+    - interpretation-table.md
