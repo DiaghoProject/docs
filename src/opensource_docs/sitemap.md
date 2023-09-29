@@ -1,9 +1,11 @@
 # Organisation du site
 
 ## Sitemap
+
 [![Sitemap](/images/mockup/sitemap.png)](/images/mockup/sitemap.png)
 
 ### Pages
+
 - Création de compte
 - Formulaire de connexion
 - [Tableau de bord](./front-end/pages/dashboard.md)
@@ -19,14 +21,16 @@
 - About : liens vers contact, bug report, documentation, RGPD, licence, crédits
 
 ### Interprétation
-Pour rappel : le déroulement global d'une [interprétation](/newcomers/interpretation) 
+
+Pour rappel : le déroulement global d'une [interprétation](/newcomers/interpretation)
 
 - Page détails généraux : récap' de l'analyse (samples, phénotypes, décompte variations…)
 - Page QC
-- [Tableau d'interprétation](./front-end/pages/interpretation-table.md) 
+- [Tableau d'interprétation](./front-end/pages/interpretation-table.md)
 - Écran de rapport
 
 ### Formulaires
+
 - Lancement d'une analyse
 - Création d'un projet
 - Ajout d'un sample (sequencing)

@@ -1,9 +1,9 @@
 # Contexte national
 
 !!! warning "Rédaction en cours"
-    Plus de détails à venir
+Plus de détails à venir
 
-Diagho évolue en parallèle du Plan France Médecine Génomique 2025 (PFMG2025) dont les principaux objectifs sont la constitution de plateformes nationales de séquençage et la création du CAD (Collecteur Analyseur de données), une base de données nationale, centralisée, alimentée par les plateformes et permettant des ré-analyses prospectives pour faire avancer nos connaissances sur les mécanismes génétiques.  
+Diagho évolue en parallèle du Plan France Médecine Génomique 2025 (PFMG2025) dont les principaux objectifs sont la constitution de plateformes nationales de séquençage et la création du CAD (Collecteur Analyseur de données), une base de données nationale, centralisée, alimentée par les plateformes et permettant des ré-analyses prospectives pour faire avancer nos connaissances sur les mécanismes génétiques.\
 L'objectif chiffré est d'atteindre 18 000 génomes interprétés par an d'ici 2025.
 
 Deux plateformes existent déjà :

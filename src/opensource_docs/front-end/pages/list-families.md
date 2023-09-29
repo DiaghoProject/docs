@@ -1,21 +1,24 @@
 # Liste des familles
 
 !!! note
-    Écran similaire à la [liste des analyses](./list-analyses.md).
+Écran similaire à la [liste des analyses](./list-analyses.md).
 
-Liste les individus enregistrés dans le LBM.  
+Liste les individus enregistrés dans le LBM.
 
-### Actions
+## Actions
+
 - Les lignes du tableau permettent d'accéder à la vue détaillée de la [famille](./details-family.md).
-- Des onglets permettent d'alterner un affichage par familles, individus ou cas index.  
+- Des onglets permettent d'alterner un affichage par familles, individus ou cas index.
 - Un bouton pour créer une nouvelle famille/individu.
-- Application de quelques filtres, e.g. les index ayant obtenu un diagnostic ou non, les cas urgents, les index dont l'utilisateur a fait/doit faire une analyse biologique…  
-Ces filtres peuvent être applicables sur les familles également (famille dont le cas index a obtenu un diagnostic ou non, etc.). Attention : une famille peut contenir plusieurs cas index.
+- Application de quelques filtres, e.g. les index ayant obtenu un diagnostic ou non, les cas urgents, les index dont l'utilisateur a fait/doit faire une analyse biologique…\
+  Ces filtres peuvent être applicables sur les familles également (famille dont le cas index a obtenu un diagnostic ou non, etc.). Attention : une famille peut contenir plusieurs cas index.
 
-### Informations
-La liste exhaustive de metadatas à inclure reste à définir. À minima :  
+## Informations
 
-#### Familles
+La liste exhaustive de metadatas à inclure reste à définir. À minima :
+
+### Familles
+
 - Identifiant de la famille
 - Nombre de membres
 - Date de création
@@ -28,7 +31,8 @@ Pas gérable en ce moment:
 - Date de dernière interprétation (analyse ouverte)
 - Statut (à interpréter, en cours, diag+ total/partiel, diag- total/partiel…)
 
-#### Individus/Cas index
+### Individus/Cas index
+
 - Identifiant dans le SGL si renseigné
 - Identité si renseignée
 - Sexe

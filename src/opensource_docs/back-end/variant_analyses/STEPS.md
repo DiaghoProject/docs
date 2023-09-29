@@ -7,15 +7,12 @@ The analysis involves two types of steps: Annotation steps and Filter steps.
 
 Each step contains a list of step records, which correspond to the list of variants available within the step.
 
-
 ## Combining annotation step and filter steps
 
 If an annotation step is added after a filter step, only the variants that passed through the filter will be annotated.
 This optimization improves the performance of the annotation step, which can take a very long time.
 
-
----
-
+______________________________________________________________________
 
 # Annotation Steps
 
@@ -25,38 +22,36 @@ Those annotations will be saved as metadata and linked to each variant as a Step
 For each unique annotation, a new column will be added to the analysis.
 The user will then be allowed to filter on those annotations.
 
-
 ## Annotation Step Zero
 
 Step Zero of the annotation pipeline is responsible for generating metadata from VCF file annotations.
-
 
 ## MetadataBuilder
 
 The MetadataBuilder class is used to:
 
-1. build the metadata on the AnalysisRecord, by extracting values from the corresponding AnalysisRecord and its related models such as SampleRecord and Variant. 
-2. build Step Zero, containing VCF file annotations.
+1. build the metadata on the AnalysisRecord, by extracting values from the corresponding AnalysisRecord and its related models such as SampleRecord and Variant.
+1. build Step Zero, containing VCF file annotations.
 
 It takes two parameters:
 
 - an Analysis instance, whose columns will be used to build the metadata dictionaries
 - a list of AnalysisRecord instances for which we want to build the metadata.
 
-**build()**
+### build()
 
 The `build()` method is responsible for calling the two methods that build the metadata dictionaries and the StepRecords.
 
-**_build_metadata()**
+### \_build_metadata()
 
 The `_build_metadata()` method loops through each AnalysisRecord and calls the `_get_analysisrec_metadata()` method to format data from the record and its related models to a dictionary. The AnalysisRecords are then updated in bulk.
 
-**_build_step_zero()**
+### \_build_step_zero()
 
 The `_build_step_zero()` method loops through each AnalysisRecord and retrieves all VCF annotations.
 It creates a StepRecord object with metadata containing all the VCF annotations and finally saves all the StepRecord objects in bulk.
 
-**Example usage :**
+### Example usage :
 
 ```python
     analysis = Analysis(...)
@@ -76,9 +71,7 @@ The following parameters need to be specified:
 
 Note that if the Variant/Node combination is unknown in the database, the association will be created, which may take some time.
 
-
----
-
+______________________________________________________________________
 
 # Filter Steps
 
@@ -111,29 +104,26 @@ The `_get_condition` method fetches the column of the analysis that correspond t
 
 ## Applying a Filter to an analysis
 
-**Endpoint: PATCH `/variant_analyses/analysis/{id}/`**
+### Endpoint: PATCH `/variant_analyses/analysis/{id}/`
 
-The PATCH method of the AnalysisViewset class is responsible for handling the API variant-filtering behavior.  
+The PATCH method of the AnalysisViewset class is responsible for handling the API variant-filtering behavior.\
 This endpoint saves a filter and associates it with an analysis.
 It will be then used in the records API to return the filtered records.
 The filter data payload is expected to be in JSON format and should follow the
 structure defined by the [FilterOperatorSerializer](#FilterOperatorSerializer).
 
+### Endpoint: GET `/variant_analyses/analysis/{id}/records`
 
-**Endpoint: GET `/variant_analyses/analysis/{id}/records`**
-
-This endpoint returns records (=variants) associated with a specific analysis matching 
-the logic of the filter that is applied to the analysis.  
-If there is no filter associated with the analysis, this enpoint will return all records. 
-
+This endpoint returns records (=variants) associated with a specific analysis matching
+the logic of the filter that is applied to the analysis.\
+If there is no filter associated with the analysis, this enpoint will return all records.
 
 ### FilterOperatorSerializer
 
 The FilterOperatorSerializer is used by the API to validate and transform a JSON filter into a structured tree of Operator and Condition objects.
 **This serializer is only used to construct a query to associate the filter with the analysis, but not to [save the filter as a named filter](#saved-filter-api) !**
 
-
-**Example usage :**
+#### Example usage :
 
 ```http
 PATCH /variant_analyses/analysis/123/
@@ -183,10 +173,9 @@ PATCH /variant_analyses/analysis/123/
 }
 ```
 
-
 ## Saved Filter API
 
-**Endpoint: `/variant_analyses/filter/`**
+### Endpoint: `/variant_analyses/filter/`
 
 The `FilterViewset` class is responsible for handling the saving of a **named** filter through the API.
 Sending a POST request to this endpoint allows to save the JSON query filter associated with a name.
@@ -198,13 +187,13 @@ This serializer is used by this API to validate a JSON filter. It expects two pa
 
 - "name" : the name of the filter
   - This will be used to create the key with which the filter can be invoked. The name will
-  be transformed according to these rules:
+    be transformed according to these rules:
     - Uppercase will be transformed to lowercase
     - Accented letters will be replaced with unaccented letters
     - Underscores and spaces will be deleted
     - Example: Name: Variations d'intérêt Key: variationsdinteret
 - "filter" : the filter query in the form of a JSON Operator object. It should follow the same
-structure defined by the [FilterOperatorSerializer](#FilterOperatorSerializer).
+  structure defined by the [FilterOperatorSerializer](#FilterOperatorSerializer).
 
 **Example usage :**
 

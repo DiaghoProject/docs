@@ -49,6 +49,7 @@ classDiagram
 ```
 
 ## Permissions
+
 Here are the User stories in place for project permissions:
 
 ```
