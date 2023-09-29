@@ -2,87 +2,412 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.diagho.com/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/advanced/architecture/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/contrib/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/advanced/diagho-core/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/_sort_or_delete/Netdata/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/advanced/diagho-vep/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/_sort_or_delete/versioning/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/appendices/abbreviations/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/_sort_or_delete/workflow/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/appendices/lexicon/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/opensource_docs/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/development/coding_style/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/opensource_docs/sitemap/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/development/front/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/development/licensing/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/CI-CD/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/development/naming_convention/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/architecture/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/development/tests/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/diagho-core/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/development/versioning/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/formats/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/development/workflow/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/main_models/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/development/best_practices/insert_icons/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/passwords/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/development/best_practices/internationalization_and_localization/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/project_user_stories/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/devops/compose/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/sequencings/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.diagho.com/tutorial/intro/</loc>
-         <lastmod>2022-12-12</lastmod>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/strategie_analyses/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/treatment_vcf/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/variant_analyses/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/back-end/variant_analyses/STEPS/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/acmg/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/annotation_tools/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/databases/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/filter_strategies/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/omim/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/quickfilters/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/standards_and_specifications/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/technology_watch/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/vcf/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/similar_tools/alissa/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/similar_tools/cutevariant/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/similar_tools/ella/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/similar_tools/other_similar_tools/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/similar_tools/regovar/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/similar_tools/scout/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/similar_tools/seal/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/similar_tools/seqr/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/similar_tools/ui_comparison/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/similar_tools/varfish/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/bioinformatics/similar_tools/variantgrid/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/UI_design/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/UX_design/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/configuration/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/dashboard/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/filter/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/interpretation/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/other/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/patient/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/project/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/components/sidebar/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/components/table-variants/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/pages/all-pages/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/pages/dashboard/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/pages/details-analysis/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/pages/details-family/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/pages/details-person/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/pages/details-project/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/pages/interpretation-table/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/pages/list-analyses/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/pages/list-families/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/pages/list-projects/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/pages/signin/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/front-end/pages/signup/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/analyses/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/bioinformatics/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/dna/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/factories/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/hugo/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/interpretation/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/national_context/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/objectives/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/organisation/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/rnaseq/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/sequencing/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/somatic/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/opensource_docs/newcomers/variants/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/user_manual/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/user_manual/advanced_filters/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/user_manual/architecture/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/user_manual/pathologies/</loc>
+         <lastmod>2023-09-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.diagho.com/user_manual/projects/</loc>
+         <lastmod>2023-09-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
