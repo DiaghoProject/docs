@@ -16,27 +16,22 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.x  # Replace with your desired Python version
+          python-version: 3.10
 
       - name: Install dependencies
         run: |
           pip install mkdocs
           # Add any additional dependencies if needed
 
-      - name: Check for changes
-        id: build_and_check_changes
+      - name: Build Docs
         run: |
-          old_tree=$(git rev-parse HEAD)
           mkdocs build
-          new_tree=$(git rev-parse HEAD)
-          changes=$(git diff --name-only $old_tree $new_tree || echo "changed")
-          echo "::set-output name=changes::${changes}"
+          # Adjust the build command based on your project structure and requirements
 
       - name: Deploy Docs
-        if: steps.build_and_check_changes.outputs.changes == 'changed'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "Deploy docs from GitHub Action"
+          git commit -m "Build docs from GitHub Action"
           git push origin main
