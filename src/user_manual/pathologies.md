@@ -43,4 +43,4 @@
 ### Oncogénétique
 
 ## Références
-- [Comptes rendus du groupement « Base de connaissance HUGO »](/2021-archives/Specifications/SpecDetaillees/BDDHugo/)
+- [Comptes rendus du groupement « Base de connaissance HUGO »](https://private.diagho.com/documentation_projet/archive/2021-archives/Specifications/SpecDetaillees/BDDHugo/)

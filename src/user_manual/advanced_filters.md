@@ -1,6 +1,6 @@
 # Filtres avancés
 
-Les filtres avancés sont des requêtes conçues par les utilisateurs pour permettre un filtrage libre des variations. Si les [filtres rapides](./quickfilters.md) sont des filtres pré-configurés permettant d'être appliqués en quelques clics pour affiner davantage les variations affichées dans un tableau, le gros du filtrage dans l'application sera effectué directement ou non par des filtres avancés.
+Les filtres avancés sont des requêtes conçues par les utilisateurs pour permettre un filtrage libre des variations. Si les [filtres rapides](/opensource_docs/bioinformatics/quickfilters.md) sont des filtres pré-configurés permettant d'être appliqués en quelques clics pour affiner davantage les variations affichées dans un tableau, le gros du filtrage dans l'application sera effectué directement ou non par des filtres avancés.
 
 Étant complètement libres, ils peuvent être aussi stringents ou laxistes que le souhaite l'utilisateur et adaptables au contexte d'une interprétation (ex: on ne filtrera pas de la même manière une interprétation dans le cadre d'une DI non spécifique que pour une mononucléose).
 

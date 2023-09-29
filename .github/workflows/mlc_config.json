@@ -1,7 +1,34 @@
 {
-    "timeout": "20s",
-    "retryOn429": true,
-    "retryCount": 5,
-    "fallbackRetryDelay": "30s",
-    "aliveStatusCodes": [200, 206, 401]
-  }
+  "ignorePatterns": [
+    {
+      "pattern": "^https://github.com/DiaghoProject/diagho-core"
+    },
+    {
+      "pattern": "^https://github.com/DiaghoProject/diagho-front"
+    },
+    {
+      "pattern": "^https://github.com/orgs/DiaghoProject/projects"
+    },
+    {
+      "pattern": "^https://github.com/DiaghoProject/diagho-hugo-prod"
+    },
+    {
+      "pattern": "^https://github.com/DiaghoProject/docs-private"
+    }
+  ],
+  "replacementPatterns": [
+    {
+      "pattern": "^/",
+      "replacement": "{{BASEURL}}/src/"
+    }
+  ],
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 5,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [
+    200,
+    206,
+    401
+  ]
+}
