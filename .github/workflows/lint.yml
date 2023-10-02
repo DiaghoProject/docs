@@ -1,4 +1,4 @@
-name: Check Markdown links
+name: Linter
 
 on: push
 
@@ -9,5 +9,5 @@ jobs:
     - uses: actions/checkout@master
     - uses: DavidAnson/markdownlint-cli2-action@v9
       with:
-        config-file: ./.markdownlint.json
-        use-quiet-mode: 'yes'
+        config: ./.markdownlint.json
+        globs: 'src/**/*.md'
