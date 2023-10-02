@@ -8,7 +8,8 @@ Les projets servent de cadre dans lesquels les analyses sont lancées. Ils ont p
 
 ???+ example "Cas d'usage"
     === "Exemple 1"
-        ```
+
+        ```text
         Indication_1/
         └── [analyses]
         Indication_2/
@@ -20,7 +21,8 @@ Les projets servent de cadre dans lesquels les analyses sont lancées. Ils ont p
         ```
 
     === "Exemple 2"
-        ```
+
+        ```text
         Indication_1/  
         ├── Pierre/  
         |    └── [analyses]
@@ -38,7 +40,8 @@ Les projets servent de cadre dans lesquels les analyses sont lancées. Ils ont p
         ```
 
     === "Exemple 3"
-        ```
+
+        ```text
         Constitutionnelle/  
         ├── Indication_1/  
         |    ├── 2022/
@@ -59,8 +62,8 @@ Les projets servent de cadre dans lesquels les analyses sont lancées. Ils ont p
     Ces simples exemples d'arborescences suffisent à illustrer les deux autres buts des projets : deux indications n'auront pas nécessairement besoin des mêmes annotations voire ne relèveront même pas de la même discipline.  
     De même, si certains LBM n'ont pas de remord à laisser tout accessible à tout le monde, certains voudront peut-être mettre en place une gestion des droits plus restrictive, notamment dans le cadre de la recherche, ne serait-ce que pour éviter de polluer les listings des utilisateurs avec des analyses qui ne les concernent pas.
 
-
 ## Concept général
+
 ![Projects](/images/projects.png)
 
 Au même titre qu'un individu appartient nécessairement à une famille, une analyse doit nécessairement appartenir à un projet. Ainsi, si un utilisateur n'a pas les droits d'accès à un projet, il sera possible de lui masquer les analyses associées.
@@ -68,13 +71,14 @@ Au même titre qu'un individu appartient nécessairement à une famille, une ana
 Plusieurs analyses peuvent cependant être faites depuis un même sample et ce dans des projets différents.
 
 ## Informations du modèle Projet
+
 - Créateur du projet
 - Date de création
 - Projet parent (optionnel)
 - Thématique : constitutionnelle, somatique, recherche, mixte (optionnel ?)
-    - Laisser la possibilité de créer les siens ?
-    - Possibilité de les cumuler ? → labels plus que thématiques
-    - Booléen diagnostique/non ? → choix des statuts d'analyses
+  - Laisser la possibilité de créer les siens ?
+  - Possibilité de les cumuler ? → labels plus que thématiques
+  - Booléen diagnostique/non ? → choix des statuts d'analyses
 - Groupes d'utilisateurs ayant droits de lecture (tout le monde par défaut)
 - Groupes d'utilisateurs ayant droits d'édition (créateur + admins par défaut)
 - Commentaire (champs libre type README)(optionnel)
@@ -83,6 +87,7 @@ Plusieurs analyses peuvent cependant être faites depuis un même sample et ce d
 - Uploader un fichier (optionnel)
 
 ## Informations dérivables d'un projet
+
 - Nombre d'analyses
 - Nombre d'individus
 - Nombre de collaborateurs
@@ -90,4 +95,3 @@ Plusieurs analyses peuvent cependant être faites depuis un même sample et ce d
 - Date de dernière analyse ajoutée
 - Date de dernière analyse lancée
 - Audit trail (nouvelle analyse, interprétation rendue…)
-

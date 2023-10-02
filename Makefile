@@ -2,6 +2,7 @@ default: help
 
 PYTHON_VERSION=3
 VENV_DIR=venv
+SHELL := /bin/bash
 
 .PHONY: install
 install: ## Creates a development environment and install the required dependencies.
@@ -27,6 +28,18 @@ build: ## Builds the documentation.
 
 .PHONY: quickstart
 quickstart: install serve ## Quicktart demo app.
+
+.PHONY: install-linter
+install-linter: 
+	npm install markdownlint-cli2 --save-dev
+
+.PHONY: lint
+lint: ## Lint all .md files in the src directory
+	npx markdownlint-cli2 "src/**/*.md" "\#node_modules" --config .markdownlint.json
+
+.PHONY: lint-fix
+lint: ## Lint all .md files in the src directory
+	npx markdownlint-cli2 "src/**/*.md" "\#node_modules" --config .markdownlint.json --fix
 
 .PHONY: help
 help: ## Lists all available commands.

@@ -1,1 +1,1 @@
- rules "~MD013", "~MD009", "~MD014", "~MD010", "~MD024", "~MD033", "~MD023"
+style '.mdl_style.rb'

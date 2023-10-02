@@ -4,18 +4,21 @@ Les filtres avancés sont des requêtes conçues par les utilisateurs pour perme
 
 Étant complètement libres, ils peuvent être aussi stringents ou laxistes que le souhaite l'utilisateur et adaptables au contexte d'une interprétation (ex: on ne filtrera pas de la même manière une interprétation dans le cadre d'une DI non spécifique que pour une mononucléose).
 
+<!-- markdownlint-disable -->
 !!! success "Feuille de route"
-\- \[x\] Possibilité d'appliquer des filtres avancés à une interprétation · [Détails](#filtres-avanc%C3%A9s) · [Core PR 384](https://github.com/DiaghoProject/diagho-core/pull/384)
-\- \[x\] Possibilité d'enregistrer un filtre avancé pour une réapplication ultérieure · [Détails](#enregistrement-des-filtres-avanc%C3%A9s) · [Core PR 416](https://github.com/DiaghoProject/diagho-core/pull/416), [Front PR 140](https://github.com/DiaghoProject/diagho-front/pull/140)
-\- \[x\] Possibilité d'appliquer un filtre avancé enregistré précédemment · [Détails](#enregistrement-des-filtres-avanc%C3%A9s) · [Front PR 140](https://github.com/DiaghoProject/diagho-front/pull/140)
-\- \[x\] Possibilité d'ajouter automatiquement un tag aux variations passant un filtre avancé lors d'une interprétation · [Détails](#application-automatique-de-tags) · [#548](https://github.com/DiaghoProject/diagho-core/issues/548), [Front PR 140](https://github.com/DiaghoProject/diagho-front/pull/140)
-\- \[ \] Possibilité de choisir une liste de filtres avancés et de tags avant le calcul d'une interprétation · [Détails](#pr%C3%A9-calcul-de-filtres-complexes) · [#603](https://github.com/DiaghoProject/diagho-core/issues/603)
-\- \[ \] Possibilité de configurer un projet pour pré-remplir une liste de filtres avancés aux interprétations en son sein · [Détails](#configuration-dun-pr%C3%A9-calcul-par-d%C3%A9faut-par-projet) · [008B09](https://github.com/orgs/DiaghoProject/projects/5/views/1?pane=issue&itemId=32323189)
-\#### Ultérieurement
-\- \[ \] Interface dédiée à la création de filtres complexes
-\- \[ \] Versionning, description et gestion du partage des filtres complexes enregistrés
-\- \[ \] Catalogue de filtres pour profiter des expertises externes
 
+	- [x] Possibilité d'appliquer des filtres avancés à une interprétation · [Détails](#filtres-avancés) · [Core PR 384](https://github.com/DiaghoProject/diagho-core/pull/384)
+    - [x] Possibilité d'enregistrer un filtre avancé pour une réapplication ultérieure · [Détails](#enregistrement-des-filtres-avancés) · [Core PR 416](https://github.com/DiaghoProject/diagho-core/pull/416), [Front PR 140](https://github.com/DiaghoProject/diagho-front/pull/140)
+    - [x] Possibilité d'appliquer un filtre avancé enregistré précédemment · [Détails](#enregistrement-des-filtres-avancés) · [Front PR 140](https://github.com/DiaghoProject/diagho-front/pull/140)
+    - [x] Possibilité d'ajouter automatiquement un tag aux variations passant un filtre avancé lors d'une interprétation · [Détails](#application-automatique-de-tags) · [#548](https://github.com/DiaghoProject/diagho-core/issues/548), [Front PR 140](https://github.com/DiaghoProject/diagho-front/pull/140)
+    - [ ] Possibilité de choisir une liste de filtres avancés et de tags avant le calcul d'une interprétation · [Détails](#pré-calcul-de-filtres-complexes) · [#603](https://github.com/DiaghoProject/diagho-core/issues/603)
+    - [ ] Possibilité de configurer un projet pour pré-remplir une liste de filtres avancés aux interprétations en son sein · [Détails](#configuration-dun-pré-calcul-par-défaut-par-projet) · [008B09](https://github.com/orgs/DiaghoProject/projects/5/views/1?pane=issue&itemId=32323189)
+    #### Ultérieurement
+    - [ ] Interface dédiée à la création de filtres complexes
+    - [ ] Versionning, description et gestion du partage des filtres complexes enregistrés
+    - [ ] Catalogue de filtres pour profiter des expertises externes
+
+<!-- markdownlint-enable -->
 ## Filtres avancés
 
 [![Exemple de menu de filtres rapides](/images/202308advancedfiltersform_detailed.png){ align=right width=360 }](/images/202308advancedfiltersform_detailed.png)
