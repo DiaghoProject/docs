@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: DavidAnson/markdownlint-cli2-action@v9
+    - uses: DavidAnson/markdownlint-cli2-action
       with:
         config: ./.markdownlint.json
         globs: 'src/**/*.md'
