@@ -48,7 +48,7 @@ Concrètement, côté front, cela reposerait sur un fonctionnement en "simple ch
 !!! quote ""
 Exemple :
 Dans IMPACT, choisir à la fois HIGH et MODERATE équivaut à :\
-`     <autres_filtres> AND (IMPACT = "HIGH" OR IMPACT = "MODERATE")     `
+`<autres_filtres> AND (IMPACT = "HIGH" OR IMPACT = "MODERATE")`
 
 ### Filtres exclusifs
 

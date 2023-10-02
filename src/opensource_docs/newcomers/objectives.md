@@ -50,6 +50,7 @@ Ces annotations permettent l'application de filtres rendant ledit tableau exploi
 </figure>
 
 ## L'interprétation
+
 L'interprétation étant le cœur de l'application, [une page dédiée](./interpretation.md) précise davantage son déroulement et quelques leviers d'action de Diagho sur le sujet.
 
 ## Concept généraux dans Diagho

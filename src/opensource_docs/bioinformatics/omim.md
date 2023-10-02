@@ -5,6 +5,7 @@
 C'est une source d'annotation essentielle pour les biologistes. Sa consultation en ligne est libre mais le téléchargement de leurs données ou l'accès à leur API nécessite un accord de la John Hopkins University qui n'en autorise pas un usage dans un logiciel commercial.
 
 ## Fonctionnement
+
 Chaque entité dans la base de données est associée à un MIM number que ce soit un phénotype ou un gène. Ils sont accessibles indistinctement via l'URL `https://www.omim.org/entry/{MIMnumber}`.
 
 Ces MIM numbers sont associés à un caractère spécial selon l'entité concernée :
@@ -15,6 +16,7 @@ Ces MIM numbers sont associés à un caractère spécial selon l'entité concern
 - **[+](https://www.omim.org/entry/104250)** pour les MIM numbers concernant un gène et un phénotype combiné (rare)
 
 ## Fichiers disponibles
+
 - **mim2gene.txt** est un fichier librement accessible associant les MIM numbers à leur ID NCBI, Ensembl et nom de gène approuvé
 - **genemap2.txt** associe des positions génomiques à un gène, ses ID et phénotypes associés (nom, mode de transmission et MIM number #)
 - **morbidmap.txt** associe chaque maladie à un gène et le MIM number * du gène
@@ -77,6 +79,7 @@ Ces MIM numbers sont associés à un caractère spécial selon l'entité concern
         ```
 
 ### Caractères spéciaux des phénotypes
+
 - Les [crochets](https://www.omim.org/entry/615999) `[]` encadrent des phénotypes non délétères.
 - Les [accolades](https://www.omim.org/entry/603933) `{}` encadrent des facteurs de risques pour des maladies multifactorielles.
 - Un phénotype précédé d'un [point d'interrogation](https://www.omim.org/entry/607131) `?` indique que le lien gène-phénotype est provisoire.

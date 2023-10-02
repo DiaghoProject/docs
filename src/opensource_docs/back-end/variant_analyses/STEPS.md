@@ -51,7 +51,7 @@ The `_build_metadata()` method loops through each AnalysisRecord and calls the `
 The `_build_step_zero()` method loops through each AnalysisRecord and retrieves all VCF annotations.
 It creates a StepRecord object with metadata containing all the VCF annotations and finally saves all the StepRecord objects in bulk.
 
-### Example usage :
+### Example usage
 
 ```python
     analysis = Analysis(...)
@@ -110,7 +110,7 @@ The PATCH method of the AnalysisViewset class is responsible for handling the AP
 This endpoint saves a filter and associates it with an analysis.
 It will be then used in the records API to return the filtered records.
 The filter data payload is expected to be in JSON format and should follow the
-structure defined by the [FilterOperatorSerializer](#FilterOperatorSerializer).
+structure defined by the [FilterOperatorSerializer](#filteroperatorserializer).
 
 ### Endpoint: GET `/variant_analyses/analysis/{id}/records`
 
@@ -123,7 +123,7 @@ If there is no filter associated with the analysis, this enpoint will return all
 The FilterOperatorSerializer is used by the API to validate and transform a JSON filter into a structured tree of Operator and Condition objects.
 **This serializer is only used to construct a query to associate the filter with the analysis, but not to [save the filter as a named filter](#saved-filter-api) !**
 
-#### Example usage :
+#### Example usage
 
 ```http
 PATCH /variant_analyses/analysis/123/
@@ -193,7 +193,7 @@ This serializer is used by this API to validate a JSON filter. It expects two pa
     - Underscores and spaces will be deleted
     - Example: Name: Variations d'intérêt Key: variationsdinteret
 - "filter" : the filter query in the form of a JSON Operator object. It should follow the same
-  structure defined by the [FilterOperatorSerializer](#FilterOperatorSerializer).
+  structure defined by the [FilterOperatorSerializer](#filteroperatorserializer).
 
 **Example usage :**
 

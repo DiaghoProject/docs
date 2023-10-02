@@ -1,6 +1,7 @@
 # Tableau d'interprétation
 
 ## Mockup
+
 Un tableau dynamique avait été créé pour faire aux utilisateurs une présentation dynamique des fonctionnalités de base prévues pour le tableau.
 
 !!! attention
@@ -9,13 +10,15 @@ Un tableau dynamique avait été créé pour faire aux utilisateurs une présent
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/c27265?loop=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 ## Composants
+
 Cet écran est constitué de plusieurs composants principaux :
 
 - [Le menu de filtrage](#chap-filtermenu)
 - [La visualisation du graphe](#chap-filtergraphe)
 - [Le tableau d'interprétation](#chap-vartable)
 
-###  Menu de filtrage {#chap-filtermenu}
+### Menu de filtrage {#chap-filtermenu}
+
 ???+ abstract "TL;DR"
     === "En résumé"
         Un menu latéral pour filtrer les variations affichées dans le tableau
@@ -30,6 +33,7 @@ Cet écran est constitué de plusieurs composants principaux :
 - Peut être masqué pour libérer de la largeur à l'écran.
 
 ### Visualisation du graphe {#chap-filtergraphe}
+
 ???+ abstract "TL;DR"
     === "En résumé"
         Une réprésentation graphique des étapes de filtrage appliquées
@@ -48,6 +52,7 @@ Dans le cas d'un filtre, le nœud affiche le nom du filtre complexe si précisé
 - Peut être masqué pour libérer de la hauteur à l'écran.
 
 ### Tableau d'interprétation {#chap-vartable}
+
 ???+ abstract "TL;DR"
     === "En résumé"
         Macro-composant contenant le tableau listant les variations et permettant à l'utilisateur d'agir dessus (catégorisation, commentaire…)
@@ -62,13 +67,13 @@ La tableau d'interprétation où seront affichées les données incluses dans l'
 
 - Des onglets permettent d'alterner entre les différents types de données analysées (*e.g. SNV, CNV, ADN mitochondrial...*).
 - Une barre d'outils permettant : 
-    - flag une variation "d'intérêt" ou "non pertinentes"
-    - ajouter une note pense-bête
-    - ajouter un tag
-    - rechercher dans le tableau
-    - réinitialiser l'affichage du tableau
-    - personnaliser les colonnes affichées et la pagination
-    - exporter les données
+  - flag une variation "d'intérêt" ou "non pertinentes"
+  - ajouter une note pense-bête
+  - ajouter un tag
+  - rechercher dans le tableau
+  - réinitialiser l'affichage du tableau
+  - personnaliser les colonnes affichées et la pagination
+  - exporter les données
 - Les colonnes du tableau sont redimensionnables et réorganisables. Leurs entêtes permettent de modifier l'affichage des variations dans le tableau (*e.g. trier par classes ACMG décroissantes, nom du gène contient "BRC",...*).<br>
 Des colonnes peuvent être verrouillées au choix de l'utilisateur pour être toujours visibles à l'écran lorsque celui-ci fait défiler le tableau horizontalement.
 - Les lignes du tableau commencent par une checkbox permettant de faire une sélection multiple de variations.<br>

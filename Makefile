@@ -38,7 +38,7 @@ lint: ## Lint all .md files in the src directory
 	npx markdownlint-cli2 "src/**/*.md" "\#node_modules" --config .markdownlint.json
 
 .PHONY: lint-fix
-lint: ## Lint all .md files in the src directory
+lint-fix: ## Lint all .md files in the src directory
 	npx markdownlint-cli2 "src/**/*.md" "\#node_modules" --config .markdownlint.json --fix
 
 .PHONY: help

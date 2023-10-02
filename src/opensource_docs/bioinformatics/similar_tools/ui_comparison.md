@@ -40,7 +40,6 @@ hide:
     === "VarFish"
         [![Project Overview](./images/vf-project%20overview.jpg){ loading=lazy }](./images/vf-project%20overview.jpg)
 
-
 ??? abstract "Accueils d'interprétation"
     ## Accueils d'interprétation
 
@@ -63,7 +62,6 @@ hide:
     === "VarFish"
 
         ![Case QC](./images/vf-case%20qc.jpg){ loading=lazy }
-
 
 ??? example "Tableaux d'interprétation"
     ## Tableaux d'interprétation
@@ -113,7 +111,6 @@ hide:
     === "VariantGrid"
 
         [![](./images/variantgrid/analysis/table.jpg){ loading=lazy }](./images/variantgrid/analysis/table.jpg)
-
 
 ??? note "Menus de filtrage"
     ## Menus de filtrage
@@ -349,7 +346,6 @@ hide:
 
             [![Features](./images/vf-features.jpg){ loading=lazy }](./images/vf-features.jpg)
         
-
 ??? info "Vues détaillées des gènes"
     ## Vues détaillées de gènes
 
@@ -374,7 +370,6 @@ hide:
         === "Détails"
 
             [![](./images/variantgrid/genes/gene_detail.jpg){ loading=lazy }](./images/variantgrid/genes/gene_detail.jpg)
-
 
 ??? info "Vues détaillées des variations"
     ## Vues détaillées de variation

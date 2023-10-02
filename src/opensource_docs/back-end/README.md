@@ -30,7 +30,7 @@ __Diagho__ stores config in environment variables.
 When using _Docker Compose_ to run __Diagho__, the `.env` file is used to define all required environment variables.
 You should never edit this `.env` file directly or store sensitive information in it, but you can override one or more of these variables by defining them directly in the shell before launching docker compose (values in the shell take precedence over those specified in the `.env` file.).
 
-> **Notes for Windows users:**\
+> __Notes for Windows users:__\
 > You should set the following environment variable to enable path conversion from Windows-style to Unix-style in volume definitions:\
 > `COMPOSE_CONVERT_WINDOWS_PATHS=1`
 
