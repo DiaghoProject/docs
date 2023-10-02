@@ -1,17 +1,20 @@
 # Liste des familles
 
-!!! note
-Écran similaire à la [liste des analyses](./list-analyses.md).
+!!! note Écran similaire à la [liste des analyses](./list-analyses.md).
 
 Liste les individus enregistrés dans le LBM.
 
 ## Actions
 
-- Les lignes du tableau permettent d'accéder à la vue détaillée de la [famille](./details-family.md).
+- Les lignes du tableau permettent d'accéder à la vue détaillée de la
+  [famille](./details-family.md).
 - Des onglets permettent d'alterner un affichage par familles, individus ou cas index.
 - Un bouton pour créer une nouvelle famille/individu.
-- Application de quelques filtres, e.g. les index ayant obtenu un diagnostic ou non, les cas urgents, les index dont l'utilisateur a fait/doit faire une analyse biologique…\
-  Ces filtres peuvent être applicables sur les familles également (famille dont le cas index a obtenu un diagnostic ou non, etc.). Attention : une famille peut contenir plusieurs cas index.
+- Application de quelques filtres, e.g. les index ayant obtenu un diagnostic ou non, les
+  cas urgents, les index dont l'utilisateur a fait/doit faire une analyse biologique…\
+  Ces filtres peuvent être applicables sur les familles également (famille dont le cas index
+  a obtenu un diagnostic ou non, etc.). Attention : une famille peut contenir plusieurs cas
+  index.
 
 ## Informations
 
@@ -47,6 +50,8 @@ Pas gérable en ce moment:
 - Date de dernière interprétation (analyse ouverte)
 - Statut (à interpréter, en cours, diag+, diag-…)
 
-De manière moins urgente, un système d'accordéon est envisagé pour permettre l'affichage d'informations secondaires.
+De manière moins urgente, un système d'accordéon est envisagé pour permettre l'affichage
+d'informations secondaires.
 
-Un feedback visuel doit permettre de facilement voir si un individu ou un membre d'une famille doit bénéficier d'un diagnostic urgent.
+Un feedback visuel doit permettre de facilement voir si un individu ou un membre d'une
+famille doit bénéficier d'un diagnostic urgent.

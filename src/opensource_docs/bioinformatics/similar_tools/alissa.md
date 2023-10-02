@@ -10,21 +10,21 @@ On retrouve cependant beaucoup de features discutées et intéressantes.
 
 === "Analyses"
 
-```
-[![](./images/alissa/analyses.jpg){ loading=lazy }](./images/alissa/analyses.jpg)
+```text
+![](./images/alissa/analyses.jpg){ loading=lazy }](./images/alissa/analyses.jpg)
 ```
 
 === "Patient"
 
-```
-[![](./images/alissa/analysishome.jpg){ loading=lazy }](./images/alissa/analysishome.jpg)
+```text
+![](./images/alissa/analysishome.jpg){ loading=lazy }](./images/alissa/analysishome.jpg)
 [![](./images/alissa/analysishome2.jpg){ loading=lazy }](./images/alissa/analysishome2.jpg)
 ```
 
 === "Tableau"
 
-```
-=== "Base"
+```text
+== "Base"
 
     [![](./images/alissa/table.jpg){ loading=lazy }](./images/alissa/table.jpg)
 
@@ -47,8 +47,8 @@ On retrouve cependant beaucoup de features discutées et intéressantes.
 
 === "Filtres"
 
-```
-=== "Filtres rapides"
+```text
+== "Filtres rapides"
 
     [![](./images/alissa/quickfilters.jpg){ loading=lazy }](./images/alissa/quickfilters.jpg)
 
@@ -75,8 +75,8 @@ On retrouve cependant beaucoup de features discutées et intéressantes.
 
 === "Features"
 
-```
-=== "Export"
+```text
+== "Export"
 
     [![](./images/alissa/export.jpg){ loading=lazy }](./images/alissa/export.jpg)
 
@@ -91,8 +91,8 @@ On retrouve cependant beaucoup de features discutées et intéressantes.
 
 === "Report"
 
-```
-=== "Classification de variation"
+```text
+== "Classification de variation"
 
     [![](./images/alissa/reportingform.jpg){ loading=lazy }](./images/alissa/reportingform.jpg)
 

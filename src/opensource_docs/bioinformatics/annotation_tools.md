@@ -14,12 +14,12 @@ Par défaut son fichier de sortie est un fichier tabulé où toutes les annotati
     === "Standard"
 
         **Commande**
-        ```
+        ```bash
         ./vep --input_file /opt/vep/.vep/inputs/sample.vcf --output_file /opt/vep/.vep/outputs/std_output --cache --offline --format vcf
         ```
 
         **Output**
-        ```
+        ```text
         ## ENSEMBL VARIANT EFFECT PREDICTOR v109.3
         ## Output produced at 2023-04-14 11:45:52
         ## Using cache in /opt/vep/.vep/homo_sapiens/109_GRCh37
@@ -76,7 +76,7 @@ Par défaut son fichier de sortie est un fichier tabulé où toutes les annotati
     === "VCF"
 
         **Commande**
-        ```
+        ```bash
         ./vep --input_file /opt/vep/.vep/inputs/sample.vcf --output_file /opt/vep/.vep/outputs/std_output.vcf --cache --offline --everything --format vcf --vcf
         ```
 
@@ -86,7 +86,7 @@ Par défaut son fichier de sortie est un fichier tabulé où toutes les annotati
         - Pour cet exemple, toutes les annotations disponibles de base dans VEP ont été appliquées.
 
         **Output**
-        ```
+        ```text
         ##fileformat=VCFv4.2
         ##FILTER=<ID=LowCoverage,Description="DP < 5">
         ##FILTER=<ID=SNP_filter,Description="DP < 10 || QD < 2.0 || FS > 60.0 || MQ < 40.0 || FBtypeScore > 13.0 || MappingQualityRankSum < -12.5 || ReadPosRankSum < -8.0">
@@ -128,12 +128,12 @@ Par défaut son fichier de sortie est un fichier tabulé où toutes les annotati
     === "Tabulé"
 
         **Commande**
-        ```
+        ```bash
         ./vep --input_file /opt/vep/.vep/inputs/sample.vcf --output_file /opt/vep/.vep/outputs/std_output.vcf --cache --offline --format vcf --vcf
         ```
 
         **Output**
-        ```
+        ```text
         ## ENSEMBL VARIANT EFFECT PREDICTOR v109.3
         ## Output produced at 2023-04-14 11:45:13
         ## Using cache in /opt/vep/.vep/homo_sapiens/109_GRCh37
@@ -190,7 +190,7 @@ Par défaut son fichier de sortie est un fichier tabulé où toutes les annotati
     === "JSON"
 
         **Commande**
-        ```
+        ```bash
         ./vep --input_file /opt/vep/.vep/inputs/sample.vcf --output_file /opt/vep/.vep/outputs/std_output.json --cache --offline --format vcf --json
         ```
 
@@ -310,7 +310,7 @@ L'annotation même est ajoutée dans la colonne INFO via un champs "CSQ" (par d�
 
 Exemple d'une annotation sur plusieurs transcrits (le retour à la ligne a été ajouté pour une meilleure lisibilité)
 
-```
+```text
 #CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	22-23121-A-02-00	22-23123-A-02-00	22-24543-A-01-00
 chr1	986732	.	G	A	922.52	PASS	AB=0.415094;ABP=9.64763;AC=1;AF=0.167;AN=6;AO=44;CIGAR=1X;DP=356; \
     CSQ=AGRN|ENSG00000188157|ENST00000379370|||ENST00000379370.2:c.5353G>A|ENSP00000368678.2:p.Asp1785Asn|missense_variant|MODERATE||Gac/Aac|D/N|5403|5353|Congenital_myasthenic_syndrome_8&not_specified&not_provided|Conflicting_interpretations_of_pathogenicity|criteria_provided&_conflicting_interpretations|4.3500e-01|0.256992|-2.07|0.069&.||1031|6.785660e-03|1|1.145360e-02|3|-37|3|17|0.00|0.00|0.00|0.00|1
@@ -329,7 +329,7 @@ Il est à noter que le deuxième transcrit annoté concerne un second gène (*up
 
 Dans le cas d'un VCF non normalisé, plusieurs ALT sont notées sur une seule ligne du VCF. VEP fera l'annotation pour toutes les ALT au sein du même champ CSQ et les séparera par des virgules. Il reste possible de les différencier grâce à la colonne `Allele` permettant de savoir quelle ALT est concernée par l'annotation jusqu'à la virgule suivante.
 
-```
+```text
 // CSQ = Allele|Consequence|Impact|Symbol|Gene|Feature_type|Feature|…
 // Pour les variations : 
 #CHROM	POS	ID	REF	ALT
@@ -350,7 +350,7 @@ Si une annotation contient une virgule ou un pipe, VEP la remplace par une esper
 
 Par exemple :
 
-```
+```text
 // Dans le VCF de ClinVar
 [...]CLNDN=Congenital_myasthenic_syndrome_8|not_specified|not_provided;CLNHGVS=NC_000001.10:g.986732G>A;CLNREVSTAT=criteria_provided,_conflicting_interpretations;CLNSIG=Conflicting_interpretations_of_pathogenicity[...]
 // Dans le VCF annoté

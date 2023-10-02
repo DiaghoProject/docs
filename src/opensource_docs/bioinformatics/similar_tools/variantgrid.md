@@ -36,8 +36,8 @@ Cet outil reste orienté avant tout vers le partage de résultats plutôt que le
 
 === "Data"
 
-```
-Les écrans de gestion des fichiers d'entée
+```text
+es écrans de gestion des fichiers d'entée
 
 === "Samples"
 
@@ -98,8 +98,8 @@ Les écrans de gestion des fichiers d'entée
 
 === "Patients"
 
-```
-=== "Liste"
+```text
+== "Liste"
 
     [![](./images/variantgrid/patients/patients_list.jpg){ loading=lazy }](./images/variantgrid/patients/patients_list.jpg)
 
@@ -120,8 +120,8 @@ Les écrans de gestion des fichiers d'entée
 
 === "Analyses"
 
-```
-=== "Liste"
+```text
+== "Liste"
 
     [![](./images/variantgrid/analysis/analyses_list.jpg){ loading=lazy }](./images/variantgrid/analysis/analyses_list.jpg)
 
@@ -139,8 +139,8 @@ Les écrans de gestion des fichiers d'entée
 
 === "Filtrage"
 
-```
-=== "Template"
+```text
+== "Template"
 
     Ce qui s'apparenterait à l'idée des stratégies de filtrage pour Diagho.  
     Le template permet une réutilisation simplifiée, mais rien n'empêche de le faire directement en cours d'analyse.
@@ -205,8 +205,8 @@ Les écrans de gestion des fichiers d'entée
 
 === "Classifications"
 
-```
-VariantGrid a une philosophie très orientée sur le partage de résultats
+```text
+ariantGrid a une philosophie très orientée sur le partage de résultats
 
 === "Class. de var."
 
@@ -235,8 +235,8 @@ VariantGrid a une philosophie très orientée sur le partage de résultats
 
 === "Gènes"
 
-```
-=== "Gene grid"
+```text
+== "Gene grid"
 
     [![](./images/variantgrid/genes/genegrid.jpg){ loading=lazy }](./images/variantgrid/genes/genegrid.jpg)
 
@@ -263,8 +263,8 @@ VariantGrid a une philosophie très orientée sur le partage de résultats
 
 === "Variations"
 
-```
-=== "Détails"
+```text
+== "Détails"
 
     [![](./images/variantgrid/variants/variant_detail.jpg){ loading=lazy }](./images/variantgrid/variants/variant_detail.jpg)
 
@@ -285,8 +285,8 @@ VariantGrid a une philosophie très orientée sur le partage de résultats
 
 === "Annotations"
 
-```
-=== "Sources"
+```text
+== "Sources"
 
     [![](./images/variantgrid/annotation/annotations_home.jpg){ loading=lazy }](./images/variantgrid/annotation/annotations_home.jpg)
 
@@ -302,8 +302,8 @@ VariantGrid a une philosophie très orientée sur le partage de résultats
 
 === "Autres"
 
-```
-=== "Config de colonnes"
+```text
+== "Config de colonnes"
 
     === "Liste des config"
 

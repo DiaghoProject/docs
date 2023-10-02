@@ -4,12 +4,17 @@
 
 Les différentes applications du projet
 
-- [Docs private](https://github.com/DiaghoProject/docs-private): Documentation privée du projet
+- [Docs private](https://github.com/DiaghoProject/docs-private): Documentation privée du
+  projet
 - [Docs public](https://github.com/DiaghoProject/docs): Documentation public du projet
-- [Diagho core](https://github.com/DiaghoProject/diagho-core): Noyau de l'application divisé en microservices
-- [Diagho Hugo Prod](https://github.com/DiaghoProject/diagho-hugo-prod): Mise sur en ligne de l'application sur Demo
-- [Diagho vep](https://github.com/DiaghoProject/diagho-vep): Microservice pour gérer les annotations VEP
-- [Diagho Biodb](https://github.com/DiaghoProject/diagho-biodb): En cours de création, microservice pour gérer automatiquement les fichiers de la base de donnée
+- [Diagho core](https://github.com/DiaghoProject/diagho-core): Noyau de l'application
+  divisé en microservices
+- [Diagho Hugo Prod](https://github.com/DiaghoProject/diagho-hugo-prod): Mise sur en
+  ligne de l'application sur Demo
+- [Diagho vep](https://github.com/DiaghoProject/diagho-vep): Microservice pour gérer les
+  annotations VEP
+- [Diagho Biodb](https://github.com/DiaghoProject/diagho-biodb): En cours de création,
+  microservice pour gérer automatiquement les fichiers de la base de donnée
 
 ## Architecture
 
@@ -68,8 +73,8 @@ Les différents services sont
 
 Pour modifier un port avant de faire le make dev, il faut le spécifier avant la commande
 
-```
-$ CORE_PORT=18080 make dev
+```text
+ CORE_PORT=18080 make dev
 ```
 
 ### Back-end
@@ -98,13 +103,16 @@ $ make runserver # Check that all is working
 
 1- Créer une nouvelle branche 'feature' avec un nom descriptif
 
-2- Toujours ouvrir une pull request vers dev lorsque l'on créé une nouvelle branche 'feature' (Sur l'interface github)
+2- Toujours ouvrir une pull request vers dev lorsque l'on créé une nouvelle branche
+'feature' (Sur l'interface github)
 
-3- Faire un rebase sur la branche 'feature' lorsqu'il y a eu des modifications sur dev, et faire un push (CLI)
+3- Faire un rebase sur la branche 'feature' lorsqu'il y a eu des modifications sur dev,
+et faire un push (CLI)
 
 4- Lorsque le code est terminé on fait une demande de review (Sur l'interface github)
 
-5- Faire un Squash and merge de la branche feature sur staging et supprimer la branche 'feature' (Sur l'interface github)
+5- Faire un Squash and merge de la branche feature sur staging et supprimer la branche
+'feature' (Sur l'interface github)
 
 ## Coding Style
 
@@ -114,7 +122,7 @@ $ make runserver # Check that all is working
 
 Pour créer le volume biodb-data-dev :
 
-```
+```text
 docker volume create --name biodb-data-dev --opt type=none --opt device=media/data/diagho-prod/biodb --opt o=bind
 ```
 

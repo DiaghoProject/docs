@@ -24,7 +24,7 @@ and one should be aware of the issues in handling variants resulting from such o
 
 Example:
 
-```
+```text
 #before decomposition
 #CHROM  POS     ID   REF     ALT         QUAL   FILTER  INFO                  FORMAT    S1                                     S2                                                                          
 1       3759889 .    TA      TAA,TAAA,T  .      PASS    AF=0.342,0.173,0.037	GT:DP:PL	  1/2:81:281,5,9,58,0,115,338,46,116,809	 0/0:86:0,30,323,31,365,483,38,291,325,567	
@@ -38,7 +38,7 @@ Example:
 
 #### output
 
-```
+```text
     "stats",
     " no. variants                 : 83187",
     "       no. biallelic variants       : 83187",
@@ -56,7 +56,7 @@ Example:
 
 Remove all duplicated information from variants e.g.:
 
-```
+```text
 Not normalized:
 - ref: GCAT
 - alt: GTGC
@@ -70,7 +70,7 @@ Further details [here](https://genome.sph.umich.edu/wiki/Variant_Normalization)
 
 #### output
 
-```
+```text
     "normalize v0.5",
     "options:     input VCF file    DD_WESA_22-6048_vep.decomposed.vcf",
     "         [o] output VCF file   DD_WESA_22-6048_vep.normalized.vcf",
@@ -129,7 +129,7 @@ Checks the following properties of a VCF file:
 
 #### output
 
-```
+```text
     "validate v0.5",
     "options:     input VCF file        DD_WESA_22-6048_vep.sorted.vcf",
     "[r] reference FASTA file           fasta/hg19.wo_hap.fasta"

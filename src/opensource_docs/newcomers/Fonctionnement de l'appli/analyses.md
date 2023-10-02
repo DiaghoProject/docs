@@ -2,8 +2,7 @@
 
 Pour l'instant la création des analyses se fait dans l'admin
 
-!!! note
-A Réorganiser !!!
+!!! note A Réorganiser !!!
 
 ## Chargement des factories
 
@@ -22,7 +21,8 @@ Si tout s'est bien déroulé, le `state` sera `SUCCESS`
 
 ## Chargement du VCF
 
-Dans l'admin, sélectionner l'objet Sequencings, ajouter le VCF en PJ et lance `load sequencing`
+Dans l'admin, sélectionner l'objet Sequencings, ajouter le VCF en PJ et lance
+`load sequencing`
 
 - Récupération ou Création des `Variant`
 - Récupération ou Création des `Sample`
@@ -32,17 +32,18 @@ Faire correspondre les `Sample` créés (si il y en a) avec des patients
 
 ## Création de l'analyse
 
-Lors de la création de l'analyse, on va déterminer les différentes annotations et les différents
-filtres à appliquer sur le patient et les samples associés.
--> Création des `AnalysedSample` (M2M entre `Analysis` et `Sample`)
+Lors de la création de l'analyse, on va déterminer les différentes annotations et les
+différents filtres à appliquer sur le patient et les samples associés. -> Création des
+`AnalysedSample` (M2M entre `Analysis` et `Sample`)
 
 1- Load Samples
 
-Pour chaque analyse, on va appeler la fonction `load_samples` qui va lancer la
-tâche `analysis_load_samples_by_region` en async pour chaque `Region`
+Pour chaque analyse, on va appeler la fonction `load_samples` qui va lancer la tâche
+`analysis_load_samples_by_region` en async pour chaque `Region`
 
--> Cela va créer des `AnalysisRecord` (`M2M entre Analysis et Variant`) et des `AnalysedSampleRecord` (M2M entre `AnalysisRecord` et `SampleRecord`)
--> `build_metadata` pour les `AnalysisRecord` récupérés ou créés
+-> Cela va créer des `AnalysisRecord` (`M2M entre Analysis et Variant`) et des
+`AnalysedSampleRecord` (M2M entre `AnalysisRecord` et `SampleRecord`) ->
+`build_metadata` pour les `AnalysisRecord` récupérés ou créés
 
 2- Build Steps
 
@@ -52,8 +53,8 @@ Pour les `AnnotationStep`:
 
 On `load()` en async chaque step, on check s'il y a un parent
 
-```
-Si oui, on raise une erreur `step.NotReady` et on retry jusqu'à ce que le step parent soit 
+```text
+i oui, on raise une erreur `step.NotReady` et on retry jusqu'à ce que le step parent soit
 prêt
 
 Sinon on lance `process()`
@@ -65,20 +66,20 @@ A- annotation_step_build_node_records
 
 Pour la fonction `annotation_step_build_node_records`
 
-```
-Si il y a un parent on récupère les `AnalysisRecord` du step parent
+```text
+i il y a un parent on récupère les `AnalysisRecord` du step parent
 
 Sinon les `AnalysisRecord` du step actuel
 ```
 
-Pour tous ces `AnalysisRecord` et si le `NodeVariantFlag` est prêt on va créer ou récupérer des
-`NodeVariantFlag`, si on vient de le créer on va appeler la fonction `build_records` qui
-va appeler en chaine (celery) les fonctions suivantes:
+Pour tous ces `AnalysisRecord` et si le `NodeVariantFlag` est prêt on va créer ou
+récupérer des `NodeVariantFlag`, si on vient de le créer on va appeler la fonction
+`build_records` qui va appeler en chaine (celery) les fonctions suivantes:
 
 a - node_variant_flag_build_parent_node_records
 
-```
-Si pas de parent on ne fait rien
+```text
+i pas de parent on ne fait rien
 
 Sinon on récupère ou on créé le `NodeVariantFlag` parent
 ```
@@ -87,22 +88,22 @@ Pour tous les `NodeVariantFlag` parents créés on va lancer la fonction `build_
 
 b - node_variant_flag_build_primary_node_records
 
-```
-On va récupérer les `primary_objects` pour chaque factory et on va créer des `NodeRecord` 
+```text
+n va récupérer les `primary_objects` pour chaque factory et on va créer des `NodeRecord`
 à partir d'un `Variant`
 ```
 
 c - node_variant_flag_build_secondary_node_records
 
-```
-On va récupérer les `secondary_objects` pour chaque factory et on va créer des `NodeRecord` 
+```text
+n va récupérer les `secondary_objects` pour chaque factory et on va créer des `NodeRecord`
 à partir d'un `parent_node_record`
 ```
 
 B- annotation_step_load_primary_node_records
 
-```
-Si il y a un parent on récupère les `AnalysisRecord` du step parent
+```text
+i il y a un parent on récupère les `AnalysisRecord` du step parent
 
 Sinon les `AnalysisRecord` du step actuel
 
@@ -114,8 +115,8 @@ Pour tous ces `AnalysisRecord` on va récupérer les `NodeRecord` associés au n
 
 C- annotation_step_load_secondary_node_records
 
-```
-Si il n'y a pas de parent on return
+```text
+i il n'y a pas de parent on return
 
 On récupère les `StepRecord` du parent
 
@@ -129,7 +130,7 @@ Si il y a des secondary_node_record:
 
     -> Création des `StepRecord` associés
 
-    Pour tous les `StepRecord` que l'on récupère chez le parent, on va récupérer les `NodeRecords` associés et ajoutés les informations du secondary_node_record 
+    Pour tous les `StepRecord` que l'on récupère chez le parent, on va récupérer les `NodeRecords` associés et ajoutés les informations du secondary_node_record
     -> Cela va créer des StepRecord avec plusieurs StepNodeRecord associés (celui du parent et celui du step actuel)
 
 Sinon:
@@ -140,7 +141,7 @@ Pour les `FilterStep`:
 
 On `load()` en async chaque step, on check s'il y a un parent
 
-```
+```text
 On supprime les `StepRecord` du step (si il y en a)
 
 On récupère les objects `conjunctions` et `disjunctions` et on construit les

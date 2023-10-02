@@ -13,13 +13,13 @@ Download this repository and unzip it on your computer. You should rename the fo
 
 Or clone the repository directly on your computer:
 
-```
+```bash
 $ git clone git@github.com:DiaghoProject/docs.git
 ```
 
 Make sure you have `python3.9` installed on your machine, then run:
 
-```
+```bash
 $ cd docs
 $ make quickstart
 ```

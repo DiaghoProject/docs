@@ -1,5 +1,5 @@
 {
-    "MD013": {"line_length": 88},
+    "MD013": false,
     "MD009": false,
     "MD014": false,
     "MD010": false,
@@ -9,5 +9,5 @@
     "MD046": false,
     "MD006": false,
     "MD029": {"style": "ordered"},
-    "markdownItPlugins": ["adminition"]
+    "markdownItPlugins": ["adminition", "table"]
 }

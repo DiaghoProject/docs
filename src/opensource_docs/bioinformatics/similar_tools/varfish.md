@@ -35,8 +35,8 @@ Chacun de ces éléments a une page dédiée auxquelles s'ajoute une page Member
 
 === "Pros/Cons"
 
-```
-| Points positifs | Points négatifs  |
+```text
+ Points positifs | Points négatifs  |
 | - | - |
 | Analyse conjointe de tous les cas en un clic |   |
 | Timeline incluse dans le projet | Redondance avec Background Jobs |
@@ -46,8 +46,8 @@ Chacun de ces éléments a une page dédiée auxquelles s'ajoute une page Member
 
 === "Accueil projet"
 
-```
-![Project Overview](./images/vf-project%20overview.jpg){ loading=lazy }
+```text
+[Project Overview](./images/vf-project%20overview.jpg){ loading=lazy }
 ```
 
 ### Cas
@@ -67,8 +67,8 @@ Pour débuter l'interprétation en tant que telle, il faut passer par le bouton 
 
 === "Pros/Cons"
 
-```
-| Points positifs | Points négatifs |
+```text
+ Points positifs | Points négatifs |
 | - | - |
 | Overview intéressante |  Étrange de placer l'étape d'interprétation à cet endroit  |
 | QC visuels |  |
@@ -77,20 +77,20 @@ Pour débuter l'interprétation en tant que telle, il faut passer par le bouton 
 
 === "Général"
 
-```
-![Case Overview](./images/vf-case%20overview.jpg){ loading=lazy }
+```text
+[Case Overview](./images/vf-case%20overview.jpg){ loading=lazy }
 ```
 
 === "QC"
 
-```
-![Case QC](./images/vf-case%20qc.jpg){ loading=lazy }
+```text
+[Case QC](./images/vf-case%20qc.jpg){ loading=lazy }
 ```
 
 === "Variations retenues"
 
-```
-![Case Panier](./images/vf-panier.jpg){ loading=lazy }
+```text
+[Case Panier](./images/vf-panier.jpg){ loading=lazy }
 ```
 
 ### Interprétation
@@ -112,8 +112,8 @@ Système d'accordéon réunissant des informations sur le gène, des commentaire
 
 === "Pros/Cons"
 
-```
-| Points positifs | Points négatifs |
+```text
+ Points positifs | Points négatifs |
 | - | - |
 | Queries stored | ...mais recalcul à chaque changement de page. |
 | Blacklist possible de panels | Menu de filtres désordonnés |
@@ -132,20 +132,20 @@ Système d'accordéon réunissant des informations sur le gène, des commentaire
 
 === "Filtres et tableau"
 
-```
-![Filtres et tableau](./images/vf-table.jpg){ loading=lazy }
+```text
+[Filtres et tableau](./images/vf-table.jpg){ loading=lazy }
 ```
 
 === "Accordéon"
 
-```
-![Accordéon](./images/vf-accordeon.jpg){ loading=lazy }
+```text
+[Accordéon](./images/vf-accordeon.jpg){ loading=lazy }
 ```
 
 === "Features"
 
-```
-![Features](./images/vf-features.jpg){ loading=lazy }
+```text
+[Features](./images/vf-features.jpg){ loading=lazy }
 ```
 
 ### Autres

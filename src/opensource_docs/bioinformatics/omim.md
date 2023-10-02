@@ -23,7 +23,7 @@ Ces MIM numbers sont associés à un caractère spécial selon l'entité concern
 
 ??? abstract "Exemples"
     === "mim2gene"
-        ```
+        ```text
             # MIM Number	MIM Entry Type (see FAQ 1.3 at https://omim.org/help/faq)	Entrez Gene ID (NCBI)	Approved Gene Symbol (HGNC)	Ensembl Gene ID (Ensembl)
             100050	predominantly phenotypes			
             100070	phenotype	100329167		
@@ -42,7 +42,7 @@ Ces MIM numbers sont associés à un caractère spécial selon l'entité concern
         ```
 
     === "genemap2"
-        ```
+        ```text
             # Chromosome	Genomic Position Start	Genomic Position End	Cyto Location	Computed Cyto Location	MIM Number	Gene Symbols	Gene Name	Approved Gene Symbol	Entrez Gene ID	Ensembl Gene ID	Comments	Phenotypes	Mouse Gene Symbol/ID
             chr1	0	123400000	1p		606788	ANON1	Anorexia nervosa, susceptibility to, 1		171514			{Anorexia nervosa, susceptibility to, 1}, 606788 (2)	
             chr1	0	2300000	1p36.33		618815	C1DUPp36.33, DUP1p36.33	Chromosome 1p36.33 duplication syndrome, ATAD3 gene cluster					Chromosome 1p36.33 duplication syndrome, ATAD3 gene cluster, 618815 (4), Autosomal dominant	
@@ -59,7 +59,7 @@ Ces MIM numbers sont associés à un caractère spécial selon l'entité concern
         ```
 
     === "morbidmap"
-        ```
+        ```text
             # Phenotype	Gene Symbols	MIM Number	Cyto Location
             17,20-lyase deficiency, isolated, 202110 (3)	CYP17A1, CYP17, P450C17	609300	10q24.32
             17-alpha-hydroxylase/17,20-lyase deficiency, 202110 (3)	CYP17A1, CYP17, P450C17	609300	10q24.32
