@@ -2,8 +2,8 @@
 
 !!! note Une démo est facilement testable
 [avec leur repo](https://github.com/mobidic/seal), mais pour l'installer cela nécessite
-Conda et d'avoir à disposition un certain nombre de DB.\
-Celles de SpliceAI sont disponibles sur le serveur dans `/media/data/databases/SpliceAI`
+Conda et d'avoir à disposition un certain nombre de DB.  
+ Celles de SpliceAI sont disponibles sur le serveur dans `/media/data/databases/SpliceAI`
 (nécessite snv et indels pour le génome choisi).
 
 SEAL est un outil développé par Charles Van Goethem à Montpellier en Python, reposant
@@ -32,113 +32,103 @@ singletons semblent donc limitée.
 
 === "Home"
 
-```text
-== "Login"
+    === "Login"
 
-    [![](./images/seal/seal_login.jpg){ loading=lazy }](./images/seal/seal_login.jpg)
+        [![](./images/seal/seal_login.jpg){ loading=lazy }](./images/seal/seal_login.jpg)
 
-=== "Accueil"
+    === "Accueil"
 
-    [![](./images/seal/seal_home.jpg){ loading=lazy }](./images/seal/seal_home.jpg)
+        [![](./images/seal/seal_home.jpg){ loading=lazy }](./images/seal/seal_home.jpg)
 
-=== "Nouveau sample"
+    === "Nouveau sample"
 
-    [![](./images/seal/seal_newsample.jpg){ loading=lazy }](./images/seal/seal_newsample.jpg)
+        [![](./images/seal/seal_newsample.jpg){ loading=lazy }](./images/seal/seal_newsample.jpg)
 
-=== "Progression"
+    === "Progression"
 
-    [![](./images/seal/seal_upload.jpg){ loading=lazy }](./images/seal/seal_upload.jpg)
+        [![](./images/seal/seal_upload.jpg){ loading=lazy }](./images/seal/seal_upload.jpg)
 
-=== "Avancée des dossiers"
+    === "Avancée des dossiers"
 
-    [![](./images/seal/seal_home2.jpg){ loading=lazy }](./images/seal/seal_home2.jpg)
-```
+        [![](./images/seal/seal_home2.jpg){ loading=lazy }](./images/seal/seal_home2.jpg)
 
 === "Tableau"
 
-```text
-== "Tableau"
+    === "Tableau"
 
-    [![](./images/seal/seal_table.jpg){ loading=lazy }](./images/seal/seal_table.jpg)
+        [![](./images/seal/seal_table.jpg){ loading=lazy }](./images/seal/seal_table.jpg)
 
-=== "Classification"
+    === "Classification"
 
-    [![](./images/seal/seal_classification.jpg){ loading=lazy }](./images/seal/seal_classification.jpg)
+        [![](./images/seal/seal_classification.jpg){ loading=lazy }](./images/seal/seal_classification.jpg)
 
-=== "Filtres"
+    === "Filtres"
 
-    [![](./images/seal/seal_filters.jpg){ loading=lazy }](./images/seal/seal_filters.jpg)
+        [![](./images/seal/seal_filters.jpg){ loading=lazy }](./images/seal/seal_filters.jpg)
 
-=== "Enregistrement filtre"
+    === "Enregistrement filtre"
 
-    [![](./images/seal/seal_savefilter.jpg){ loading=lazy }](./images/seal/seal_savefilter.jpg)
+        [![](./images/seal/seal_savefilter.jpg){ loading=lazy }](./images/seal/seal_savefilter.jpg)
 
-=== "Export"
+    === "Export"
 
-    [![](./images/seal/seal_export.jpg){ loading=lazy }](./images/seal/seal_export.jpg)
-```
+        [![](./images/seal/seal_export.jpg){ loading=lazy }](./images/seal/seal_export.jpg)
 
 === "Détails variations"
 
-```text
-== "Transcrits"
+    === "Transcrits"
 
-    [![](./images/seal/seal_vardet1.jpg){ loading=lazy }](./images/seal/seal_vardet1.jpg)
+        [![](./images/seal/seal_vardet1.jpg){ loading=lazy }](./images/seal/seal_vardet1.jpg)
 
-=== "Prédiction"
+    === "Prédiction"
 
-    [![](./images/seal/seal_vardet2.jpg){ loading=lazy }](./images/seal/seal_vardet2.jpg)
+        [![](./images/seal/seal_vardet2.jpg){ loading=lazy }](./images/seal/seal_vardet2.jpg)
 
-=== "Conservation"
+    === "Conservation"
 
-    [![](./images/seal/seal_vardet3.jpg){ loading=lazy }](./images/seal/seal_vardet3.jpg)
+        [![](./images/seal/seal_vardet3.jpg){ loading=lazy }](./images/seal/seal_vardet3.jpg)
 
-=== "Fréquences"
+    === "Fréquences"
 
-    [![](./images/seal/seal_vardet4.jpg){ loading=lazy }](./images/seal/seal_vardet4.jpg)
+        [![](./images/seal/seal_vardet4.jpg){ loading=lazy }](./images/seal/seal_vardet4.jpg)
 
-=== "Epissage"
+    === "Epissage"
 
-    [![](./images/seal/seal_vardet5.jpg){ loading=lazy }](./images/seal/seal_vardet5.jpg)
+        [![](./images/seal/seal_vardet5.jpg){ loading=lazy }](./images/seal/seal_vardet5.jpg)
 
-=== "Liens externes"
+    === "Liens externes"
 
-    [![](./images/seal/seal_vardet6.jpg){ loading=lazy }](./images/seal/seal_vardet6.jpg)
+        [![](./images/seal/seal_vardet6.jpg){ loading=lazy }](./images/seal/seal_vardet6.jpg)
 
-=== "Occurrences dans SEAL"
+    === "Occurrences dans SEAL"
 
-    [![](./images/seal/seal_vardet7.jpg){ loading=lazy }](./images/seal/seal_vardet7.jpg)
+        [![](./images/seal/seal_vardet7.jpg){ loading=lazy }](./images/seal/seal_vardet7.jpg)
 
-=== "Commentaires"
+    === "Commentaires"
 
-    [![](./images/seal/seal_vardet8.jpg){ loading=lazy }](./images/seal/seal_vardet8.jpg)
-```
+        [![](./images/seal/seal_vardet8.jpg){ loading=lazy }](./images/seal/seal_vardet8.jpg)
 
 === "Admin"
 
-```text
-== "Liste gènes"
+    === "Liste gènes"
 
-    [![](./images/seal/seal_admin3.jpg){ loading=lazy }](./images/seal/seal_admin3.jpg)
+        [![](./images/seal/seal_admin3.jpg){ loading=lazy }](./images/seal/seal_admin3.jpg)
 
-=== "Liste transcrits"
+    === "Liste transcrits"
 
-    [![](./images/seal/seal_admin2.jpg){ loading=lazy }](./images/seal/seal_admin2.jpg)
+        [![](./images/seal/seal_admin2.jpg){ loading=lazy }](./images/seal/seal_admin2.jpg)
 
-=== "Filtres"
+    === "Filtres"
 
-    [![](./images/seal/seal_admin4.jpg){ loading=lazy }](./images/seal/seal_admin4.jpg)
+        [![](./images/seal/seal_admin4.jpg){ loading=lazy }](./images/seal/seal_admin4.jpg)
 
-=== "Lien variant-sample"
+    === "Lien variant-sample"
 
-    [![](./images/seal/seal_admin1.jpg){ loading=lazy }](./images/seal/seal_admin1.jpg)
-```
+        [![](./images/seal/seal_admin1.jpg){ loading=lazy }](./images/seal/seal_admin1.jpg)
 
 === "Features tour"
 
-```text
-![](https://raw.githubusercontent.com/mobidic/SEAL/main/docs/img/seal.gif){ loading=lazy }](https://raw.githubusercontent.com/mobidic/SEAL/main/docs/img/seal.gif)
-```
+    [![](https://raw.githubusercontent.com/mobidic/SEAL/main/docs/img/seal.gif){ loading=lazy }](https://raw.githubusercontent.com/mobidic/SEAL/main/docs/img/seal.gif)
 
 ## Avis
 

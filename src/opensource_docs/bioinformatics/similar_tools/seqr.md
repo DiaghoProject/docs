@@ -34,24 +34,18 @@ Pour débuter une interprétation, il faut cliquer sur "Variant search" dans une
 
 === "Pros/Cons"
 
-```text
- Points positifs | Points négatifs |
-| - | - |
-| Visualisation et ajout d'infos patients aisé | ...mais très gourmand en hauteur |
-| Tableau de familles exportable | |
-```
+    | Points positifs | Points négatifs |
+    | - | - |
+    | Visualisation et ajout d'infos patients aisé | ...mais très gourmand en hauteur |
+    | Tableau de familles exportable | |
 
 === "seqr home"
 
-```text
-[seqr home](./images/seqr-home.png){ loading=lazy }
-```
+    ![seqr home](./images/seqr-home.png){ loading=lazy }
 
 === "Overview projet"
 
-```text
-[Projet Overview](./images/seqr-project.png){ loading=lazy }
-```
+    ![Projet Overview](./images/seqr-project.png){ loading=lazy }
 
 ### Recherche de variations
 
@@ -85,33 +79,25 @@ personnelle.
 
 === "Pros/Cons"
 
-```text
- Points positifs | Points négatifs |
-| - | - |
-| Ajout d'autres familles facile | Filtres laissent à désirer |
-| Tableau de variations très aéré | ...mais gourmand en hauteur |
-| Liens directs vers quelques DB | Tri possible que par ordre décroissant d'une annotation |
-| Classification ClinVar bien visible et avec la créance | Met surtout en avant les scores de prédiction |
-| Possibilité d'ajouter des tags | ...mais d'une liste pré-remplie |
-```
+    | Points positifs | Points négatifs |
+    | - | - |
+    | Ajout d'autres familles facile | Filtres laissent à désirer |
+    | Tableau de variations très aéré | ...mais gourmand en hauteur |
+    | Liens directs vers quelques DB | Tri possible que par ordre décroissant d'une annotation |
+    | Classification ClinVar bien visible et avec la créance | Met surtout en avant les scores de prédiction |
+    | Possibilité d'ajouter des tags | ...mais d'une liste pré-remplie |
 
 === "Filtres"
 
-```text
-[Filtres](./images/seqr-filter.png){ loading=lazy }
-```
+    ![Filtres](./images/seqr-filter.png){ loading=lazy }
 
 === "Variations"
 
-```text
-[Variations](./images/seqr-table.jpeg){ loading=lazy }
-```
+    ![Variations](./images/seqr-table.jpeg){ loading=lazy }
 
 === "Infobulle qualité"
 
-```text
-[Infobulle qualité](./images/seqr-quali.jpg){ loading=lazy }
-```
+    ![Infobulle qualité](./images/seqr-quali.jpg){ loading=lazy }
 
 ### La revue de variations
 
@@ -127,22 +113,16 @@ ACMG, aucune n'étant pré-calculée.
 
 === "Pros/Cons"
 
-```text
- Points positifs | Points négatifs |
-| - | - |
-|  | Pas prévue pour le diagnostic |
-|  | Même infos que pendant la fouille |
-| Formulaire de règles ACMG | ...mais à l'ergonomie médiocre pour ne pas dire bugguée |
-```
+    | Points positifs | Points négatifs |
+    | - | - |
+    |  | Pas prévue pour le diagnostic |
+    |  | Même infos que pendant la fouille |
+    | Formulaire de règles ACMG | ...mais à l'ergonomie médiocre pour ne pas dire bugguée |
 
 === "Review"
 
-```text
-[Review](./images/seqr-review.png){ loading=lazy }
-```
+    ![Review](./images/seqr-review.png){ loading=lazy }
 
 === "ACMG"
 
-```text
-[ACMG](./images/seqr-acmg.jpg){ loading=lazy }
-```
+    ![ACMG](./images/seqr-acmg.jpg){ loading=lazy }
