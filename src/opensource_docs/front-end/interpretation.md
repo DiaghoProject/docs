@@ -110,5 +110,6 @@ Le contenu de cette confirmation peut être utilisé pour générer un compte-re
 rapport d'interprétation à présenter en RCP exportable par l'utilisateur au format de
 son choix (.docx, .pdf, .ppt,...).
 
-!!! attention Un **compte-rendu** ne contiendra pas nécessairement toutes les variations
-et informations utilisées pour un **rapport d'interprétation**.
+!!! attention 
+  Un **compte-rendu** ne contiendra pas nécessairement toutes les variations
+  et informations utilisées pour un **rapport d'interprétation**.

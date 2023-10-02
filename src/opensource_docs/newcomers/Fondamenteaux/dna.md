@@ -10,11 +10,12 @@ La séquence entière de la chaîne d'ADN est appelé le **génome**.
 Cette macro-molécule est composée de deux **brins** complémentaires formant la fameuse
 double hélice.
 
-!!! example "Des brins complémentaires" Ils sont le miroir l'un de l'autre en ce sens
-que chaque base s'apparie avec une base précise (A avec T, C avec G) et parce que chacun
-se "lit" dans le sens opposé\
-Ainsi si un brin possède la séquence **5'-ATTCG-3'**\
-son homologue aura normalement **3'-TAAGC-5'**
+!!! example "Des brins complémentaires"
+    Ils sont le miroir l'un de l'autre en ce sens
+    que chaque base s'apparie avec une base précise (A avec T, C avec G) et parce que chacun
+    se "lit" dans le sens opposé\
+    Ainsi si un brin possède la séquence **5'-ATTCG-3'**\
+    son homologue aura normalement **3'-TAAGC-5'**
 
 ```text
 Il n'y a donc besoin de connaître la séquence que d'un seul brin pour connaître celle de son opposé, aussi la norme est de lire dans le sens appelé 5'-3'.
@@ -39,7 +40,7 @@ Ces gènes sont eux-mêmes subdivisés en deux types de segments principaux, les
 codent effectivement les protéines comme on le verra plus loin, séparés par des **introns**
 qui sont de longues portions non codantes au sein des gènes.
 
-[![Gène](./images/gene.jpg)](./images/gene.jpg)
+![Alt text](../images/gene.jpg)
 
 La séquence formée par l'ensemble de ces 180 000 exons est appelée **exome**. Comme
 l'exome représente environ 1,5% du génome total, les laboratoires se contentaient
@@ -61,7 +62,7 @@ l'**épissage** et si elle est perturbée, elle peut être la cause de certaines
 rares.\
 Enfin, cet ARNm pourra servir de support pour la fabrication de protéines.
 
-[![Transcription/Traduction](./images/gene_maturation.png)](./images/gene_maturation.png)
+![maturation](../images/gene_maturation.png)
 
 Il est à noter qu'un même gène peut être source de plusieurs transcrits aux fonctions
 différentes. En effet, tous les exons du gène ne sont pas nécessairement gardés sur le
@@ -78,19 +79,21 @@ de trois bases code pour un **acide aminé** de la protéine finale (celle-ci n'
 enchainement d'acides aminés). Ceci a son importance car si dans un gène, la séquence est
 raccourcie ou allongée d'un non multiple de 3, cela va provoquer un **frameshift** (ou décalage
 du cadre de lecture) modifiant toute la suite de la protéine et ayant donc une conséquence
-généralement plus importante\[^1\]
+généralement plus importante[^1]
 
 !!! note
-    "En résumé" \- L'ADN est la single source of truth dans la production de
-    protéines par le corps. \- Il est divisé en 23 paires de chromosomes, chaque paire étant
-    composée d'un chromosome maternel et un paternel. \- Les exons des gènes forment la
-    partie codante de l'ADN. \- Les transcrits sont le support direct à partir duquel sont
-    synthétisées les protéines. \- Le code génétique est la correspondance entre des
+    "En résumé" - L'ADN est la single source of truth dans la production de
+    protéines par le corps. - Il est divisé en 23 paires de chromosomes, chaque paire étant
+    composée d'un chromosome maternel et un paternel. - Les exons des gènes forment la
+    partie codante de l'ADN. - Les transcrits sont le support direct à partir duquel sont
+    synthétisées les protéines. - Le code génétique est la correspondance entre des
     triplets de bases azotées avec un acide aminé.
 
-!!! tip "Métaphore mnémotechnique" \- L'ADN est la base de données de l'organisation. \-
-Les gènes sont les procédures généralistes pour la production de l'organisation. \- Les
-transcrits sont des variantes des procédures de fabrication pour adapter le produit² aux
-besoins du client. \- Chaque codon est une étape de la conception du produit fini.
+!!! tip "Métaphore mnémotechnique"
+    - L'ADN est la base de données de l'organisation. -
+    Les gènes sont les procédures généralistes pour la production de l'organisation.
+    - Les transcrits sont des variantes des procédures de fabrication pour adapter le produit² aux
+    besoins du client
+    - Chaque codon est une étape de la conception du produit fini.
 
-\[^1\]: cf les [types de variations](./variants.md)
+[^1]: cf les [types de variations](./variants.md)

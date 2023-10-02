@@ -39,7 +39,7 @@ Pour chacun :
 - Sample name
 
 !!! info
-Ultérieurement, arbre généalogique par famille
+  Ultérieurement, arbre généalogique par famille
 
 ### Type de données
 
@@ -54,9 +54,9 @@ Ultérieurement, arbre généalogique par famille
 ## QC
 
 !!! warning "À venir"
-Non inclus pour le Croisic
+  Non inclus pour le Croisic
 
 ## Clinique
 
 !!! warning "À venir"
-Non inclus pour le Croisic
+  Non inclus pour le Croisic

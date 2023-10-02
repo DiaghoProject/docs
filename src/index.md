@@ -17,7 +17,7 @@ To give an order of magnitude, this involves finding THE relevant line (or a few
 Our aim is therefore to provide a tool that simplifies this task as much as possible and assists them as much as possible in making a diagnosis. Any time saved at each stage of their business needs can be reinvested in diagnosing more complex cases.
 
 !!! info ""
-**Diago's fundamental objective is to make life easier for practitioners, simplify the process chain and increase the number of families benefiting from a diagnosis within a shorter timeframe**.
+    **Diago's fundamental objective is to make life easier for practitioners, simplify the process chain and increase the number of families benefiting from a diagnosis within a shorter timeframe**.
 
 ______________________________________________________________________
 

@@ -14,18 +14,19 @@ est appliqué en 3 clics au lieu de plus d'une vingtaine.
 
 Ce filtre rapide serait ensuite appliqué en ET aux filtres pré-existants.
 
-!!! success "Feuille de route" \- \[x\] Dictionnaire de filtres prédéfinis à servir au
-front · [Détails](#liste-de-filtres-a-implementer) ·
-[206-B-09](https://github.com/orgs/DiaghoProject/projects/5/views/1?pane=issue&itemId=25846767)
-\- \[x\] Affichage et application possible des filtres rapides transmis par le back ·
-[206-F-10](https://github.com/orgs/DiaghoProject/projects/5/views/1?pane=issue&itemId=20780023)
-\- \[x\] Ne servir que les filtres applicables à l'analyse chargée ·
-[Détails](#detection-des-annotations) ·
-[206-B-12](https://github.com/orgs/DiaghoProject/projects/5/views/1?pane=issue&itemId=30106689)
-\- \[x\] Permettre à l'utilisateur de modifier la valeur proposée par défaut ·
-[Détails](#personnalisation-des-filtres-proposes) \- \[ \] Gestion filtres
-inclusifs/exclusifs · [Détails](#comportements-de-filtres) \- \[ \]
-[La suite](#la-suite)
+!!! success "Feuille de route"
+	- [x] Dictionnaire de filtres prédéfinis à servir au front
+	· [Détails](#liste-de-filtres-a-implementer)
+	· [206-B-09](https://github.com/orgs/DiaghoProject/projects/5/views/1?pane=issue&itemId=25846767)
+    - [x] Affichage et application possible des filtres rapides transmis par le back
+	· [206-F-10](https://github.com/orgs/DiaghoProject/projects/5/views/1?pane=issue&itemId=20780023)
+	- [x] Ne servir que les filtres applicables à l'analyse chargée
+	· [Détails](#detection-des-annotations)
+	· [206-B-12](https://github.com/orgs/DiaghoProject/projects/5/views/1?pane=issue&itemId=30106689)
+	- [x] Permettre à l'utilisateur de modifier la valeur proposée par défaut
+	· [Détails](#personnalisation-des-filtres-proposes)
+	- [ ] Gestion filtres inclusifs/exclusifs · [Détails](#comportements-de-filtres)
+    - [ ] [La suite](#la-suite)
 
 [![Exemple de menu de filtres rapides](/images/quickfiltermenu.png){ align=right }](/images/quickfiltermenu.png)
 
@@ -60,30 +61,34 @@ Ils sont inclusifs car plus de critères sont sélectionnés au sein d'une caté
 ils remonteront de variations. Sauf spécification contraire c'est le comportement par
 défaut d'une sous-catégorie.
 
-!!! quote "" Ex : afficher les variations situées dans un exon OU au niveau d'un site
-d'épissage
+!!! quote ""
+	Ex : afficher les variations situées dans un exon OU au niveau d'un site
+	d'épissage
 
 Concrètement, côté front, cela reposerait sur un fonctionnement en "simple checkbox".
 Chaque filtre est appliqué en OR **au sein** d'une sous-catégorie (et la sous-catégorie
 appliquée en AND aux autres filtres).
 
-!!! quote "" Exemple : Dans IMPACT, choisir à la fois HIGH et MODERATE équivaut à :\
-`<autres_filtres> AND (IMPACT = "HIGH" OR IMPACT = "MODERATE")`
+!!! quote ""
+	Exemple : Dans IMPACT, choisir à la fois HIGH et MODERATE équivaut à :\
+	`<autres_filtres> AND (IMPACT = "HIGH" OR IMPACT = "MODERATE")`
 
 ### Filtres exclusifs
 
 Ils sont exclusifs car contradictoires entre eux.
 
-!!! quote "" Ex : aucune variation peut être de novo ET héritée
+!!! quote ""
+	Ex : aucune variation peut être de novo ET héritée
 
 Côté front, le fonctionnement serait celui de "radio buttons".
 
-!!! warning "Attention" Cette exclusivité peut s'appliquer entre différentes
-catégories.\
-Par exemple, il n'y aurait pas de sens de chercher une variation avec un `Effect > Type > Splicing`
-dans une `Location > Region > UTR`\
-Au vu de la complexité pour gérer tous les use cases, il restera de la responsabilité de
-l'utilisateur de concevoir des filtres cohérents.
+!!! warning "Attention" 
+	Cette exclusivité peut s'appliquer entre différentes
+	catégories.\
+	Par exemple, il n'y aurait pas de sens de chercher une variation avec un `Effect > Type > Splicing`
+	dans une `Location > Region > UTR`\
+	Au vu de la complexité pour gérer tous les use cases, il restera de la responsabilité de
+	l'utilisateur de concevoir des filtres cohérents.
 
 ### Exemple
 
@@ -119,7 +124,8 @@ Liste en pseudocode des filtres à implémenter.
 
 Critères exclusifs
 
-!!! warning "Attention" Ces filtres sont naïfs et seront amenés à être affinés.
+!!! warning "Attention"
+	Ces filtres sont naïfs et seront amenés à être affinés.
 
 - Allelic balance
 
@@ -157,8 +163,9 @@ else
 
 Critères exclusifs
 
-!!! warning "Attention" Possible seulement si index avec au moins un parent. Ces filtres
-sont naïfs et seront amenés à être affinés.
+!!! warning "Attention"
+	Possible seulement si index avec au moins un parent. Ces filtres
+	sont naïfs et seront amenés à être affinés.
 
 - All
 - De novo (strict)

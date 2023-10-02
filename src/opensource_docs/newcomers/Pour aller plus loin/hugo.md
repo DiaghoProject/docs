@@ -1,6 +1,7 @@
 # GCS HUGO
 
-!!! warning "Rédaction en cours" Plus de détails à venir
+!!! warning "Rédaction en cours"
+    Plus de détails à venir
 
 Le GCS HUGO est la collaboration des différents CHU du Grand Ouest qui sponsorise le
 projet Diagho. L'outil se veut être un levier stratégique pour eux et ils sont donc des

@@ -3,7 +3,7 @@
 _Conception de l'interface utilisateur._
 
 !!! abstract "Résumé"
-Il s'agit de l'ensemble des informations disponibles sur __toutes__ les pages de l'application.
+  Il s'agit de l'ensemble des informations disponibles sur __toutes__ les pages de l'application.
 
 ## Entête
 

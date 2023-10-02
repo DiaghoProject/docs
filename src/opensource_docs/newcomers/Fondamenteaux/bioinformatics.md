@@ -27,12 +27,7 @@ Pour chaque read, le FASTQ contient 4 lignes de texte :
 - qualité Phred en ASCII (chaque caractère équivaut à un nombre, lui-même estimant la
   créance dans la base séquencée calculée par le séquenceur)
 
-<a href="/ressources/newcomers/images/fastq.png">
-    <figure>
-        <img src="/ressources/newcomers/images/fastq.png">
-        <figcaption>Exemple de fichier FASTQ</figcaption>
-    </figure>
-</a>
+![FastQ](../images/fastq.png)
 
 ## Alignement ou _mapping_
 
@@ -46,11 +41,12 @@ se servant de l'illustration sur la boîte.
 
 [![Alignement](./images/mapping.jpg)](./images/mapping.jpg)
 
-!!! tip "Profondeur ou depth (DP)" Le nombre de reads couvrant une base s'appelle sa
-profondeur et est notée `[numéro]X`. Sur l'image ci-dessus, la première A à gauche
-aurait une DP de 5X, et la G qui la suit une DP de 6X.\
-C'est un marqueur de qualité quant à l'alignement d'une position. On estime qu'une profondeur
-inférieure à 20X est peu fiable.
+!!! tip "Profondeur ou depth (DP)"
+    Le nombre de reads couvrant une base s'appelle sa
+    profondeur et est notée `[numéro]X`. Sur l'image ci-dessus, la première A à gauche
+    aurait une DP de 5X, et la G qui la suit une DP de 6X.\
+    C'est un marqueur de qualité quant à l'alignement d'une position. On estime qu'une profondeur
+    inférieure à 20X est peu fiable.
 
 Le fichier produit est un **SAM**\[^2\] (fichier texte d'environ 30Go pour un exome),
 mais dans les faits, ils sont systématiquement compressés au moins en **BAM** (= SAM
@@ -58,12 +54,7 @@ zippé binaire d'environ 8Go), voire en **CRAM**\[^3\] (~2× mieux compressé qu
 mais moins bien supportés par les outils bioinfo et nécessitant de garder le génome de
 référence utilisé).
 
-<a href="/ressources/newcomers/images/sam.jpg">
-    <figure>
-        <img src="/ressources/newcomers/images/sam.jpg">
-        <figcaption>Exemple de fichier SAM</figcaption>
-    </figure>
-</a>
+![SAM](../images/sam.jpg)
 
 ## Appel de variants ou _variant calling_ {#variant_calling}
 
@@ -71,23 +62,13 @@ Cette étape consiste à retenir les différences, nommées **variations** (ou v
 observées entre les reads et le génome de référence. Loin d'être une étape anodine, d'un
 algoritme à l'autre, les résultats peuvent être très variables.
 
-<a href="/ressources/newcomers/images/callingdiff.jpg">
-    <figure>
-        <img src="/ressources/newcomers/images/callingdiff.jpg" style="max-width: 400px">
-        <figcaption>Inconstance du nombre de variations retenues selon le caller utilisé</figcaption>
-    </figure>
-</a>
+![Callingdiff](../images/callingdiff.jpg)
 
 Les callers produisent un fichier **VCF**\[^4\] (Variant Call Format) qui servira de
 fichier d'entrée à Diagho.\
 C'est un fichier texte dont chaque ligne, outre le header, correspond à une variation retenue.
 
-<a href="/ressources/newcomers/images/vcf.jpg">
-    <figure>
-        <img src="/ressources/newcomers/images/vcf.jpg">
-        <figcaption>Exemple de fichier VCF</figcaption>
-    </figure>
-</a>
+![VCF](../images/vcf.jpg)
 
 Les champs indispensables sont le CHROM, la POS (position où se situe la variation), la
 REF (base sur le génome de référence) et l'ALT (la base discordante observée sur des
@@ -123,18 +104,19 @@ Dans le cadre de Diagho, cette étape d'annotation est internalisée via le reco
 Ces annotations permettront par la suite d'appliquer des filtres sur la liste de
 variations rapportées dans le VCF.
 
-!!! example "Exemple" Afficher les variations :\
-connues comme étant pathogènes\
-**OU** présentes dans le panel de gènes "XYZ"\
-**OU** (présentes chez moins de 0.1% de la population **ET** avec un score de prédiction
-délétère)
+!!! example "Exemple" 
+    Afficher les variations :
+    connues comme étant pathogènes
+    **OU** présentes dans le panel de gènes "XYZ"
+    **OU** (présentes chez moins de 0.1% de la population **ET** avec un score de prédiction
+    délétère)
 
-\[^1\]: cf [le détail du séquençage _short reads_](./sequencing.md) pour plus de détails
-\[^2\]:
+[^1]: cf [le détail du séquençage _short reads_](./sequencing.md) pour plus de détails
+[^2]:
 [Les spécifications du format SAM :octicons-link-external-16:](https://samtools.github.io/hts-specs/SAMv1.pdf)
-\[^3\]:
+[^3]:
 [Les spécifications du format CRAM :octicons-link-external-16:](https://samtools.github.io/hts-specs/CRAMv3.pdf)
-\[^4\]:
+[^4]:
 [Les spécifications du format VCF :octicons-link-external-16:](https://samtools.github.io/hts-specs/VCFv4.4.pdf)
-\[^5\]:
+[^5]:
 [Les spécifications du format BED :octicons-link-external-16:](https://samtools.github.io/hts-specs/BEDv1.pdf)

@@ -109,12 +109,11 @@ même à passer par le formulaire de filtre complexe.
   filtres complexes enregistrés et de tags à appliquer pour chaque filtre dans un
   attribut `prefiltering`.
 
-  !!! exemple
-
-  1. Filtre **XLR** de user1 → appliquer tag **XLR**
-  2. Filtre **Clinvar patho** de user2 → appliquer tag **ACMG4/5**
-  3. Filtre **De novo** de user1 → appliquer tag **de novo**
-  4. Filtre **Var de novo** de user3 → appliquer tag **de novo**
+!!!exemple
+    1. Filtre **XLR** de user1 → appliquer tag **XLR**
+    2. Filtre **Clinvar patho** de user2 → appliquer tag **ACMG4/5**
+    3. Filtre **De novo** de user1 → appliquer tag **de novo**
+    4. Filtre **Var de novo** de user3 → appliquer tag **de novo**
 
 - Variations correctement tagguées lorsque l'interprétation a fini d'être calculée
 

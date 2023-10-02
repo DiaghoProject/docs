@@ -1,7 +1,7 @@
 # Vue détaillée d'un individu
 
 !!! warning "Attention"
-Maquette non définitive
+    Maquette non définitive
 
 [![Détails individu](/images/mockup/details-person.jpg){ loading=lazy }](/images/mockup/details-person.jpg)
 

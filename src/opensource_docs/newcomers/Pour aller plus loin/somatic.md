@@ -1,6 +1,7 @@
 # Génétique somatique
 
-!!! warning "Rédaction en cours" Plus de détails à venir
+!!! warning "Rédaction en cours"
+    Plus de détails à venir
 
 Par opposition à la génétique constitutionnelle qui concerne les maladies rares, la
 génétique somatique concerne les tumeurs cancéreuses et aide à concevoir une médecine

@@ -29,7 +29,7 @@ La détection des variations *de novo* est assurée par un outil tiers, [DeNovoG
 ### de novo
 
 !!! warning "Attention"
-Ce découpage est une version naïve et ne saurait être suffisant pour qualifier une variation de *de novo*, les explications de ces GT pouvant être en réalité assez divers.
+    Ce découpage est une version naïve et ne saurait être suffisant pour qualifier une variation de *de novo*, les explications de ces GT pouvant être en réalité assez divers.
 
 Pour les autosomes :
 
@@ -49,11 +49,11 @@ Pour l'X si l'enfant est une fille :
 - Fille = 1/1, Mère = 0/0 + Père = 0
 
 !!! note
-Un résultat type "Enfant = 1/1, Mère = 0/0 + Père = 0/0" peut être dû à une erreur de séquençage, mais aussi à une variation de novo associée à une perte d'hétérozygotie.\
-Dénomination à appliquer pour ce genre de cas à définir.
+    Un résultat type "Enfant = 1/1, Mère = 0/0 + Père = 0/0" peut être dû à une erreur de séquençage, mais aussi à une variation de novo associée à une perte d'hétérozygotie.\
+    Dénomination à appliquer pour ce genre de cas à définir.
 
 !!! warning "Attention"
-Un génotype parental manquant peut dissimuler une mutation de novo (ex : Enfant = 1/0, mère = 0/0, père = ./.). Ces variations sont généralement gardées, au moins sous un dénomination type "de novo potentiel".
+    Un génotype parental manquant peut dissimuler une mutation de novo (ex : Enfant = 1/0, mère = 0/0, père = ./.). Ces variations sont généralement gardées, au moins sous un dénomination type "de novo potentiel".
 
 ### hétérozygote composite
 
@@ -70,8 +70,8 @@ Si pénétrance complète et sans prendre en compte d'éventuelles mutations de 
 ![Règles hétérozygotes composites](/images/het_comp_rules.jpg)
 
 !!! note
-La règle 3 exclut les mutations de novo de ce filtre. Même s'il  est théoriquement possible qu'un enfant soit hétérozygote composite à cause d'une mutation de novo, c'est une hypothèse considérée suffisamment rare pour ne pas être envisagée (particulièrement si plusieurs individus sont malades).
-D'expérience, Christele n'a jamais eu affaire à ce genre de cas.
+    La règle 3 exclut les mutations de novo de ce filtre. Même s'il  est théoriquement possible qu'un enfant soit hétérozygote composite à cause d'une mutation de novo, c'est une hypothèse considérée suffisamment rare pour ne pas être envisagée (particulièrement si plusieurs individus sont malades).
+    D'expérience, Christele n'a jamais eu affaire à ce genre de cas.
 
 [Publication dédiée (Kamphans et al.)](https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0070151&type=printable)
 

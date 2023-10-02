@@ -1,7 +1,7 @@
 # Figurant sur toutes les pages authentifiées
 
 !!! warning "Attention"
-Maquette non définitive
+  Maquette non définitive
 
 [![Composants globaux](/images/mockup/all-pages.jpg)](/images/mockup/all-pages.jpg)
 

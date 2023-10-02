@@ -1,8 +1,9 @@
 # Pathologies
 
-!!! info Les informations minimales nécessaires à décrire la pathologie d'un patient ont
-été définies lors des groupes de travail « Base de connaissance HUGO » avec les experts
-du domaine.
+!!! info 
+    Les informations minimales nécessaires à décrire la pathologie d'un patient ont
+    été définies lors des groupes de travail « Base de connaissance HUGO » avec les experts
+    du domaine.
 
 ## Cohortes de la base de données interrégionale HUGO
 

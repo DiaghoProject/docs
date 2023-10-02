@@ -1,7 +1,7 @@
 # Liste des analyses
 
 !!! warning "Attention"
-Maquette non définitive
+    Maquette non définitive
 
 [![Liste d'analyses](/images/mockup/list-analyses.png){ loading=lazy }](/images/mockup/list-analyses.png)
 

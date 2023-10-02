@@ -1,8 +1,8 @@
 # Variations génétiques
 
 !!! note
-  À retenir avant tout : les substitutions, délétions, insertions ainsi que leurs
-  conséquences.
+    À retenir avant tout : les substitutions, délétions, insertions ainsi que leurs
+    conséquences.
 
 ## Types de variations
 
@@ -63,34 +63,37 @@ protéine.\[^1\]
 - **Variation synonyme :** malgré la variation, l'acide aminé produit reste le même et
   l'impact sur le patient est virtuellement inexistant.
 
-!!! example "Exemple" Le code génétique nous dit que :
+!!! example "Exemple"
+    Le code génétique nous dit que :
 
-```text
-- TGT code pour une cystéine
-- TGC code pour une cystéine
-- TGA est un codon stop
-- TGG code pour un tryptophane
+      - TGT code pour une cystéine
+      - TGC code pour une cystéine
+      - TGA est un codon stop
+      - TGG code pour un tryptophane
 
-Ainsi si la référence a pour séquence **TGT** :
+    Ainsi si la référence a pour séquence **TGT** :
 
-- le SNP TG**C** est une variation synonyme
-- le SNP TG**A** est une variation non-sens
-- le SNP TG**G** est une variation faux-sens
-```
+      - le SNP TG**C** est une variation synonyme
+      - le SNP TG**A** est une variation non-sens
+      - le SNP TG**G** est une variation faux-sens
 
 - **Frameshift** (ou décalage du cadre de lecture) : l'insertion ou la délétion d'un non
   multiple de trois entraîne une modification de tout le reste de la séquence et menant
   en général à un codon stop prématuré, ayant des conséquences de manière générale plus
   importantes que les autres types de variations.
 
-!!! example "Exemple" Réference : -ATC-CGC-TGC-ACC-TGC-ACT-\
-Exemple 1 : -ATC-**GCT-GCA-CCT-GCA-CTN-** // Frameshift due à la délétion d'une base\
-Exemple 2 : -ATC-**TCC**-CGC-TGC-ACC-TGC-ACT- // Insertion de 3 bases = ajout d'un
-simple acide aminé\
-Exemple 3 : -ATC-**GCT-GCC**-TGC-ACT- // Délétion d'une base puis deux réalignant le cadre
-de lecture
+!!! example "Exemple"
+    Réference : -ATC-CGC-TGC-ACC-TGC-ACT-
 
-\[^1\]: cf [le code génétique](/ressources/newcomers/dna/#le-code-genetique)
+    Exemple 1 : -ATC-**GCT-GCA-CCT-GCA-CTN-** // Frameshift due à la délétion d'une base
+
+    Exemple 2 : -ATC-**TCC**-CGC-TGC-ACC-TGC-ACT- // Insertion de 3 bases = ajout d'un
+    simple acide aminé
+
+    Exemple 3 : -ATC-**GCT-GCC**-TGC-ACT- // Délétion d'une base puis deux réalignant le cadre
+    de lecture
+
+[^1]: cf [le code génétique](/ressources/newcomers/dna/#le-code-genetique)
 
 ### Cas particuliers des MNV
 
@@ -98,21 +101,20 @@ Lorsqu'il existe sur un même chromosome plusieurs variations proches, on parle 
 (Multi Nucleotide Variant). Cela peut cacher des conséquences plus graves que si l'on
 observer chacune de ces variations individuellement.
 
-!!! example "Exemple" \- CUG code pour une Leu\
-variation en position 1 : C > U\
-UUG code toujours pour une Leu\
-⇒ on peut se dire, c'est une variation synonyme, impact virtuellement inexistant
+!!! example "Exemple"
+    - CUG code pour une Leu\
+    variation en position 1 : C > U\
+    UUG code toujours pour une Leu\
+    ⇒ on peut se dire, c'est une variation synonyme, impact virtuellement inexistant
 
-```text
-- CUG code pour une Leu
-variation en position 3 : G > U
-CUU code toujours pour une Leu
-⇒ même conclusion
+    - CUG code pour une Leu
+    variation en position 3 : G > U
+    CUU code toujours pour une Leu
+    ⇒ même conclusion
 
-- Double variations en position 1 ET 3
-UUU code pour une Phe
-⇒ l'acide aminé est modifié malgré ce qui semblait être deux variations synonymes
-```
+    - Double variations en position 1 ET 3
+    UUU code pour une Phe
+    ⇒ l'acide aminé est modifié malgré ce qui semblait être deux variations synonymes
 
 Faire savoir de manière pertinente à l'utilisateur lorsque ce type de situation se
 produit peut faire la différence entre un diagnostic et une errance supplémentaire de
@@ -121,7 +123,7 @@ plusieurs années.
 ## Autres types de variations
 
 !!! note
-  Hors scope actuellement
+    Hors scope actuellement
 
 ### CNV
 
@@ -129,7 +131,7 @@ Pour copy number variation, cela correspond à des portions d'ADN généralement
 longues, répétées et dont le nombre de répétitions est augmenté (duplications) ou
 diminué (délétions).
 
-[![CNV](./images/cnv.jpg)](./images/cnv.jpg)
+![[![CNV](./images/cnv.jpg)](./images/cnv.jpg)](../images/cnv.jpg)
 
 ### STR variation
 

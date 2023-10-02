@@ -18,11 +18,11 @@ Lors de l'enregistrement d'une stratégie de filtrage :
 - Choix d'ajouter ou non la stratégie au catalogue de filtres
 
 !!! question
-Possibilité d'avoir un sample "test" en fond pour que l'utilisateur puisse se rendre compte de la stringence ou du laxisme de ses paramétrages ?
+    Possibilité d'avoir un sample "test" en fond pour que l'utilisateur puisse se rendre compte de la stringence ou du laxisme de ses paramétrages ?
 
 ### Catalogue de filtres
 
 Permet de mettre en commun les stratégies utilisées par les différents centres et selon les différents objectifs recherchés.
 
 !!! question
-Système de tags "DI", "somatique", "panel",... ?
+    Système de tags "DI", "somatique", "panel",... ?

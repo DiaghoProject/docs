@@ -1,6 +1,7 @@
 # RNA-Seq
 
-!!! warning "Rédaction en cours" Plus de détails à venir
+!!! warning "Rédaction en cours"
+    Plus de détails à venir
 
 Contrairement au séquençage d'ADN traité dans l'analyse d'exomes et de génomes, le
 RNA-Seq concerne l'analyse des transcrits ou ARNm fabriqués dans les cellules du

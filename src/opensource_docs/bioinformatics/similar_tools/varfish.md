@@ -3,11 +3,12 @@
 Un outil open source d'analyses de variations en Python et VueJS développé par le Health
 Institute of Berlin sous licence MIT.
 
-!!! info Une version test est accessible librement
-[ici](https://varfish-demo.bihealth.org/) avec l'identifiant `demouser` et le mot de
-passe `varfishdemo`.<br><br> Il est également possible de tester la plateforme avec des
-données personnelles [ici](https://varfish-kiosk.bihealth.org/). Les données ne sont pas
-sécurisées et seront supprimées après deux semaines.
+!!! info 
+    Une version test est accessible librement
+    [ici](https://varfish-demo.bihealth.org/) avec l'identifiant `demouser` et le mot de
+    passe `varfishdemo`.<br><br> Il est également possible de tester la plateforme avec des
+    données personnelles [ici](https://varfish-kiosk.bihealth.org/). Les données ne sont pas
+    sécurisées et seront supprimées après deux semaines.
 
 ## Présentation générales
 

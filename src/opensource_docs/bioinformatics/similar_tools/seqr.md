@@ -3,9 +3,10 @@
 Un outil open source d'analyse de variations en Python, focalisé sur la collaboration,
 et développé par le Broad Institute sous licence AGPL3.0.
 
-!!! info Il est théoriquement possible d'installer seqr en local
-[ici](https://github.com/broadinstitute/seqr) mais bon courage si vous suivez cette
-voie.
+!!! info 
+    Il est théoriquement possible d'installer seqr en local
+    [ici](https://github.com/broadinstitute/seqr) mais bon courage si vous suivez cette
+    voie.
 
 ## Présentation générale
 

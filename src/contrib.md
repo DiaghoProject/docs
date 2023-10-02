@@ -1,10 +1,10 @@
 # Contribuer à cette documentation
 
 !!! info
-Cette documentation statique est générée automatiquement à l'aide de l'outil [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), à partir de sources rédigées en [Markdown](#ecrire-en-markdown) dans le dossier `src` du dépôt _GitHub_ suivant : [DiaghoProject/docs-private: Private documentation generator for the Diagho project.](https://github.com/DiaghoProject/docs-private)
+    Cette documentation statique est générée automatiquement à l'aide de l'outil [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), à partir de sources rédigées en [Markdown](#ecrire-en-markdown) dans le dossier `src` du dépôt _GitHub_ suivant : [DiaghoProject/docs-private: Private documentation generator for the Diagho project.](https://github.com/DiaghoProject/docs-private)
 
 !!! tip
-Il est possible de modifier directement les sources dans l'interface web de _GitHub_ grâce au bouton d'édition présent sur chaque page de ce site.
+    Il est possible de modifier directement les sources dans l'interface web de _GitHub_ grâce au bouton d'édition présent sur chaque page de ce site.
 
 ```text
 Un _pipeline GitHub Actions_ est utilisé afin de compiler la documentation à chaque _commit_ dans _main_ afin de la rendre disponible sur [https://private.diagho.com/](https://private.diagho.com/).

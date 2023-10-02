@@ -1,6 +1,7 @@
 # Contexte national
 
-!!! warning "Rédaction en cours" Plus de détails à venir
+!!! warning "Rédaction en cours"
+    Plus de détails à venir
 
 Diagho évolue en parallèle du Plan France Médecine Génomique 2025 (PFMG2025) dont les
 principaux objectifs sont la constitution de plateformes nationales de séquençage et la

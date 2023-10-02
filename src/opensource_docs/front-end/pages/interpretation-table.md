@@ -5,8 +5,9 @@
 Un tableau dynamique avait été créé pour faire aux utilisateurs une présentation
 dynamique des fonctionnalités de base prévues pour le tableau.
 
-!!! attention Cette version fonctionne sans back. Certaines actions montrées n'ont pas
-lieu d'être manuelles dans le cadre de l'application.
+!!! attention 
+  Cette version fonctionne sans back. Certaines actions montrées n'ont pas
+  lieu d'être manuelles dans le cadre de l'application.
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/c27265?loop=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 

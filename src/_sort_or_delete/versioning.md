@@ -14,10 +14,10 @@ En bref, étant donné un numéro de version `MAJEUR.MINEUR.CORRECTIF`, il faut 
 - le numéro de version de `CORRECTIF` quand il y a des corrections d’anomalies rétrocompatibles.
 
 !!! note
-L’identifiant de version majeure zéro `0.1.0` est destiné au développement initial. Tout ou partie peut être modifié à tout moment.
+    L’identifiant de version majeure zéro `0.1.0` est destiné au développement initial. Tout ou partie peut être modifié à tout moment.
 
 !!! note
-Lorsque l’API publique est considérée stable, l'identifiant de version majeure est incrémenté à `1.0.0`.
+    Lorsque l’API publique est considérée stable, l'identifiant de version majeure est incrémenté à `1.0.0`.
 
 ## Le fichier `CHANGELOG.md`
 

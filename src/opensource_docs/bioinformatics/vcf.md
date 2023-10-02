@@ -1,10 +1,12 @@
 # Le format VCF
 
-!!! tip "En résumé" \- Un VCF est une liste de variations \- Ses colonnes de base sont
-CHROM POS ID REF ALT INFO \- Une information manquante est généralement matérialisée par
-un `.` \- FILTER précise si la variation passe les critères de qualité fixés par le
-bioinformaticien lors du calling \- INFO est la colonne contenant les annotations pour
-une variation \- FORMAT précise l'ordre des informations des échantillons
+!!! tip "En résumé"
+    - Un VCF est une liste de variations
+    - Ses colonnes de base sont CHROM POS ID REF ALT INFO
+    - Une information manquante est généralement matérialisée par un `.`
+    - FILTER précise si la variation passe les critères de qualité fixés par le bioinformaticien lors du calling
+    - INFO est la colonne contenant les annotations pour une variation
+    - FORMAT précise l'ordre des informations des échantillons
 
 Le format VCF pour Variant Call Format est un fichier texte tabulé listant les
 variations d'une séquence comparé à une référence.\
@@ -32,10 +34,11 @@ et le contenu des INFO.\
 On retrouve également souvent la liste des contigs du génome de référence parcourus lors
 du [variant calling](/ressources/newcomers/bioinformatics#variant_calling).
 
-!!! warning "Attention" Seules deux lignes sont obligatoires dans le header :
-`##fileformat [...]` et `#CHROM POS [...]`.\
-Bien que contre-productif, rien n'empêche un VCF de ne pas avoir de header autre que ces
-deux lignes.
+!!! warning "Attention"
+  Seules deux lignes sont obligatoires dans le header :
+  `##fileformat [...]` et `#CHROM POS [...]`.\
+  Bien que contre-productif, rien n'empêche un VCF de ne pas avoir de header autre que ces
+  deux lignes.
 
 ### Les champs INFO
 
