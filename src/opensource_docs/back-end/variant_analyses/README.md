@@ -31,19 +31,19 @@ The `load_samples()` method of the Analysis model is responsible for loading the
 It executes the following steps:
 
 1. Sets the loading state to 'started'
-1. Deletes any existing AnalysisRecord objects
-1. Gets the list of regions with samples and creates subtasks for each region to load its samples
-1. Once all subtasks are finished, another subtask is executed to handle the loaded samples
+2. Deletes any existing AnalysisRecord objects
+3. Gets the list of regions with samples and creates subtasks for each region to load its samples
+4. Once all subtasks are finished, another subtask is executed to handle the loaded samples
 
 The `handle_samples_loaded()` method of the Analysis model is responsible for handling the loaded samples.
 It executes the following steps:
 
 1. Creates analysis columns based on the sample records information and column configuration.
-1. Deletes old analysis steps associated with this analysis.
-1. Extracts the unique regions from the loaded samples.
-1. Builds metadata on each AnalysisRecord (by region), based on the analysis columns.
-1. Creates a StepRecord for each AnalysisRecord (by region)
-1. Builds the metadata on the StepRecord objects, based on the VCF columns.
+2. Deletes old analysis steps associated with this analysis.
+3. Extracts the unique regions from the loaded samples.
+4. Builds metadata on each AnalysisRecord (by region), based on the analysis columns.
+5. Creates a StepRecord for each AnalysisRecord (by region)
+6. Builds the metadata on the StepRecord objects, based on the VCF columns.
 
 ## Analysis Columns
 

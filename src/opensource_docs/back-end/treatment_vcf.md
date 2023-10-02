@@ -149,14 +149,14 @@ Checks the following properties of a VCF file:
 
 Uniq is not being used. The reason being that vt gives very little feedback about the deleted information. If there are duplicates present, we will identify and log them during the loading process
 
-# TODO
+## TODO
 
-## load
+### load
 
-### load samples
+#### load samples
 
-### load variants
+#### load variants
 
-### write logs
+#### write logs
 
-### write columns
+#### write columns

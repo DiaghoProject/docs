@@ -7,10 +7,10 @@
 La classification ACMG est une méthodologie\[^1\] proposée par l'American College of Medical Genetics afin d'évaluer la pathogénicité d'une variation aussi objectivement que possible. Cela permet de catégoriser les variations en 5 classes (bien que certains laboratoires essaient d'avoir une plus grande finesse pour leurs évaluations comme avec des classes "3+") :
 
 1. Benign
-1. Likely benign
-1. Uncertain significance
-1. Likely pathogenic
-1. Pathogenic
+2. Likely benign
+3. Uncertain significance
+4. Likely pathogenic
+5. Pathogenic
 
 ### Les critères
 
@@ -22,10 +22,10 @@ La classe d'une variation est décidée à partir d'une liste de critères préc
 Ces différents critères ont des pondérations différentes :
 
 1. **BA :** Stand-alone
-1. **PVS :** Very strong
-1. **PS/BS :** Strong
-1. **PM/BM :** Moderate
-1. **PP/BM :** Supporting
+2. **PVS :** Very strong
+3. **PS/BS :** Strong
+4. **PM/BM :** Moderate
+5. **PP/BM :** Supporting
 
 De même chacun de ces critères est numéroté pour renvoyer à une explication précise, ex :
 

@@ -62,10 +62,10 @@ L'hétérozygotie composite consiste en la présence de deux variations délét�
 Si pénétrance complète et sans prendre en compte d'éventuelles mutations de novo :
 
 1. Variation présente uniquement à l'état hétérozygote chez tous les individus touchés
-1. Pas de variation à l'état homozygote chez les individus non touchés
-1. Une variation hétérozygote chez l'enfant doit être présente chez un seul parent
-1. Un gène doit avoir au moins deux variations à l'état hétérozygote chez tous les individus touchés
-1. Il doit y avoir au moins une variation transmise par le père et une par la mère
+2. Pas de variation à l'état homozygote chez les individus non touchés
+3. Une variation hétérozygote chez l'enfant doit être présente chez un seul parent
+4. Un gène doit avoir au moins deux variations à l'état hétérozygote chez tous les individus touchés
+5. Il doit y avoir au moins une variation transmise par le père et une par la mère
 
 ![Règles hétérozygotes composites](/images/het_comp_rules.jpg)
 

@@ -338,7 +338,6 @@ hide:
 
             [![Features](./images/vf-features.jpg){ loading=lazy }](./images/vf-features.jpg)
 
-
 ??? info "Vues détaillées des gènes" ## Vues détaillées de gènes
 
     === "Alissa"

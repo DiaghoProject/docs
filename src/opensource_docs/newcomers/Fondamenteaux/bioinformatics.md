@@ -5,7 +5,7 @@
 
 Les pipelines bioinformatiques consistent dans notre contexte au traitement de la donnée
 brute issue produite par le séquenceur en des fichiers utilisables pour l'interprétation
-entre autres.\
+entre autres.
 Ils varient d'un laboratoire à l'autre, voire d'une indication à l'autre, utilisent différents
 outils, différentes configurations, mais dans le cadre du séquençage _short reads_ qui nous
 concerne ici, les grandes étapes restent similaires.
@@ -14,7 +14,7 @@ concerne ici, les grandes étapes restent similaires.
 
 ## Séquençage
 
-Sans rentrer dans les détails techniques\[^1\], dans le cadre de séquençages dit _short
+Sans rentrer dans les détails techniques[^1], dans le cadre de séquençages dit _short
 reads_, les ADN des patients sont morcelés en une multitude de fragments de plus ou
 moins une centaine de bases puis transcrits dans un fichier **FASTQ**. Chacun de ces
 fragment est appelé un **read**.
@@ -44,13 +44,13 @@ se servant de l'illustration sur la boîte.
 !!! tip "Profondeur ou depth (DP)"
     Le nombre de reads couvrant une base s'appelle sa
     profondeur et est notée `[numéro]X`. Sur l'image ci-dessus, la première A à gauche
-    aurait une DP de 5X, et la G qui la suit une DP de 6X.\
+    aurait une DP de 5X, et la G qui la suit une DP de 6X.
     C'est un marqueur de qualité quant à l'alignement d'une position. On estime qu'une profondeur
     inférieure à 20X est peu fiable.
 
-Le fichier produit est un **SAM**\[^2\] (fichier texte d'environ 30Go pour un exome),
+Le fichier produit est un **SAM**[^2] (fichier texte d'environ 30Go pour un exome),
 mais dans les faits, ils sont systématiquement compressés au moins en **BAM** (= SAM
-zippé binaire d'environ 8Go), voire en **CRAM**\[^3\] (~2× mieux compressé que les BAM
+zippé binaire d'environ 8Go), voire en **CRAM**[^3] (~2× mieux compressé que les BAM
 mais moins bien supportés par les outils bioinfo et nécessitant de garder le génome de
 référence utilisé).
 
@@ -64,8 +64,8 @@ algoritme à l'autre, les résultats peuvent être très variables.
 
 ![Callingdiff](../images/callingdiff.jpg)
 
-Les callers produisent un fichier **VCF**\[^4\] (Variant Call Format) qui servira de
-fichier d'entrée à Diagho.\
+Les callers produisent un fichier **VCF**[^4] (Variant Call Format) qui servira de
+fichier d'entrée à Diagho.
 C'est un fichier texte dont chaque ligne, outre le header, correspond à une variation retenue.
 
 ![VCF](../images/vcf.jpg)
@@ -89,7 +89,7 @@ reads).
 
 L'étape d'annotation consiste en l'enrichissement du fichier VCF en annotations
 supplémentaires, issues de bases de données variées, qui seront insérées dans la colonne
-INFO.\
+INFO.
 Ces annotations peuvent être de natures très variées comme le gène où se situe la variation
 et son transcrit canonique, sa fréquence d'occurrence dans la population, si elle est rapportée
 comme étant délétère, sa conservation entre espèces, sa pathogénicité estimée par des algoritmes
@@ -98,7 +98,7 @@ in silico…
 Il existe trois annotateurs largement utilisés pour cette tâche :
 [VEP](https://www.ensembl.org/info/docs/tools/vep/index.html),
 [Annovar](https://annovar.openbioinformatics.org/en/latest/) et plus rarement
-[SnpEff](https://pcingola.github.io/SnpEff/).\
+[SnpEff](https://pcingola.github.io/SnpEff/).
 Dans le cadre de Diagho, cette étape d'annotation est internalisée via le recours aux factories.
 
 Ces annotations permettront par la suite d'appliquer des filtres sur la liste de
@@ -118,5 +118,3 @@ variations rapportées dans le VCF.
 [Les spécifications du format CRAM :octicons-link-external-16:](https://samtools.github.io/hts-specs/CRAMv3.pdf)
 [^4]:
 [Les spécifications du format VCF :octicons-link-external-16:](https://samtools.github.io/hts-specs/VCFv4.4.pdf)
-[^5]:
-[Les spécifications du format BED :octicons-link-external-16:](https://samtools.github.io/hts-specs/BEDv1.pdf)

@@ -17,59 +17,59 @@ Pour prendre en exemple la première ligne du VCF ci-dessus, en position 14370 d
 
 ## Les modèles
 
-#### Assembly
+### Assembly
 
 Il correspond à un génome de référence (GRCh38/hg38 qui tend à supplanter GRCh37/hg19).
 
-#### Assession
+### Assession
 
 Les accessions sont des "sous-versions" d'un génome de référence d'organismes comme NCBI (USA) ou Ensembl (UE). Ils sont extrêmement similaires entre eux mais peuvent différer sur certains scaffolds alternatifs.
 
-#### Region
+### Region
 
 Correspond aux chromosomes.
 
-#### Variant
+### Variant
 
 Position, Reference et Alternative sur une Region.
 
-#### Feature
+### Feature
 
 Séquence d'ADN définie par un chromosome, un début et une fin qui peut correspondre à un gène, un exon, un transcrit…
 
-#### Person
+### Person
 
 Un individu dans la base de données. Plusieurs samples peuvent être au nom d'un individu.
 
-#### Family
+### Family
 
 Une famille est un regroupement de *Persons* apparentés.
 
-#### Patient
+### Patient
 
 Un proxy vers une *Person* notée comme cas index (personne pour qui est prévu le diagnostic initial).
 
-#### Sequencing
+### Sequencing
 
 Un VCF parsé dont est extrait les *variants* et *samples*.
 
-#### Sample
+### Sample
 
 Lien entre le sample d'un *sequencing* et une *person* (chaque colonne bleue du VCF ci-dessus = un sample).
 
-#### SampleRecord
+### SampleRecord
 
 Une ligne d'un *sample* ainsi que le contenu de la colonne INFO.
 
-#### Analyses
+### Analyses
 
 Le lancement de l'analyse d'un ou plusieurs *samples* afin de les annoter et pré-filtrer et d'en permettre l'interprétation ultérieure par un utilisateur.
 
-#### AnalysisRecord
+### AnalysisRecord
 
 Une jointure entre un *variant* et les différents *SampleRecords* des *samples* retenus pour l'*analysis*
 
-#### Factories
+### Factories
 
 Modules d'annotations pour enrichir les informations d'un *AnalysisRecord*
 

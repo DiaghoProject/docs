@@ -145,7 +145,6 @@ limités mais partageables.
         Peut être lié à des groupes de phénotypes :
         [![](./images/scout/hpo_groups.jpg){ loading=lazy }](./images/scout/hpo_groups.jpg)
 
-
 === "Tableau"
 
     === "Lancement"

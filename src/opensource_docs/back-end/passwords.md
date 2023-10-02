@@ -2,7 +2,7 @@
 
 Liste des bonnes pratiques générales vis à vis de la gestion des authentifiants.
 
-### Mot de passe
+## Mot de passe
 
 - Mot de passe d'au moins 12 caractères (après fusion des espaces), pouvant atteindre au moins 64 caractères mais ne dépassant pas 128 (risque de DoS)
 - Pas de troncation de mot de passe mais de multiples espaces successives sont remplacées en une espace unique (e.g. "alice bob" = "alice       bob" ≠ "alicebob")
@@ -19,14 +19,14 @@ Liste des bonnes pratiques générales vis à vis de la gestion des authentifian
 - Affichage temporaire du mot de passe ou du dernier caractère tapé possible
 - Ne pas avoir de comptes par défaut ("root", "admin", "sa"…)
 
-### Récupération de mots de passe
+## Récupération de mots de passe
 
 - Décider si le passage par un admin est obligatoire ou si un système automatisé via OTP est possible
 - Ne pas utiliser de système de secrets (nom du chien, ville de naissance…)
 - Ne pas envoyer un nouveau mot de passe en clair ; ne pas compromettre l'ancien
 - Appliquer les mêmes exigences pour un nouveau mot de passe qu'à la création du compte
 
-### Protection
+## Protection
 
 - Protections contre le bruteforce : soft lock à délais croissants (éventuellement, deux hash successifs identiques ne comptent pas comme des essais différents), vitesse humaine entre deux requêtes, IP ban, jamais plus de 100 échecs en une heure…
 - Ne pas préciser la cause d'un échec d'authentification ("Adresse email ou mot de passe erroné" au lieu de "utilisateur inconnu"/"mot de passe erroné")
@@ -35,7 +35,7 @@ Liste des bonnes pratiques générales vis à vis de la gestion des authentifian
 - Toute action liée à l'authentification doit être loguée (connexion réussie, échouée, depuis quelle machine, demande de changement de mot de passe…)
 - Avoir un système de révocation générale des mots de passe dans l'hypothèse d'une compromission suspectée ou avérée
 
-### Stockage
+## Stockage
 
 - Pas de stockage de mot de passe en clair : hashé et salé avec un algorithme reconnu et correctement configuré (argon2id > scrypt > bcrypt ; memory-hard et avec autant d'itérations que le permet le serveur ; les trois incluent une méthode de salage)\
 !!! info

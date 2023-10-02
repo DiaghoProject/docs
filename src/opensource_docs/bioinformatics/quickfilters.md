@@ -16,15 +16,15 @@ Ce filtre rapide serait ensuite appliqué en ET aux filtres pré-existants.
 
 !!! success "Feuille de route"
 	- [x] Dictionnaire de filtres prédéfinis à servir au front
-	· [Détails](#liste-de-filtres-a-implementer)
+	· [Détails](#liste-de-filtres-à-implémenter)
 	· [206-B-09](https://github.com/orgs/DiaghoProject/projects/5/views/1?pane=issue&itemId=25846767)
     - [x] Affichage et application possible des filtres rapides transmis par le back
 	· [206-F-10](https://github.com/orgs/DiaghoProject/projects/5/views/1?pane=issue&itemId=20780023)
 	- [x] Ne servir que les filtres applicables à l'analyse chargée
-	· [Détails](#detection-des-annotations)
+	· [Détails](#détection-des-annotations)
 	· [206-B-12](https://github.com/orgs/DiaghoProject/projects/5/views/1?pane=issue&itemId=30106689)
 	- [x] Permettre à l'utilisateur de modifier la valeur proposée par défaut
-	· [Détails](#personnalisation-des-filtres-proposes)
+	· [Détails](#personnalisation-des-filtres-proposés)
 	- [ ] Gestion filtres inclusifs/exclusifs · [Détails](#comportements-de-filtres)
     - [ ] [La suite](#la-suite)
 

@@ -52,12 +52,12 @@ chr1	2782	.	C	ATG // Deletion-insertion
 ## Conséquences
 
 Ces variations peuvent avoir différentes conséquences sur les codons servant à coder la
-protéine.\[^1\]
+protéine.[^1]
 
 - **Variation faux-sens :** appelée _missense_ en anglais, le codon obtenu code pour un
   autre acide aminé.
 
-- **Variation non-sens :** appelée "nonsense\*en anglais, le codon obtenu est un codon
+- **Variation non-sens :** appelée "nonsense *en anglais, le codon obtenu est un codon
   stop mettant fin à la transcription de l'ARN et produisant des transcrits tronqués.
 
 - **Variation synonyme :** malgré la variation, l'acide aminé produit reste le même et

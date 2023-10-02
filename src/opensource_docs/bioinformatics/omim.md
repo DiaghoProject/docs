@@ -24,7 +24,7 @@ Ces MIM numbers sont associés à un caractère spécial selon l'entité concern
 ??? abstract "Exemples"
     === "mim2gene"
         ```text
-            # MIM Number	MIM Entry Type (see FAQ 1.3 at https://omim.org/help/faq)	Entrez Gene ID (NCBI)	Approved Gene Symbol (HGNC)	Ensembl Gene ID (Ensembl)
+            # MIM Number	MIM Entry Type (see FAQ 1.3 at [Omim](https://omim.org/help/faq)	Entrez Gene ID (NCBI)	Approved Gene Symbol (HGNC)	Ensembl Gene ID (Ensembl)
             100050	predominantly phenotypes			
             100070	phenotype	100329167		
             100100	phenotype			
@@ -38,7 +38,8 @@ Ces MIM numbers sont associés à un caractère spécial selon l'entité concern
             100670	gene	219	ALDH1B1	ENSG00000137124
             100675	predominantly phenotypes			
             100678	gene	39	ACAT2	ENSG00000120437
-            100680	moved/removed	
+            100680	moved/removed
+
         ```
 
     === "genemap2"

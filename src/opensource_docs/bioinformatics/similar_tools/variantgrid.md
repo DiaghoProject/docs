@@ -19,7 +19,7 @@ Leur
 [poster](https://variantgrid.com/static/pdf/VariantGrid_Australian_Bioinformatics_Conference_poster.pdf)
 offre une présentation générale du projet et un aperçu du fonctionnement de l'outil.
 
-[![](./images/variantgrid/benchmark.jpg){ loading=lazy align=right width="400" }](./images/variantgrid/benchmark.jpg)
+[![VerGrid](./images/variantgrid/benchmark.jpg){ loading=lazy align=right width="400" }](./images/variantgrid/benchmark.jpg)
 
 Les VCF chargés sont intégralement annotés par VEP via une configuration globale et
 choisie par les admins. Il est possible via une ligne de commande d'ajouter de nouveaux
