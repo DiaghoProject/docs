@@ -30,8 +30,12 @@ build: ## Builds the documentation.
 quickstart: install serve ## Quicktart demo app.
 
 .PHONY: install-linter
-install-linter: 
+install-linter: ## install markdown-lint
 	npm install markdownlint-cli2 --save-dev
+
+.PHONY: install-linkcheck
+install-linkcheck:  ## install Link checker
+	npm install --save-dev markdown-link-check
 
 .PHONY: lint
 lint: ## Lint all .md files in the src directory
