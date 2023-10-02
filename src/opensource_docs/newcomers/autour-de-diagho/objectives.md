@@ -50,7 +50,7 @@ laboratoires - Traçabilité par le versionnement
 
 ## L'interprétation
 
-L'interprétation étant le cœur de l'application, [une page dédiée](./interpretation.md)
+L'interprétation étant le cœur de l'application, [une page dédiée](../fondamenteaux/interpretation.md)
 précise davantage son déroulement et quelques leviers d'action de Diagho sur le sujet.
 
 ## Concept généraux dans Diagho
@@ -67,6 +67,4 @@ précise davantage son déroulement et quelques leviers d'action de Diagho sur l
 | **Filtre**                    | Discrimination de variations sur la base d'une ou plusieurs annotations                                                                 |
 | **Interprétation**            | Exploration/manipulation par un humain du résultat d'une analyse, typiquement dans le but de trouver la variation causale d'une maladie |
 
-Un glossaire est disponible à [ce lien](/ressources/glossary)
-
-[^1]: cf les différents [types de variations](./variants.md)
+[^1]: cf les différents [types de variations](../fondamenteaux/variants.md)

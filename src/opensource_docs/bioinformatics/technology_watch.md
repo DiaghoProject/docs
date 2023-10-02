@@ -20,9 +20,9 @@
 
 ## Logiciels d'interprétation de variations
 
-- [Alissa Interpret —  Agilent](/ressources/similar_tools/alissa.md)
-- [VarFish —  Health Institute of Berlin](/ressources/similar_tools/varfish.md) (pour [tester](https://varfish-demo.bihealth.org/login/?next=/))
-- [seqr —  Broad Institute](/ressources/similar_tools/seqr.md)
+- [Alissa Interpret —  Agilent](./similar_tools/alissa.md)
+- [VarFish —  Health Institute of Berlin](./similar_tools/varfish.md) (pour [tester](https://varfish-demo.bihealth.org/login/?next=/))
+- [seqr —  Broad Institute](./similar_tools/seqr.md)
 - GLEAVES — SeqOIA
 - LEAVES —  SeqOIA
 - Varsome

@@ -1,7 +1,7 @@
 # Pipeline bioinformatique
 
 !!! note
-    Chapitre le plus important pour débuter : [le fichier VCF](#variant_calling)
+    Chapitre le plus important pour débuter : [le fichier VCF](../../bioinformatics/vcf.md)
 
 Les pipelines bioinformatiques consistent dans notre contexte au traitement de la donnée
 brute issue produite par le séquenceur en des fichiers utilisables pour l'interprétation
@@ -10,7 +10,7 @@ Ils varient d'un laboratoire à l'autre, voire d'une indication à l'autre, util
 outils, différentes configurations, mais dans le cadre du séquençage _short reads_ qui nous
 concerne ici, les grandes étapes restent similaires.
 
-![Diagramme pipeline](./images/pipeline.svg){ width=100% }
+![Diagramme pipeline](./../images/pipeline.svg){ width=100% }
 
 ## Séquençage
 
@@ -39,7 +39,7 @@ L'alignement consiste alors au fait de positionner chaque read du FASTQ sur ce g
 référence. C'est en quelque sorte comme chercher à positionner les pièces d'un puzzle en
 se servant de l'illustration sur la boîte.
 
-[![Alignement](./images/mapping.jpg)](./images/mapping.jpg)
+[![Alignement](./../images/mapping.jpg)](./../images/mapping.jpg)
 
 !!! tip "Profondeur ou depth (DP)"
     Le nombre de reads couvrant une base s'appelle sa
@@ -83,7 +83,7 @@ reads).
   une variation
 
 !!! note
-    Plus de détails dans [la page dédiée](/ressources/bioinformatics/vcf)
+    Plus de détails dans [la page dédiée](../../bioinformatics/vcf.md)
 
 ## Annotation et filtrage
 
@@ -111,7 +111,7 @@ variations rapportées dans le VCF.
     **OU** (présentes chez moins de 0.1% de la population **ET** avec un score de prédiction
     délétère)
 
-[^1]: cf [le détail du séquençage _short reads_](./sequencing.md) pour plus de détails
+[^1]: cf [le détail du séquençage _short reads_](../pour-aller-plus-loin/sequencing.md) pour plus de détails
 [^2]:
 [Les spécifications du format SAM :octicons-link-external-16:](https://samtools.github.io/hts-specs/SAMv1.pdf)
 [^3]:

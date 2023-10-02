@@ -240,7 +240,7 @@ Par exemple :
 ### Précision sur l'annotation de VCF
 
 !!! note
-    Il est préférable de bien connaître les spécificités du [format VCF](../vcf)
+    Il est préférable de bien connaître les spécificités du [format VCF](vcf.md)
 
 Voici un exemple de VCF réunissant des colonnes de plugins et de la base ClinVar la plus récente, mais n'affichant que le transcrit considéré prioritaire pour plus de lisibilité.
 

@@ -11,10 +11,6 @@ Les différentes applications du projet
   divisé en microservices
 - [Diagho Hugo Prod](https://github.com/DiaghoProject/diagho-hugo-prod): Mise sur en
   ligne de l'application sur Demo
-- [Diagho vep](https://github.com/DiaghoProject/diagho-vep): Microservice pour gérer les
-  annotations VEP
-- [Diagho Biodb](https://github.com/DiaghoProject/diagho-biodb): En cours de création,
-  microservice pour gérer automatiquement les fichiers de la base de donnée
 
 ## Architecture
 

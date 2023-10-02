@@ -14,4 +14,4 @@ A [`docker-compose.yml`](https://github.com/DiaghoProject/diagho-hugo-prod/blob/
 
 ## Microservices architecture
 
-![diagho-hugo-prod_architecture.png](images/diagho-hugo-prod_architecture.png)
+![diagho-hugo-prod_architecture.png](./../images/diagho-hugo-prod_architecture.png)

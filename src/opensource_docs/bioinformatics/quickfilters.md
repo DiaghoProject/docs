@@ -92,7 +92,7 @@ Côté front, le fonctionnement serait celui de "radio buttons".
 
 ### Exemple
 
-[![Exemple de filtrage rapide](/images/quickfilterexample.png){ align=left }](quickfilterexample.png)
+[![Exemple de filtrage rapide](/images/quickfilterexample.png){ align=left }](/images/quickfilterexample.png)
 
 Le filtrage correspondant à ce formulaire serait :
 
@@ -455,7 +455,7 @@ if has column GERP++_RS || GERP___RS
 
 - Mode de transmission
   - Gestion des
-    [hétérozygotes composites](http://127.0.0.1:8001/ressources/bioinformatics/filter_strategies/#heterozygote-composite)
+    [hétérozygotes composites](./filter_strategies.md#hétérozygote-composite)
     (plusieurs variations hétérozygotes (0/1) dans un même gène et héritées de
     différents parents)
   - Gestion affinée grâce à l'utilisation des `is_affected` et liens familiaux entre

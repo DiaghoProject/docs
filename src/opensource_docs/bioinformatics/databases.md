@@ -11,7 +11,7 @@
 ## Association gènes / maladies
 
 - [Online Mendelian Inheritance in Man (OMIM)](https://www.omim.org/)
-- [Orphanet](http://www.orpha.net/consor/www/cgi-bin/index.php?lng=FR)
+- [Orphanet](http://www.orpha.net/?lng=FR)
 
 ## Association panels (listes de gènes) / maladies
 

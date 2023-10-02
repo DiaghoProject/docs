@@ -2,7 +2,7 @@
 
 C'est l'écran d'accueil pour un utilisateur non authentifié
 
-[![Ecran de connexion](/images/mockup/connect.png)](/images/mockup/connect.png)
+[![Ecran de connexion](./../../../images/mockup/connect.png)](./../../../images/mockup/connect.png)
 
 ## Actions
 
@@ -30,4 +30,4 @@ C'est l'écran d'accueil pour un utilisateur non authentifié
 - En cas d'erreur, ne pas renseigner qui de l'identifiant ou du mot de passe est erroné.
 - Gestion du soft lock : en cas d'erreurs répétées impose un délai avant de pouvoir retenter une connexion
 
-Plus de détails dans [les bonnes pratiques](/functional_specification/features/passwords) sur la gestion des mots de passe.
+Plus de détails dans [les bonnes pratiques](../../back-end/passwords.md) sur la gestion des mots de passe.

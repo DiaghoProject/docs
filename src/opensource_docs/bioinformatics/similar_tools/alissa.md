@@ -93,4 +93,4 @@ hide:
         [![](./images/alissa/variantreview.jpg){ loading=lazy }](./images/alissa/variantreview.jpg)
 
 <object data='/ressources/similar_tools/Alissa.pdf' width="100%" height="800px"></object>
-[Lien vers le document](/ressources/similar_tools/Alissa.pdf)
+[Lien vers le document](./Alissa.pdf)

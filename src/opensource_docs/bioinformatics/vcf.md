@@ -19,12 +19,7 @@ tout autant servir de source pour des annotations comme le fait ClinVar par exem
 À l'inverse, un VCF peut très bien contenir les données de séquençage de centaines
 d'échantillons et aucune annotation particulière.
 
-<a href="/ressources/newcomers/images/vcf.jpg">
-    <figure>
-        <img src="/ressources/newcomers/images/vcf.jpg">
-        <figcaption>Exemple de fichier VCF</figcaption>
-    </figure>
-</a>
+![VCF](../newcomers/images/vcf.jpg)
 
 ## Le header
 
@@ -32,7 +27,7 @@ Il est constitué des lignes débutant par `##` et peut contenir tout type d'inf
 Typiquement elles servent à préciser les critères des FILTER, la définition des FORMAT
 et le contenu des INFO.\
 On retrouve également souvent la liste des contigs du génome de référence parcourus lors
-du [variant calling](/ressources/newcomers/bioinformatics#variant_calling).
+du variant calling.
 
 !!! warning "Attention"
   Seules deux lignes sont obligatoires dans le header :
@@ -100,7 +95,7 @@ la colonne et séparés par des `,`
 ### INFO
 
 Cette colonne contient toutes les annotations d'une variation, chacune étant séparée par
-un `;`. Les [annotateurs](./annotation_tools) produisant des VCF ajoutent leurs
+un `;`. Les [annotateurs](./annotation_tools.md) produisant des VCF ajoutent leurs
 informations dans cette colonne.
 
 Ces infos ne sont pas nécessairement issues de base de données mais peuvent également

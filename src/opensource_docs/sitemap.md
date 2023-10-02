@@ -26,7 +26,7 @@
 
 ### Interprétation
 
-Pour rappel : le déroulement global d'une [interprétation](/newcomers/interpretation)
+Pour rappel : le déroulement global d'une [interprétation](./newcomers/fondamenteaux/interpretation.md)
 
 - Page détails généraux : récap' de l'analyse (samples, phénotypes, décompte
   variations…)

@@ -116,8 +116,8 @@ If you'd like to contribute, please raise an issue or fork the repository and us
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. See the [CHANGELOG.md](CHANGELOG.md) file for details.
+We use [SemVer](http://semver.org/) for versioning. See the [CHANGELOG](../../../CHANGELOG.md) file for details.
 
 ## Licensing
 
-The code in this project is licensed under MIT license. See the [LICENSE](LICENSE) file for details.
+The code in this project is licensed under MIT license. See the [LICENSE](../../../LICENSE) file for details.

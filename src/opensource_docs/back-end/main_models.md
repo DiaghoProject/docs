@@ -2,11 +2,11 @@
 
 ## Rappel du fichier d'entrée
 
-Les données patients chargées sur l'application se présenteront notamment sous la forme de [fichiers VCF](/ressources/bioinformatics/vcf) (Variant Call Format). Ce fichier correspond en résumé à la liste des différences observées entre l'ADN de patients et un **génome de référence**.
+Les données patients chargées sur l'application se présenteront notamment sous la forme de [fichiers VCF](../bioinformatics/vcf.md) (Variant Call Format). Ce fichier correspond en résumé à la liste des différences observées entre l'ADN de patients et un **génome de référence**.
 
 Outre le header, chaque ligne correspond à une **variation** : une position sur un chromosome, la/les base(s) sur le génome de référence, la/les base(s) observée(s) chez au moins un échantillon (un sujet).
 
-![VCF](/ressources/newcomers/images/vcf.jpg)
+![VCF](./images/../../newcomers/images/vcf.jpg)
 
 Le **génotype** (abrégé GT) du patient correspond à la présence ou non de la variation chez ce dernier.
 Pour prendre en exemple la première ligne du VCF ci-dessus, en position 14370 du chromosome 20 :

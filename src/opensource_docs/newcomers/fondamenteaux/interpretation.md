@@ -231,7 +231,7 @@ Le concept de "likely" (ou "probablement") sous-tend une créance supérieure à
 classification doit être incluse sur le compte-rendu d'interprétation à destination du
 prescripteur.  
 Cette classification suit des règles précises pour être aussi objective que possible ;
-plus de détails dans l'article dédié à l'[ACMG](/ressources/bioinformatics/acmg).
+plus de détails dans l'article dédié à l'[ACMG](../../bioinformatics/acmg.md).
 
 ## Génération de compte-rendu
 

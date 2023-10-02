@@ -93,7 +93,7 @@ protéine.[^1]
     Exemple 3 : -ATC-**GCT-GCC**-TGC-ACT- // Délétion d'une base puis deux réalignant le cadre
     de lecture
 
-[^1]: cf [le code génétique](/ressources/newcomers/dna/#le-code-genetique)
+[^1]: cf [le code génétique](./dna.md)
 
 ### Cas particuliers des MNV
 
@@ -131,7 +131,7 @@ Pour copy number variation, cela correspond à des portions d'ADN généralement
 longues, répétées et dont le nombre de répétitions est augmenté (duplications) ou
 diminué (délétions).
 
-![[![CNV](./images/cnv.jpg)](./images/cnv.jpg)](../images/cnv.jpg)
+![[![CNV](../images/cnv.jpg)](../images/cnv.jpg)](../images/cnv.jpg)
 
 ### STR variation
 

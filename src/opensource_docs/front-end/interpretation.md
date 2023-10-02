@@ -3,10 +3,10 @@
 Elle se décompose en plusieurs étapes accessibles par des onglets situés dans le header
 de la page.
 
-- [Général](#general)
-- [QC](#qc)
-- [Tableau d'interprétation](#ecran-interpretation)
-- [Confirmation](#confirmation)
+- [Général](#général-general)
+- [QC](#qc-qc)
+- [Tableau d'interprétation](#tableau-dinterprétation-ecran-interpretation)
+- [Confirmation](#confirmation-confirmation)
 
 ## Général {#general}
 
@@ -28,9 +28,15 @@ TsTv, profondeur moyenne, hétérozygotie, distribution dans le caryotype...).
 
 Cet écran est constitué de plusieurs composants principaux :
 
-- [Le menu de filtrage](#chap-filtermenu)
-- [La visualisation du graphe](#chap-filtergraphe)
-- [Le tableau d'interprétation](#chap-vartable)
+- [Interprétation](#interprétation)
+  - [Général {#general}](#général-general)
+  - [QC {#qc}](#qc-qc)
+  - [Tableau d'interprétation {#ecran-interpretation}](#tableau-dinterprétation-ecran-interpretation)
+    - [Composants](#composants)
+    - [Menu de filtrage {#chap-filtermenu}](#menu-de-filtrage-chap-filtermenu)
+    - [Visualisation du graphe {#chap-filtergraphe}](#visualisation-du-graphe-chap-filtergraphe)
+    - [Tableau d'interprétation {#chap-vartable}](#tableau-dinterprétation-chap-vartable)
+  - [Confirmation {#confirmation}](#confirmation-confirmation)
 
 ### Menu de filtrage {#chap-filtermenu}
 

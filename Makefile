@@ -41,6 +41,13 @@ lint: ## Lint all .md files in the src directory
 lint-fix: ## Lint all .md files in the src directory
 	npx markdownlint-cli2 "src/**/*.md" "\#node_modules" --config .markdownlint.json --fix
 
+.PHONY: linkcheck
+linkcheck: ## check all files for broken links
+	find ./src/ -name \*.md -print0 | xargs -0 -n1 markdown-link-check -c mlc_config.json -q
+
+.PHONY: check
+check: lint linkcheck ## Run Github Action validation
+
 .PHONY: help
 help: ## Lists all available commands.
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
