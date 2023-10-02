@@ -3,8 +3,9 @@
 Ceci n'est qu'un exemple naïf du déroulement d'une interprétation de données génomiques
 pour en présenter sommairement les grandes étapes.
 
-!!! note La compréhension de cette page sera peut-être facilitée par la lecture
-préalable de l'article concernant [les bases du fonctionnement de l'ADN](./dna.md)
+!!! note
+    La compréhension de cette page sera peut-être facilitée par la lecture
+    préalable de l'article concernant [les bases du fonctionnement de l'ADN](./dna.md)
 
     **Les deux chapitres les plus importants sont l'[application de filtres](#application-de-filtres) et la [fouille manuelle des variations](#fouille-des-variations).**
 

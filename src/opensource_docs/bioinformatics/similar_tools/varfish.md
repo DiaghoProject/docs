@@ -73,8 +73,9 @@ commentaire.
 
 L'onglet **Export Jobs** n'est qu'une liste des exports de données du cas.
 
-!!! note Pour débuter l'interprétation en tant que telle, il faut passer par le bouton
-**Filter Variants** à l'écart en haut à droite.
+!!! note
+    Pour débuter l'interprétation en tant que telle, il faut passer par le bouton
+    **Filter Variants** à l'écart en haut à droite.
 
 === "Pros/Cons"
 

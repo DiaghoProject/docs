@@ -5,10 +5,11 @@ via Django par les australiens de l'ACRF Cancer Genomics Facility sous Business 
 License 1.1, davantage orienté vers le partage de résultats d'interprétation que pour le
 diagnostic pur.
 
-!!! note Pour tester l'outil, RDV à [ce lien](https://variantgrid.com/accounts/login/)
-et utilisez :  
- Username : `match`  
- Password : `2J|?u=9k}5_hQ7LTZ/Fk`
+!!! note
+    Pour tester l'outil, RDV à [ce lien](https://variantgrid.com/accounts/login/)
+    et utilisez :  
+    Username : `match`  
+    Password : `2J|?u=9k}5_hQ7LTZ/Fk`
 
 ## Présentation générale
 

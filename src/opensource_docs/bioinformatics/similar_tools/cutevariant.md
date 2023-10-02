@@ -3,10 +3,11 @@
 Cutevariant est un outil développé en Python par Sacha Schutz du CHRU de Brest pour
 l'affichage et le filtrage facile de VCF.
 
-!!! note Cutevariant est disponible directement via pypi `pip install cutevariant`, pour
-[Windows 64 bits](https://github.com/labsquare/cutevariant/releases/download/0.4.4/cutevariant_0.4.4.exe),
-ou directement built depuis [son repo](https://github.com/labsquare/cutevariant).  
- Nécessite sqlite ≥ 3.32
+!!! note
+    Cutevariant est disponible directement via pypi `pip install cutevariant`, pour
+    [Windows 64 bits](https://github.com/labsquare/cutevariant/releases/download/0.4.4/cutevariant_0.4.4.exe),
+    ou directement built depuis [son repo](https://github.com/labsquare/cutevariant).  
+    Nécessite sqlite ≥ 3.32
 
 ## Présentation générale
 

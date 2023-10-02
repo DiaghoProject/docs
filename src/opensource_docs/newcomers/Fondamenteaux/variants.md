@@ -1,7 +1,8 @@
 # Variations génétiques
 
-!!! note À retenir avant tout : les substitutions, délétions, insertions ainsi que leurs
-conséquences.
+!!! note
+  À retenir avant tout : les substitutions, délétions, insertions ainsi que leurs
+  conséquences.
 
 ## Types de variations
 
@@ -119,7 +120,8 @@ plusieurs années.
 
 ## Autres types de variations
 
-!!! note Hors scope actuellement
+!!! note
+  Hors scope actuellement
 
 ### CNV
 

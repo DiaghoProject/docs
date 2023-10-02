@@ -1,6 +1,7 @@
 # Liste des familles
 
-!!! note Écran similaire à la [liste des analyses](./list-analyses.md).
+!!! note
+  Écran similaire à la [liste des analyses](./list-analyses.md).
 
 Liste les individus enregistrés dans le LBM.
 

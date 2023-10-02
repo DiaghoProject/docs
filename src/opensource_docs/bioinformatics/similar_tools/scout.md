@@ -6,9 +6,10 @@ sur Flask.
 Sa philosophie est davantage orientée vers un partage de découvertes entre laboratoires
 qu'offrir un outil d'aide au diagnostic internalisé.
 
-!!! note Il est possible d'installer facilement
-[une instance de démo](https://github.com/Clinical-Genomics/scout). Pour s'y connecter,
-l'email à entrer est `clark.kent@mail.com`
+!!! note
+    Il est possible d'installer facilement
+    [une instance de démo](https://github.com/Clinical-Genomics/scout). Pour s'y connecter,
+    l'email à entrer est `clark.kent@mail.com`
 
 ## Présentation générale
 

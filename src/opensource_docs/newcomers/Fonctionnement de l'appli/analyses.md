@@ -2,7 +2,8 @@
 
 Pour l'instant la création des analyses se fait dans l'admin
 
-!!! note A Réorganiser !!!
+!!! note
+    A Réorganiser !!!
 
 ## Chargement des factories
 

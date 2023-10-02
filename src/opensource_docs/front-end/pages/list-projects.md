@@ -1,6 +1,7 @@
 # Liste des projets
 
-!!! note Écran similaire à la [liste des analyses](./list-analyses.md).
+!!! note
+  Écran similaire à la [liste des analyses](./list-analyses.md).
 
 Liste les projets du LBM auxquels l'utilisateur a accès.
 

@@ -51,7 +51,8 @@ filtrage appliquées
     === "Exemple Alissa"
         [![Graphe de filtres Alissa](/images/mockup/alissa-filters.jpg){ loading=lazy }](/images/mockup/alissa-filters.jpg)
 
-!!! note Ce composant est d'une priorité faible et non nécessaire pour un MVP
+!!! note
+  Ce composant est d'une priorité faible et non nécessaire pour un MVP
 
 - Cadre permettant une représentation graphique du filtrage appliqué à l'analyse. Chaque
   nœud le composant correspond à une étape d'annotation ou à un filtre complexe.<br>

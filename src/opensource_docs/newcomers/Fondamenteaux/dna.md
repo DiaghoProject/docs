@@ -80,12 +80,13 @@ raccourcie ou allongée d'un non multiple de 3, cela va provoquer un **frameshif
 du cadre de lecture) modifiant toute la suite de la protéine et ayant donc une conséquence
 généralement plus importante\[^1\]
 
-!!! note "En résumé" \- L'ADN est la single source of truth dans la production de
-protéines par le corps. \- Il est divisé en 23 paires de chromosomes, chaque paire étant
-composée d'un chromosome maternel et un paternel. \- Les exons des gènes forment la
-partie codante de l'ADN. \- Les transcrits sont le support direct à partir duquel sont
-synthétisées les protéines. \- Le code génétique est la correspondance entre des
-triplets de bases azotées avec un acide aminé.
+!!! note
+    "En résumé" \- L'ADN est la single source of truth dans la production de
+    protéines par le corps. \- Il est divisé en 23 paires de chromosomes, chaque paire étant
+    composée d'un chromosome maternel et un paternel. \- Les exons des gènes forment la
+    partie codante de l'ADN. \- Les transcrits sont le support direct à partir duquel sont
+    synthétisées les protéines. \- Le code génétique est la correspondance entre des
+    triplets de bases azotées avec un acide aminé.
 
 !!! tip "Métaphore mnémotechnique" \- L'ADN est la base de données de l'organisation. \-
 Les gènes sont les procédures généralistes pour la production de l'organisation. \- Les

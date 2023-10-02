@@ -1,10 +1,11 @@
 # SEAL
 
-!!! note Une démo est facilement testable
-[avec leur repo](https://github.com/mobidic/seal), mais pour l'installer cela nécessite
-Conda et d'avoir à disposition un certain nombre de DB.  
- Celles de SpliceAI sont disponibles sur le serveur dans `/media/data/databases/SpliceAI`
-(nécessite snv et indels pour le génome choisi).
+!!! note
+    Une démo est facilement testable
+    [avec leur repo](https://github.com/mobidic/seal), mais pour l'installer cela nécessite
+    Conda et d'avoir à disposition un certain nombre de DB.  
+    Celles de SpliceAI sont disponibles sur le serveur dans `/media/data/databases/SpliceAI`
+    (nécessite snv et indels pour le génome choisi).
 
 SEAL est un outil développé par Charles Van Goethem à Montpellier en Python, reposant
 sur Flask. Le développement a commencé récemment et en solo, ce qui en fait un outil aux

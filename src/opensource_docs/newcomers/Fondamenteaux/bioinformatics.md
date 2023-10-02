@@ -1,6 +1,7 @@
 # Pipeline bioinformatique
 
-!!! note Chapitre le plus important pour débuter : [le fichier VCF](#variant_calling)
+!!! note
+    Chapitre le plus important pour débuter : [le fichier VCF](#variant_calling)
 
 Les pipelines bioinformatiques consistent dans notre contexte au traitement de la donnée
 brute issue produite par le séquenceur en des fichiers utilisables pour l'interprétation
@@ -100,7 +101,8 @@ reads).
 - Chaque colonne suivante est un échantillon, c'est à dire les donnée d'un patient sur
   une variation
 
-!!! note Plus de détails dans [la page dédiée](/ressources/bioinformatics/vcf)
+!!! note
+    Plus de détails dans [la page dédiée](/ressources/bioinformatics/vcf)
 
 ## Annotation et filtrage
 
