@@ -3,11 +3,11 @@ name: Check Markdown links
 on: push
 
 jobs:
-  markdown-link-check:
+  markdownlint-cli2-action:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+    - uses: DavidAnson/markdownlint-cli2-action@v9
       with:
-        config-file: ./mlc_config.json
+        config-file: ./.markdownlint.json
         use-quiet-mode: 'yes'
