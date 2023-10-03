@@ -1,12 +1,11 @@
 ---
 hide:
-    - toc
+  - toc
 ---
 
 # Interfaces comparées
 
-??? abstract "Patients"
-    ## Patients
+??? abstract "Patients" ## Patients
 
     === "VariantGrid"
 
@@ -18,8 +17,7 @@ hide:
 
             [![](./images/variantgrid/patients/patients_details.jpg){ loading=lazy }](./images/variantgrid/patients/patients_details.jpg)
 
-??? abstract "Projets"
-    ## Projets
+??? abstract "Projets" ## Projets
 
     === "Alissa"
 
@@ -40,9 +38,7 @@ hide:
     === "VarFish"
         [![Project Overview](./images/vf-project%20overview.jpg){ loading=lazy }](./images/vf-project%20overview.jpg)
 
-
-??? abstract "Accueils d'interprétation"
-    ## Accueils d'interprétation
+??? abstract "Accueils d'interprétation" ## Accueils d'interprétation
 
     === "Alissa"
 
@@ -57,16 +53,13 @@ hide:
 
         [![Case Overview](./images/vf-case%20overview.jpg){ loading=lazy }](./images/vf-case%20overview.jpg)
 
-??? question "Contrôles qualité"
-    ## QC
+??? question "Contrôles qualité" ## QC
 
     === "VarFish"
 
         ![Case QC](./images/vf-case%20qc.jpg){ loading=lazy }
 
-
-??? example "Tableaux d'interprétation"
-    ## Tableaux d'interprétation
+??? example "Tableaux d'interprétation" ## Tableaux d'interprétation
 
     === "Alissa"
 
@@ -114,9 +107,7 @@ hide:
 
         [![](./images/variantgrid/analysis/table.jpg){ loading=lazy }](./images/variantgrid/analysis/table.jpg)
 
-
-??? note "Menus de filtrage"
-    ## Menus de filtrage
+??? note "Menus de filtrage" ## Menus de filtrage
 
     === "Alissa"
 
@@ -210,8 +201,7 @@ hide:
             [![](./images/variantgrid/analysis/filter_pheno1.jpg){ loading=lazy }](./images/variantgrid/analysis/filter_pheno1.jpg)
             [![](./images/variantgrid/analysis/filter_pheno2.jpg){ loading=lazy }](./images/variantgrid/analysis/filter_pheno2.jpg)
 
-??? note "Graphes de filtrage"
-    ## Graphes de filtrage
+??? note "Graphes de filtrage" ## Graphes de filtrage
 
     === "Alissa"
 
@@ -231,14 +221,13 @@ hide:
 
         === "Graphe"
 
-            [![](./images/variantgrid/analysis/node_counts.jpg){ loading=lazy }](./images/variantgrid/analysis/node_counts.jpg)  
-        
+            [![](./images/variantgrid/analysis/node_counts.jpg){ loading=lazy }](./images/variantgrid/analysis/node_counts.jpg)
+
         === "Recomptage"
-        
+
             <iframe src="https://streamable.com/e/b1s2sp?autoplay=1&nocontrols=1" width="560" height="593" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
-??? note "Features des tableaux"
-    ## Features tableau
+??? note "Features des tableaux" ## Features tableau
 
     === "Alissa"
 
@@ -272,23 +261,23 @@ hide:
 
         === "Group by"
 
-            Permet d'avoir facilement le nombre de variations pour chaque valeur de chaque colonne. Peut servir de condition de filtrage en un double clic.  
+            Permet d'avoir facilement le nombre de variations pour chaque valeur de chaque colonne. Peut servir de condition de filtrage en un double clic.
             [![](./images/cutevariant/groupby.jpg){ loading=lazy }](./images/cutevariant/groupby.jpg)
 
         === "Sélection"
 
-            Permet de facilement catégoriser un ensemble de variations répondant à certaines conditions. Même fonctionnement des tags pour le [prototype du Croisic](/functional_specification/front-end/pages/interpretation-table).  
-            [![](./images/cutevariant/selection.jpg){ loading=lazy }](./images/cutevariant/selection.jpg)  
+            Permet de facilement catégoriser un ensemble de variations répondant à certaines conditions. Même fonctionnement des tags pour le [prototype du Croisic](/functional_specification/front-end/pages/interpretation-table).
+            [![](./images/cutevariant/selection.jpg){ loading=lazy }](./images/cutevariant/selection.jpg)
             [![](./images/cutevariant/selection_created.jpg){ loading=lazy }](./images/cutevariant/selection_created.jpg)
 
         === "Tooltip"
 
-            Permet d'afficher en une infobulle toutes les informations de la variation (peu compatible pour cet exemple vu le nombre de champs retenus).  
+            Permet d'afficher en une infobulle toutes les informations de la variation (peu compatible pour cet exemple vu le nombre de champs retenus).
             [![](./images/cutevariant/tooltip.jpg){ loading=lazy }](./images/cutevariant/tooltip.jpg)
 
         === "Liens externes"
 
-            Permet d'ajouter des liens vers des sites externes en réutilisant le contenu de colonnes avec une syntaxe jinja2.  
+            Permet d'ajouter des liens vers des sites externes en réutilisant le contenu de colonnes avec une syntaxe jinja2.
             [![](./images/cutevariant/external_links.jpg){ loading=lazy }](./images/cutevariant/external_links.jpg)
 
         === "Tags"
@@ -317,21 +306,21 @@ hide:
 
         === "Tooltips"
 
-            [![](./images/scout/gene_tooltip.jpg){ loading=lazy }](./images/scout/gene_tooltip.jpg)  
-            [![](./images/scout/multiple_freq_tooltips.jpg){ loading=lazy }](./images/scout/multiple_freq_tooltips.jpg)  
+            [![](./images/scout/gene_tooltip.jpg){ loading=lazy }](./images/scout/gene_tooltip.jpg)
+            [![](./images/scout/multiple_freq_tooltips.jpg){ loading=lazy }](./images/scout/multiple_freq_tooltips.jpg)
 
         === "Hétérozygotie composite"
 
-            [![](./images/scout/interptable_coupound_tooltip.jpg){ loading=lazy }](./images/scout/interptable_coupound_tooltip.jpg)  
+            [![](./images/scout/interptable_coupound_tooltip.jpg){ loading=lazy }](./images/scout/interptable_coupound_tooltip.jpg)
 
         === "SV overlap"
 
-            [![](./images/scout/overlappingsv_tooltip.jpg){ loading=lazy }](./images/scout/overlappingsv_tooltip.jpg)  
+            [![](./images/scout/overlappingsv_tooltip.jpg){ loading=lazy }](./images/scout/overlappingsv_tooltip.jpg)
 
         === "Gestion dismiss"
 
-            [![](./images/scout/interptable_dismiss_options.jpg){ loading=lazy }](./images/scout/interptable_dismiss_options.jpg)  
-            [![](./images/scout/dismiss_tooltip.jpg){ loading=lazy }](./images/scout/dismiss_tooltip.jpg)  
+            [![](./images/scout/interptable_dismiss_options.jpg){ loading=lazy }](./images/scout/interptable_dismiss_options.jpg)
+            [![](./images/scout/dismiss_tooltip.jpg){ loading=lazy }](./images/scout/dismiss_tooltip.jpg)
 
     === "seqr"
 
@@ -348,10 +337,8 @@ hide:
         === "Autres"
 
             [![Features](./images/vf-features.jpg){ loading=lazy }](./images/vf-features.jpg)
-        
 
-??? info "Vues détaillées des gènes"
-    ## Vues détaillées de gènes
+??? info "Vues détaillées des gènes" ## Vues détaillées de gènes
 
     === "Alissa"
 
@@ -375,9 +362,7 @@ hide:
 
             [![](./images/variantgrid/genes/gene_detail.jpg){ loading=lazy }](./images/variantgrid/genes/gene_detail.jpg)
 
-
-??? info "Vues détaillées des variations"
-    ## Vues détaillées de variation
+??? info "Vues détaillées des variations" ## Vues détaillées de variation
 
     === "Alissa"
 
@@ -429,8 +414,7 @@ hide:
 
         [![](./images/variantgrid/variants/variant_detail.jpg){ loading=lazy }](./images/variantgrid/variants/variant_detail.jpg)
 
-??? success "Reviewing"
-    ## Reviewing
+??? success "Reviewing" ## Reviewing
 
     === "Alissa"
 
@@ -456,11 +440,11 @@ hide:
 
         === "Rapport d'interprétation"
 
-            [![](./images/scout/internal_report.png){ loading=lazy }](./images/scout/internal_report.png)  
-        
+            [![](./images/scout/internal_report.png){ loading=lazy }](./images/scout/internal_report.png)
+
         === "Compte-rendu d'analyse"
 
-            [![](./images/scout/report_clinical.jpg){ loading=lazy }](./images/scout/report_clinical.jpg)  
+            [![](./images/scout/report_clinical.jpg){ loading=lazy }](./images/scout/report_clinical.jpg)
 
     === "SEAL"
 

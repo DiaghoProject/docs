@@ -5,6 +5,7 @@
 C'est une source d'annotation essentielle pour les biologistes. Sa consultation en ligne est libre mais le téléchargement de leurs données ou l'accès à leur API nécessite un accord de la John Hopkins University qui n'en autorise pas un usage dans un logiciel commercial.
 
 ## Fonctionnement
+
 Chaque entité dans la base de données est associée à un MIM number que ce soit un phénotype ou un gène. Ils sont accessibles indistinctement via l'URL `https://www.omim.org/entry/{MIMnumber}`.
 
 Ces MIM numbers sont associés à un caractère spécial selon l'entité concernée :
@@ -15,14 +16,15 @@ Ces MIM numbers sont associés à un caractère spécial selon l'entité concern
 - **[+](https://www.omim.org/entry/104250)** pour les MIM numbers concernant un gène et un phénotype combiné (rare)
 
 ## Fichiers disponibles
+
 - **mim2gene.txt** est un fichier librement accessible associant les MIM numbers à leur ID NCBI, Ensembl et nom de gène approuvé
 - **genemap2.txt** associe des positions génomiques à un gène, ses ID et phénotypes associés (nom, mode de transmission et MIM number #)
 - **morbidmap.txt** associe chaque maladie à un gène et le MIM number * du gène
 
 ??? abstract "Exemples"
     === "mim2gene"
-        ```
-            # MIM Number	MIM Entry Type (see FAQ 1.3 at https://omim.org/help/faq)	Entrez Gene ID (NCBI)	Approved Gene Symbol (HGNC)	Ensembl Gene ID (Ensembl)
+        ```text
+            # MIM Number	MIM Entry Type (see FAQ 1.3 at [Omim](https://omim.org/help/faq)	Entrez Gene ID (NCBI)	Approved Gene Symbol (HGNC)	Ensembl Gene ID (Ensembl)
             100050	predominantly phenotypes			
             100070	phenotype	100329167		
             100100	phenotype			
@@ -36,11 +38,12 @@ Ces MIM numbers sont associés à un caractère spécial selon l'entité concern
             100670	gene	219	ALDH1B1	ENSG00000137124
             100675	predominantly phenotypes			
             100678	gene	39	ACAT2	ENSG00000120437
-            100680	moved/removed	
+            100680	moved/removed
+
         ```
 
     === "genemap2"
-        ```
+        ```text
             # Chromosome	Genomic Position Start	Genomic Position End	Cyto Location	Computed Cyto Location	MIM Number	Gene Symbols	Gene Name	Approved Gene Symbol	Entrez Gene ID	Ensembl Gene ID	Comments	Phenotypes	Mouse Gene Symbol/ID
             chr1	0	123400000	1p		606788	ANON1	Anorexia nervosa, susceptibility to, 1		171514			{Anorexia nervosa, susceptibility to, 1}, 606788 (2)	
             chr1	0	2300000	1p36.33		618815	C1DUPp36.33, DUP1p36.33	Chromosome 1p36.33 duplication syndrome, ATAD3 gene cluster					Chromosome 1p36.33 duplication syndrome, ATAD3 gene cluster, 618815 (4), Autosomal dominant	
@@ -57,7 +60,7 @@ Ces MIM numbers sont associés à un caractère spécial selon l'entité concern
         ```
 
     === "morbidmap"
-        ```
+        ```text
             # Phenotype	Gene Symbols	MIM Number	Cyto Location
             17,20-lyase deficiency, isolated, 202110 (3)	CYP17A1, CYP17, P450C17	609300	10q24.32
             17-alpha-hydroxylase/17,20-lyase deficiency, 202110 (3)	CYP17A1, CYP17, P450C17	609300	10q24.32
@@ -77,6 +80,7 @@ Ces MIM numbers sont associés à un caractère spécial selon l'entité concern
         ```
 
 ### Caractères spéciaux des phénotypes
+
 - Les [crochets](https://www.omim.org/entry/615999) `[]` encadrent des phénotypes non délétères.
 - Les [accolades](https://www.omim.org/entry/603933) `{}` encadrent des facteurs de risques pour des maladies multifactorielles.
 - Un phénotype précédé d'un [point d'interrogation](https://www.omim.org/entry/607131) `?` indique que le lien gène-phénotype est provisoire.

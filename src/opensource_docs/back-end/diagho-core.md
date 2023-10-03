@@ -1,6 +1,9 @@
 ---
+
 hide:
-  - toc
+
+- toc
+
 ---
 
 # diagho-core
@@ -13,4 +16,4 @@ Please consult the [`README`](https://github.com/DiaghoProject/diagho-core) file
 
 ## Microservices architecture
 
-![diagho-core_architecture.png](images/diagho-core_architecture.png)
+![Core Architecture](../images/diagho-core_architecture.png)

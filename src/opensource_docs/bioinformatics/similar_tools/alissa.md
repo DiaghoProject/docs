@@ -3,6 +3,8 @@ hide:
     - toc
 ---
 
+# Alissa
+
 !!! note
     Tour du propriétaire mené par Manuel. Étant un outil propriétaire, il sera compliqué de récupérer beaucoup d'autres informations ou plus récentes.  
     On retrouve cependant beaucoup de features discutées et intéressantes.
@@ -91,4 +93,4 @@ hide:
         [![](./images/alissa/variantreview.jpg){ loading=lazy }](./images/alissa/variantreview.jpg)
 
 <object data='/ressources/similar_tools/Alissa.pdf' width="100%" height="800px"></object>
-[Lien vers le document](/ressources/similar_tools/Alissa.pdf)
+[Lien vers le document](./Alissa.pdf)

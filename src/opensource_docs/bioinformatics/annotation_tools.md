@@ -1,10 +1,12 @@
 # Les outils d'annotation
 
 ## Ensembl Variant Effect Predictor (VEP)
+
 [VEP](https://www.ensembl.org/info/docs/tools/vep/index.html) est un outil d'annotation de variations développé en Perl sous licence Apache-2.0 au sein du projet Ensembl.  
 Il permet d'informer quel(s) gène(s) et transcrits sont impactés par une variation et l'impact de cette variation sur ceux-ci mais également d'ajouter des annotations complémentaires inclues dans l'outil de base, récupérées de plugins ou directement d'une source d'informations personnelle sous format VCF, BED, GFF, GTF ou bigWig.
 
 ### Output
+
 Par défaut son fichier de sortie est un fichier tabulé où toutes les annotations complémentaires sont ajoutées sous la forme clef=valeur dans une colonne `Extra`, mais il peut annoter directement un vcf ou produire un JSON.
 
 ??? abstract "Outputs avec annotation de base"
@@ -12,12 +14,12 @@ Par défaut son fichier de sortie est un fichier tabulé où toutes les annotati
     === "Standard"
 
         **Commande**
-        ```
+        ```bash
         ./vep --input_file /opt/vep/.vep/inputs/sample.vcf --output_file /opt/vep/.vep/outputs/std_output --cache --offline --format vcf
         ```
 
         **Output**
-        ```
+        ```text
         ## ENSEMBL VARIANT EFFECT PREDICTOR v109.3
         ## Output produced at 2023-04-14 11:45:52
         ## Using cache in /opt/vep/.vep/homo_sapiens/109_GRCh37
@@ -74,7 +76,7 @@ Par défaut son fichier de sortie est un fichier tabulé où toutes les annotati
     === "VCF"
 
         **Commande**
-        ```
+        ```bash
         ./vep --input_file /opt/vep/.vep/inputs/sample.vcf --output_file /opt/vep/.vep/outputs/std_output.vcf --cache --offline --everything --format vcf --vcf
         ```
 
@@ -84,7 +86,7 @@ Par défaut son fichier de sortie est un fichier tabulé où toutes les annotati
         - Pour cet exemple, toutes les annotations disponibles de base dans VEP ont été appliquées.
 
         **Output**
-        ```
+        ```text
         ##fileformat=VCFv4.2
         ##FILTER=<ID=LowCoverage,Description="DP < 5">
         ##FILTER=<ID=SNP_filter,Description="DP < 10 || QD < 2.0 || FS > 60.0 || MQ < 40.0 || FBtypeScore > 13.0 || MappingQualityRankSum < -12.5 || ReadPosRankSum < -8.0">
@@ -126,12 +128,12 @@ Par défaut son fichier de sortie est un fichier tabulé où toutes les annotati
     === "Tabulé"
 
         **Commande**
-        ```
+        ```bash
         ./vep --input_file /opt/vep/.vep/inputs/sample.vcf --output_file /opt/vep/.vep/outputs/std_output.vcf --cache --offline --format vcf --vcf
         ```
 
         **Output**
-        ```
+        ```text
         ## ENSEMBL VARIANT EFFECT PREDICTOR v109.3
         ## Output produced at 2023-04-14 11:45:13
         ## Using cache in /opt/vep/.vep/homo_sapiens/109_GRCh37
@@ -188,7 +190,7 @@ Par défaut son fichier de sortie est un fichier tabulé où toutes les annotati
     === "JSON"
 
         **Commande**
-        ```
+        ```bash
         ./vep --input_file /opt/vep/.vep/inputs/sample.vcf --output_file /opt/vep/.vep/outputs/std_output.json --cache --offline --format vcf --json
         ```
 
@@ -209,22 +211,27 @@ Par défaut son fichier de sortie est un fichier tabulé où toutes les annotati
         ```
 
 ### Annotations avancées
+
 Il est possible de compléter les annotations de base de VEP par des annotations issues de bases de données prévues à cet effet (plugins) ou créées par l'utilisateur (custom).
 
 #### Plugins
+
 Les [plugins](https://www.ensembl.org/info/docs/tools/vep/script/vep_plugins.html) sont des extensions de VEP nécessitant une installation (simplement avec la commande `perl INSTALL.pl -a p --PLUGINS dbNSFP,CADD`). Une fois l'installation faite et la source d'annotations récupérée, il suffit pour ajouter ces informations d'appeler le plugin lors du lancement d'une annotation, préciser le chemin de la source d'annotation et selon les plugins, préciser les colonnes désirées.
 
 Par exemple : 
+
 ``` hl_lines="2"
 ./vep --input_file /opt/vep/.vep/inputs/sample.vcf --output_file /opt/vep/.vep/outputs/std_output.vcf --cache --offline --everything --format vcf --vcf \
 --plugin dbNSFP,path/to/file.gz,CADD_raw_hg19,REVEL_score,Polyphen2_HVAR_score
 ```
 
 #### Custom
+
 Il est également possible d'ajouter des annotations de fichiers BED, VCF, GFF, GTF ou bigWig tant qu'ils ont été préalablement indexés via [tabix](https://www.htslib.org/doc/tabix.html).  
 Il suffit ensuite de préciser au lancement d'une annotation le chemin vers le fichier, le nom pour nommer les colonnes, le format de fichier, le type d'annotation, s'il faut rapporter les coordonnées de la feature recouvrante puis les champs à récupérer.
 
 Par exemple :
+
 ``` hl_lines="2"
 ./vep --input_file /opt/vep/.vep/inputs/sample.vcf --output_file /opt/vep/.vep/outputs/std_output.vcf --cache --offline --everything --format vcf --vcf \
 --custom [PATH]/clinvar_20230326.vcf.gz,ClinVar,vcf,exact,0,CLNDN,CLNSIG,CLNREVSTAT
@@ -233,7 +240,7 @@ Par exemple :
 ### Précision sur l'annotation de VCF
 
 !!! note
-    Il est préférable de bien connaître les spécificités du [format VCF](../vcf)
+    Il est préférable de bien connaître les spécificités du [format VCF](vcf.md)
 
 Voici un exemple de VCF réunissant des colonnes de plugins et de la base ClinVar la plus récente, mais n'affichant que le transcrit considéré prioritaire pour plus de lisibilité.
 
@@ -283,6 +290,7 @@ Voici un exemple de VCF réunissant des colonnes de plugins et de la base ClinVa
     ```
 
 #### Le header
+
 Lorsqu'il est utilisé, VEP ajoute dans le header
 
 - la version du script et des DB utilisées
@@ -291,6 +299,7 @@ Lorsqu'il est utilisé, VEP ajoute dans le header
 - la ligne de commande utilisée pour lancer l'annotation (peut être incomplète ou obfusquée dans le cas d'un recours à un fichier `config`)
 
 #### Le champ CSQ
+
 L'annotation même est ajoutée dans la colonne INFO via un champs "CSQ" (par défaut) dédié.
 
 - Pour chaque transcrit relevé, les annotations sont insérées dans l'ordre spécifié par la ligne `##INFO=<ID=CSQ[...]>` du header et séparées par des `|`.  
@@ -298,8 +307,10 @@ L'annotation même est ajoutée dans la colonne INFO via un champs "CSQ" (par d�
 - Enfin, le CSQ se conclue par un point-virgule `;` ou une tabulation.
 
 ##### Exemple de plusieurs transcrits
+
 Exemple d'une annotation sur plusieurs transcrits (le retour à la ligne a été ajouté pour une meilleure lisibilité)
-```
+
+```text
 #CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	22-23121-A-02-00	22-23123-A-02-00	22-24543-A-01-00
 chr1	986732	.	G	A	922.52	PASS	AB=0.415094;ABP=9.64763;AC=1;AF=0.167;AN=6;AO=44;CIGAR=1X;DP=356; \
     CSQ=AGRN|ENSG00000188157|ENST00000379370|||ENST00000379370.2:c.5353G>A|ENSP00000368678.2:p.Asp1785Asn|missense_variant|MODERATE||Gac/Aac|D/N|5403|5353|Congenital_myasthenic_syndrome_8&not_specified&not_provided|Conflicting_interpretations_of_pathogenicity|criteria_provided&_conflicting_interpretations|4.3500e-01|0.256992|-2.07|0.069&.||1031|6.785660e-03|1|1.145360e-02|3|-37|3|17|0.00|0.00|0.00|0.00|1
@@ -311,11 +322,14 @@ chr1	986732	.	G	A	922.52	PASS	AB=0.415094;ABP=9.64763;AC=1;AF=0.167;AN=6;AO=44;C
         ,AGRN|ENSG00000188157|ENST00000492947|||||downstream_gene_variant|MODIFIER||||||Congenital_myasthenic_syndrome_8&not_specified&not_provided|Conflicting_interpretations_of_pathogenicity|criteria_provided&_conflicting_interpretations||||||||||3|-37|3|17|0.00|0.00|0.00|0.00|	GT:AD:AO:DP:PL:QA:QR:RO	0/0:129,0:0:129:0,388,3908:0:4340:129	0/1:62,44:44:106:1030,0,1581:1496:2108:62	0/0:121,0:0:121:0,364,3683:0:4090:121
 
 ```
+
 Il est à noter que le deuxième transcrit annoté concerne un second gène (*upstream_gene_variant* signifiant que la variation est en amont de ce gène).
 
 ##### Exemple de plusieurs ALT
+
 Dans le cas d'un VCF non normalisé, plusieurs ALT sont notées sur une seule ligne du VCF. VEP fera l'annotation pour toutes les ALT au sein du même champ CSQ et les séparera par des virgules. Il reste possible de les différencier grâce à la colonne `Allele` permettant de savoir quelle ALT est concernée par l'annotation jusqu'à la virgule suivante.
-```
+
+```text
 // CSQ = Allele|Consequence|Impact|Symbol|Gene|Feature_type|Feature|…
 // Pour les variations : 
 #CHROM	POS	ID	REF	ALT
@@ -331,10 +345,12 @@ CSQ=A|stop_gained|HIGH|NOC2L|ENSG00000188976|transcript|ENST00000327044|protein_
 ```
 
 ##### Reformatage par VEP
+
 Si une annotation contient une virgule ou un pipe, VEP la remplace par une esperluette `&`
 
 Par exemple :
-```
+
+```text
 // Dans le VCF de ClinVar
 [...]CLNDN=Congenital_myasthenic_syndrome_8|not_specified|not_provided;CLNHGVS=NC_000001.10:g.986732G>A;CLNREVSTAT=criteria_provided,_conflicting_interpretations;CLNSIG=Conflicting_interpretations_of_pathogenicity[...]
 // Dans le VCF annoté

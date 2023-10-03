@@ -49,9 +49,10 @@ classDiagram
 ```
 
 ## Permissions
+
 Here are the User stories in place for project permissions:
 
-```
+```text
 As a user, I can create a new project
 As an unauthenticated user, I can not create a new project
 

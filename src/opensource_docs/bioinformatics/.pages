@@ -1,8 +1,2 @@
 title: Bioinformatics
 nav:
-    - vcf.md
-    - annotation_tools.md
-    - databases.md
-    - filter_strategies.md
-    - acmg.md
-    - technology_watch.md

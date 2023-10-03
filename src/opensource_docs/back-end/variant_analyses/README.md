@@ -12,7 +12,6 @@ An Analysis object holds the metadata for an analysis, including:
 
 An Analysis object is associated with one or more Sample objects and one or more Variant objects.
 
-
 ## Analysis record
 
 Represents a line of an analysis in the interpretation table.
@@ -22,7 +21,6 @@ and stores notes and flags associated with the analysis results.
 - Flag - Variant of interest ("candidate") or irrelevant
 - Note - Free textfield for user
 - Tags - An array of short strings added by user, representing info associated with this record.
-
 
 ## Loading Samples for an Analysis
 
@@ -47,29 +45,24 @@ It executes the following steps:
 5. Creates a StepRecord for each AnalysisRecord (by region)
 6. Builds the metadata on the StepRecord objects, based on the VCF columns.
 
-
 ## Analysis Columns
 
-
-**AnalysisColumn**
+### AnalysisColumn
 
 The AnalysisColumn class represents a column of an analysis.
 It contains information about the data source of the column (such as whether it comes from a variant, a sample, or an annotation), the column's width, and whether it is visible or hidden.
 
-
-**AnalysisColumnConfig**
+### AnalysisColumnConfig
 
 The AnalysisColumnConfig model is used to configure how the columns will be displayed in *all analyses*.
 
-
-**ColumnCreator**
+### ColumnCreator
 
 The ColumnCreator class is responsible for creating columns in the database for a given Analysis object.
 It can create different types of columns based on the source and type of data, using the `AnalysisColumn.add_column()` method.
 It takes the first AnalysisRecord object associated with the analysis to retrieve sample records metadata and patient sample metadata.
 
-
-**ColumnTypes**
+### ColumnTypes
 
 Definition of the type of data found under the specified column. Can be of type:
 
@@ -89,7 +82,6 @@ The column type detection happens during the creation of the samplerecords and t
 Assignment (when the Analysis is created):
 
 During the actual creation of the columns, the samples columntypes field is used as reference to assign the correct columntypes defined in the variant_analyses.columntype table.
-
 
 ## data model
 

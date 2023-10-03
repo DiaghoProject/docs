@@ -33,16 +33,29 @@ plugins:
       type: date
       fallback_to_build_date: true
 markdown_extensions:
-  - pymdownx.highlight:
-      linenums: true
-  - pymdownx.superfences
+  - abbr
   - admonition
   - attr_list
-  - meta
   - footnotes
+  - meta
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.snippets:
+      auto_append:
+        - glossary.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      linenums: true
 extra:
   social:
     - icon: fontawesome/brands/github

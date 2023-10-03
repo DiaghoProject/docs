@@ -1,36 +1,57 @@
 # VariantGrid
 
-VariantGrid est un outil d'interprétation de variations génomiques développé en Python via Django par les australiens de l'ACRF Cancer Genomics Facility sous Business Source License 1.1, davantage orienté vers le partage de résultats d'interprétation que pour le diagnostic pur.
+VariantGrid est un outil d'interprétation de variations génomiques développé en Python
+via Django par les australiens de l'ACRF Cancer Genomics Facility sous Business Source
+License 1.1, davantage orienté vers le partage de résultats d'interprétation que pour le
+diagnostic pur.
 
 !!! note
-    Pour tester l'outil, RDV à [ce lien](https://variantgrid.com/accounts/login/) et utilisez :    
+    Pour tester l'outil, RDV à [ce lien](https://variantgrid.com/accounts/login/)
+    et utilisez :  
     Username : `match`  
-    Password : `2J|?u=9k}5_hQ7LTZ/Fk`  
+    Password : `2J|?u=9k}5_hQ7LTZ/Fk`
 
 ## Présentation générale
 
 ### Annotations
 
-Leur [poster](https://variantgrid.com/static/pdf/VariantGrid_Australian_Bioinformatics_Conference_poster.pdf) offre une présentation générale du projet et un aperçu du fonctionnement de l'outil.
+Leur
+[poster](https://variantgrid.com/static/pdf/VariantGrid_Australian_Bioinformatics_Conference_poster.pdf)
+offre une présentation générale du projet et un aperçu du fonctionnement de l'outil.
 
-[![](./images/variantgrid/benchmark.jpg){ loading=lazy align=right width="400" }](./images/variantgrid/benchmark.jpg)
+[![VerGrid](./images/variantgrid/benchmark.jpg){ loading=lazy align=right width="400" }](./images/variantgrid/benchmark.jpg)
 
-Les VCF chargés sont intégralement annotés par VEP via une configuration globale et choisie par les admins. Il est possible via une ligne de commande d'ajouter de nouveaux champs à récupérer des annotations de VEP ce qui entraînera un ajout de colonnes dans la DB.
+Les VCF chargés sont intégralement annotés par VEP via une configuration globale et
+choisie par les admins. Il est possible via une ligne de commande d'ajouter de nouveaux
+champs à récupérer des annotations de VEP ce qui entraînera un ajout de colonnes dans la
+DB.
 
-Les annotations sont versionnées, évitant une ré-annotation ultérieure de variation déjà connues.
+Les annotations sont versionnées, évitant une ré-annotation ultérieure de variation déjà
+connues.
 
-De leur aveu même, ce fonctionnement n'est cependant pas compatible avec l'analyse de génomes ou au delà d'une masse critique d'exomes.
+De leur aveu même, ce fonctionnement n'est cependant pas compatible avec l'analyse de
+génomes ou au delà d'une masse critique d'exomes.
 
 ### Filtrage
 
-Un point intéressant de cet outil est son application de filtres via un graphe rappelant sommairement le fonctionnement d'Alissa. L'UX est tout à fait perfectible, notamment dans la création du filtre, mais offre d'ores et déjà une représentation visuelle, facile à traverser lors d'une analyse, réutilisable avec un suivi de version et partageable entre utilisateurs selon les autorisations accordées par son créateur.
+Un point intéressant de cet outil est son application de filtres via un graphe rappelant
+sommairement le fonctionnement d'Alissa. L'UX est tout à fait perfectible, notamment
+dans la création du filtre, mais offre d'ores et déjà une représentation visuelle,
+facile à traverser lors d'une analyse, réutilisable avec un suivi de version et
+partageable entre utilisateurs selon les autorisations accordées par son créateur.
 
-En prenant l'example du graphe ci-dessous (`Analyses/Node count`), le recomptage en 4 sous-sets des variations de chaque nœud prend moins de 5s pour un sample de 34411 variations et environ 2min40 pour 3,9M variations. Ce comptage est fait de manière progressive, permettant de commencer à fouiller les premiers nœuds avant la fin du comptage du graphe entier.  
+En prenant l'example du graphe ci-dessous (`Analyses/Node count`), le recomptage en 4
+sous-sets des variations de chaque nœud prend moins de 5s pour un sample de 34411
+variations et environ 2min40 pour 3,9M variations. Ce comptage est fait de manière
+progressive, permettant de commencer à fouiller les premiers nœuds avant la fin du
+comptage du graphe entier.  
 Ce comptage est conservé lors d'une réouverture ultérieure de l'analyse.
 
 ### Partage
 
-Cet outil reste orienté avant tout vers le partage de résultats plutôt que le diagnostic et a donc un fort investissement dans les échanges entre laboratoires et un upload simplifié de résultats sur des outils comme ClinVar et GeneMatcher.
+Cet outil reste orienté avant tout vers le partage de résultats plutôt que le diagnostic
+et a donc un fort investissement dans les échanges entre laboratoires et un upload
+simplifié de résultats sur des outils comme ClinVar et GeneMatcher.
 
 ## Interface
 
@@ -126,16 +147,16 @@ Cet outil reste orienté avant tout vers le partage de résultats plutôt que le
 
     === "Node count"
 
-        [![](./images/variantgrid/analysis/node_counts.jpg){ loading=lazy }](./images/variantgrid/analysis/node_counts.jpg)  
-        Un recompte des filtres pour 34k variations prend moins de 5s.  
-        Sur le même arbre, 3,9M de variations sont totalement recomptées en 2min40.  
+        [![](./images/variantgrid/analysis/node_counts.jpg){ loading=lazy }](./images/variantgrid/analysis/node_counts.jpg)
+        Un recompte des filtres pour 34k variations prend moins de 5s.
+        Sur le même arbre, 3,9M de variations sont totalement recomptées en 2min40.
         <iframe src="https://streamable.com/e/b1s2sp?autoplay=1&nocontrols=1" width="560" height="593" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 === "Filtrage"
 
     === "Template"
 
-        Ce qui s'apparenterait à l'idée des stratégies de filtrage pour Diagho.  
+        Ce qui s'apparenterait à l'idée des stratégies de filtrage pour Diagho.
         Le template permet une réutilisation simplifiée, mais rien n'empêche de le faire directement en cours d'analyse.
 
         === "Liste"
@@ -315,16 +336,17 @@ Cet outil reste orienté avant tout vers le partage de résultats plutôt que le
 
 ## Avis
 
-| Points positifs | Points négatifs |
-| - | - |
-| Repose sur Django, permettant de comparer des solutions | … mais ont une approche foncièrement différente |
-| Le graphe de filtres | … bien que largement perfectible dans son utilisation en front |
-| La reconnaissance de termes dans les dossiers patients | … bien que perfectible côté front |
-| Une annotation versionnée censée faire gagner du temps au fil des ajouts | … mais menant ineluctablement à des problèmes de scalabilité |
-| Un form de classification plutôt rodé | Un fonctionnement pas comparable dû à la législation européenne |
-| Customisation user du tableau et partage de ces configs |  |
+| Points positifs                                                          | Points négatifs                                                 |
+| ------------------------------------------------------------------------ | --------------------------------------------------------------- |
+| Repose sur Django, permettant de comparer des solutions                  | … mais ont une approche foncièrement différente                 |
+| Le graphe de filtres                                                     | … bien que largement perfectible dans son utilisation en front  |
+| La reconnaissance de termes dans les dossiers patients                   | … bien que perfectible côté front                               |
+| Une annotation versionnée censée faire gagner du temps au fil des ajouts | … mais menant ineluctablement à des problèmes de scalabilité    |
+| Un form de classification plutôt rodé                                    | Un fonctionnement pas comparable dû à la législation européenne |
+| Customisation user du tableau et partage de ces configs                  |                                                                 |
 
 ## Liens
+
 - [GitHub :octicons-link-external-16:](https://github.com/SACGF/variantgrid)
 - [Documentation :octicons-link-external-16:](https://github.com/SACGF/variantgrid/wiki)
 - [Instance de test :octicons-link-external-16:](https://variantgrid.com/accounts/login/)

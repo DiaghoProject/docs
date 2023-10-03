@@ -5,16 +5,18 @@
 
 [![Liste d'analyses](/images/mockup/list-analyses.png){ loading=lazy }](/images/mockup/list-analyses.png)
 
-Liste les analyses au sein du LBM que l'utilisateur est en droit de voir.  
+Liste les analyses au sein du LBM que l'utilisateur est en droit de voir.
 
-### Actions
+## Actions
+
 - Les lignes du tableau permettent de lancer/continuer une [interprétation](./interpretation-table.md).
 - Un bouton pour créer une nouvelle analyse
 - Application de quelques filtres, e.g. les analyses de l'utilisateur uniquement, les analyses urgentes, les analyses rendues ou non…
 - Tri tableur e.g. par date de dernier accès, dernière consultation par l'utilisateur…
 
-### Informations
-La liste exhaustive de metadatas à inclure reste à définir. À minima :  
+## Informations
+
+La liste exhaustive de metadatas à inclure reste à définir. À minima :
 
 - Identifiant de l'analyse
 - Identifiant du cas index
