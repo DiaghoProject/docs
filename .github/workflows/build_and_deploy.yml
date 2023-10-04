@@ -3,7 +3,7 @@ name: Deploy mkdocs to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: [$default-branch]
+    branches: main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -37,7 +37,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install mkdocs
+        pip install -r requirements.txt
 
     - name: Build Mkdocs
       run: mkdocs build
